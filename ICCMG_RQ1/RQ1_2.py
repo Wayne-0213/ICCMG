@@ -43,7 +43,7 @@ def get_sample(lan):
     corpus_sets = [set(text_to_split(doc["diff"])) for doc in corpus]
     print(f"corpus: {len(corpus)}")
 
-    file_path = f"Result/{lan}_data_2_2_500.txt"
+    file_path = f"Result/ICCMG_{lan}_data_2_2_500.txt"
     if not os.path.exists(os.path.dirname(file_path)):
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
     for d in tqdm(data_samples, total=len(data_samples)):
@@ -121,11 +121,11 @@ def gpt_predict(sample: dict, lan: str, number: int):
 if __name__ == '__main__':
     n=0
     for lan in lan_list:
-        if not os.path.exists(f"Result/{lan}_data_2_2_500.txt"):
+        if not os.path.exists(f"Result/ICCMG_{lan}_data_2_2_500.txt"):
             get_sample(lan)
         for number in [5]:
             print(lan, number)
-            with open(f"Result/{lan}_data_2_2_500.txt") as fr:
+            with open(f"Result/ICCMG_{lan}_data_2_2_500.txt") as fr:
                 data_samples = [json.loads(d) for d in fr.readlines()]
                 i=-1
                 for d in tqdm(data_samples, total=len(data_samples)):
