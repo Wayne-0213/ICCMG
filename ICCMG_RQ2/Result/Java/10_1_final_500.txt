@@ -1,0 +1,500 @@
+{"diff_id": 112162, "ref": "for <issue_id> , implement pause/resume handling of camera preview", "pred": "Fixed camera preview visibility onPause and onResume."}
+{"diff_id": 79675, "ref": "Add Grid Console URL back", "pred": "Add UI route to the hub command."}
+{"diff_id": 18456, "ref": "added javadoc(issue <issue_id> )", "pred": "Add deprecate to getAllBaseClasses, reference getSubclasses instead"}
+{"diff_id": 41924, "ref": "Hub integration for Maven changeLogSync DAT-5245", "pred": "Fixed LiquibaseChangeLogSyncMojo to call super.performLiquibaseTask(liquibase) before changeLogSync."}
+{"diff_id": 103910, "ref": "DBZ-424 Can \\' t support PostgreSQL 10", "pred": "Fix currentXLogLocation query for PostgreSQL 10+ compatibility"}
+{"diff_id": 107648, "ref": "Automated g4 rollback of commit <issue_id> .", "pred": "Refactor BuilderMethodClassifier to use a more efficient method for mapping getter names to getters."}
+{"diff_id": 9912, "ref": "KEYCLOAK-1390 mongo migration for identity providers", "pred": "KEYCLOAK-9273 Update 1.3.0 Beta1: Delete clientSessions and sessions, remove passwordCredentialGrantAllowed, and update identityProviders."}
+{"diff_id": 30649, "ref": "Camel CDI:Support TransactionErrorHandler in Camel XML DSL", "pred": "CAMEL-563 fixed the cxf name conflict in the osgi spring context."}
+{"diff_id": 110906, "ref": "Feed javacpp.jar path to temp file deleter .", "pred": "Fix issue with classpath in Loader class."}
+{"diff_id": 4757, "ref": "added check for when we don \\' t have to repeat opcode stack iteration .", "pred": "Fixed an issue with the opcode stack that caused an infinite loop. Also, added a check for the top of the stack to prevent further issues."}
+{"diff_id": 79743, "ref": "Making TestChromeDriver a subclass of ChromeDriver", "pred": "Refactor TestChromeDriver to extend ChromeDriver instead of RemoteWebDriver."}
+{"diff_id": 64615, "ref": "Added methods to get a list of entities to World .", "pred": "Added getEntities() and getLivingEntities() to the World API"}
+{"diff_id": 2524, "ref": "fixed supported for extensions in gwt/webgl backend(<issue_id> )", "pred": "GwtGraphics.supportsExtension() now explicitly enables WebGL extensions before use."}
+{"diff_id": 14692, "ref": "am a0e42834:Merge \\\" Allow AppBarLayout to handle size changes \\\" into lmp-mr1-ub-dev .", "pred": "am 8e0b8093:am 551a28ad:am 39cfe79f:am a0e42834:Merge \\\" Allow AppBarLayout to handle size changes \\\" into lmp-mr1-ub-dev ."}
+{"diff_id": 17681, "ref": "add inventory item query", "pred": "Add InventoryItemQuery class for querying inventory items."}
+{"diff_id": 55866, "ref": "Added the fact that calling certain methods of the builder interface more than once will result in an ` IllegalStateException ` .", "pred": "* Added and corrected javadocs and comments ."}
+{"diff_id": 35901, "ref": "Add logging to People and badding as to icons. Change-Id:I <issue_id>", "pred": "Fix OutOfMemory and add support for adaptive icon drawable."}
+{"diff_id": 111009, "ref": "Improved TokenExtractor error messages", "pred": "Improve exception message for TokenExtractorImpl.extract() method."}
+{"diff_id": 6113, "ref": "Implementing ViewGroup.removeView(View )", "pred": "Added ShadowViewGroup.removeView() to remove a child view from a ViewGroup."}
+{"diff_id": 58311, "ref": "Add touch cancel processing", "pred": "Fix touch outside ruler control when ACTION_CANCEL is triggered."}
+{"diff_id": 74216, "ref": "Spliterator.OfPrimitive .", "pred": "Add OfPrimitive interface to Spliterator."}
+{"diff_id": 82804, "ref": "Add new pricenode gztmprecgqjq64zh operated by@wiz", "pred": "Add new provider onion address for wiz."}
+{"diff_id": 13617, "ref": "Implemented typing notifications in icq(testing is still pending though )", "pred": "Implemented support for typing notifications in the ICQ protocol."}
+{"diff_id": 61253, "ref": "Added new keys:KEY_SATELLITES_VISIBLE and KEY_FIX ;", "pred": "Update Position.java with new keys and values."}
+{"diff_id": 21533, "ref": "add array length information in PartialEvaluator before expanding@ExplodeLoop", "pred": "fix PartialEvaluator to handle array length parameters correctly"}
+{"diff_id": 6068, "ref": "Add null check to DefaultPackageManager(<issue_id>).", "pred": "Add null check for androidManifest in DefaultPackageManager.getServiceInfo()"}
+{"diff_id": 17846, "ref": "added apkParser stub(work in progress )", "pred": "Added the actual harvester."}
+{"diff_id": 81717, "ref": "New currency USD Coin(USDC )", "pred": "Add USD Coin (USDC) currency."}
+{"diff_id": 112367, "ref": "add symlinkAware option in ZKPersistentConnection .", "pred": "Added support for symlink awareness in ZKPersistentConnection."}
+{"diff_id": 57440, "ref": "Add pause button to mini player when playing a video(<issue_id> )", "pred": "Fixed play button behavior for video playback."}
+{"diff_id": 66005, "ref": "Automated rollback of commit <issue_id>. * * * Reason for rollback * * * .", "pred": "Allow the-- android_aapt flag to override attribute values. RELNOTES:None ."}
+{"diff_id": 1910, "ref": "the comment was with the first attempted(and abandoned)implementation of console notes where files notes were sent over a separate channel.", "pred": "Remove unnecessary TODO comment and fix writeReplace method."}
+{"diff_id": 83074, "ref": "Added CMT(Comet )", "pred": "Add Comet to the list of cryptocurrencies."}
+{"diff_id": 1237, "ref": "Require UPLOAD_PLUGINS permission for install-plugin cli command", "pred": "Require `UPLOAD_PLUGINS` permission to install plugins via CLI."}
+{"diff_id": 94704, "ref": "IgniteTxEntry implements Message:add Javadoc for codegen .", "pred": "IGNITE-11234 Fixed GridDistributedTxPrepareRequest to include IgniteTxEntry in reads collection."}
+{"diff_id": 68970, "ref": "add exception to confusion rule", "pred": "add antipatterns to CONFUSION_RULE"}
+{"diff_id": 49253, "ref": "Register new NodeInfo MBean. Followup to:<issue_id>", "pred": "Register NodeInfo MBean to expose node info. Use non-static logger variable initialized with settings to log CrateMonitor initialization."}
+{"diff_id": 93278, "ref": "added callback to GeoServerTablePanel for when table item is created , useful for being able to set attribues on the column td element itself .", "pred": "Update GeoServerTablePanel to call onPopulateItem after adding the component."}
+{"diff_id": 51776, "ref": "HazelcastTestSupport.randomNameOwnedBy reverted a fix that wasn \\' t a fix", "pred": "Changed the partition ownership comparison to true to fix the issue with the partition ownership."}
+{"diff_id": 68813, "ref": "add method to get disabled rules", "pred": "Add method to get disabled rules in JLanguageTool."}
+{"diff_id": 65954, "ref": "Implement <issue_id> quals and # hashCode for TargetPatternPhaseValue. PiperOrigin-RevId:201205388", "pred": "Implement equals and hashcode for TargetPatternPhaseValue."}
+{"diff_id": 81423, "ref": "Cosmetics", "pred": "Remove unnecessary comments and method overrides."}
+{"diff_id": 52756, "ref": "add reconnection code between nodes that are not masters", "pred": "Update reconnect_interval to 10 seconds instead of 30 seconds"}
+{"diff_id": 55058, "ref": "Adds missing SAML Realm Settings(elastic/x-pack-elasticsearch <issue_id>).", "pred": "Expose populate_user_metadata for SAML realm (<issue_id>) (<issue_id>)."}
+{"diff_id": 9590, "ref": "Allow minimum== maximum in Random Variable Config Element. Bugzilla Id:60729.", "pred": "Fixed comparison operator in RandomVariableConfig to ensure maximum is greater than or equal to minimum."}
+{"diff_id": 23374, "ref": "support PrintCompilation even if allocated bytes is unavailable", "pred": "Remove check for thread allocated memory support in CompilationPrinter"}
+{"diff_id": 112370, "ref": "Adding missing HTTP status codes .", "pred": "Add new HTTP status codes to HttpStatus enum."}
+{"diff_id": 90325, "ref": "Provide URI for sentinel connections", "pred": "Add javadoc to connectSentinelAsync method."}
+{"diff_id": 97606, "ref": "Added a JSON converter for a single request in HystrixRequestEventsJsonStream", "pred": "Refactor HystrixRequestEventsJsonStream to improve JSON conversion and writing."}
+{"diff_id": 78644, "ref": "To support PreparedStatement.addBatch(javadoc tweaks).", "pred": "Removed unnecessary comment from Sql.withBatch() method."}
+{"diff_id": 102397, "ref": "Implement the-- fix flag for the \\\" fsck \\\" command.", "pred": "Implement the DeleteOutOfOrder callback to asynchronously delete a specific KeyValue."}
+{"diff_id": 8025, "ref": "Adds enforcement of ordering of J2CL passes wrt other passes.-------------.", "pred": "Assert pass order for J2CL define re-writing after processDefines.-------------."}
+{"diff_id": 85273, "ref": "Implement ProcedureEdge.Native.Thing.Playing.Backward branch and closure methods", "pred": "Implement ProcedureEdge.Native.Thing.Has branch and closure methods"}
+{"diff_id": 53842, "ref": "Add warmer listener only when index service is set , in order to prevent possible NPE.", "pred": "Register warmer after indexService has been set in FixedBitSetFilterCache."}
+{"diff_id": 54105, "ref": "add a hack for windows", "pred": "Add explicit perms for actual temp dir on windows"}
+{"diff_id": 44019, "ref": "HBASE-22445 Add file info when throw exceptions in HFileReaderImpl", "pred": "Remove unnecessary logging from HFileReaderImpl # readNext(<issue_id>)."}
+{"diff_id": 66118, "ref": "JacocoCoverageRunner now supports reading deploy jars. RELNOTES:None. PiperOrigin-RevId:228861795", "pred": "Refactor JacocoCoverageRunner to use ImmutableList.Builder to build the list of metadata files. Add a new method getFilesFromFileList to get the file paths from the mainFile and convert them to absolute paths using the javaRunfilesRoot prefix. Update the main method to use the new implementation for metadata files and handle the case when there is only one metadata file."}
+{"diff_id": 89055, "ref": "Add clickable prop .", "pred": "Set input type to null if not editable in TextInputSpec."}
+{"diff_id": 93615, "ref": "added composed model deserialization test", "pred": "add test case for ComposedModel deserialization, issue <issue_id>"}
+{"diff_id": 16254, "ref": "Add support and better exceptions for Bitmaps with a null config. Bug:8263427 .", "pred": "Add support for copying from Bitmaps with null Configs. Fixes <issue_id>"}
+{"diff_id": 51097, "ref": "Added static imports QueryEngineImpl", "pred": "Refactored QueryEngineImpl to use static imports for better readability."}
+{"diff_id": 45556, "ref": "Issue <issue_id> handle query strings with encoded characters", "pred": "Refactored WSURI class to handle URI scheme conversion."}
+{"diff_id": 23310, "ref": "Support \\' jlong \\' and \\' long \\' types for JavaThread:: _pending_failed_speculation field. PullRequest:graal/2932", "pred": "The changes made in the code are to print stack traces for uncaught Truffle compilation exceptions if assertions are enabled. This is done to help with debugging and diagnosing issues. The changes include adding a method to check if assertions are enabled and using it to print the stack trace when an uncaught Truffle compilation exception occurs. Additionally, the code has been updated to announce the target when creating a file channel and to print a message when creating a file channel for dumping IGV graphs."}
+{"diff_id": 17164, "ref": "world map plugin:add missing break after agility shortcuts/tooltips case", "pred": "Add agility level check for agility shortcuts on world map plugin."}
+{"diff_id": 30725, "ref": "XPathBuilder variable resolver for $ should return empty string if no header to support both JDK and Saxon XPath Engines. ", "pred": "Refactored MessageVariableResolver to return an empty string instead of Void class when no answer is found to avoid NullPointerException in the XPath engine."}
+{"diff_id": 38212, "ref": "<issue_id> , add GetConnectionEvent", "pred": "<issue_id> , for comment:add GetConnectionEvent"}
+{"diff_id": 12054, "ref": "added null check for parameter(SPR-7193 )", "pred": "Added null check for parameter in addDeclaredParameter() method."}
+{"diff_id": 60012, "ref": "Add the ability to handle a CompositeName where the first segment is a nested name", "pred": "Fix bug in NamingContext.composeName method to handle nested names correctly."}
+{"diff_id": 67592, "ref": "Automated [ ] rollback of [ ]. * * * Reason for rollback * * * .", "pred": "Add the -B flag to the linker command line."}
+{"diff_id": 85511, "ref": "added AttrSelector.AttrNamePrefixSelector", "pred": "Added attribute prefix selector"}
+{"diff_id": 41519, "ref": "quality model API:removeCharacteristic() must support disabled characteristics", "pred": "Refactored Model.removeCharacteristic to handle characteristic removal and disablement based on ID."}
+{"diff_id": 41042, "ref": "Add MeasureData # toString()", "pred": "Add MeasureData # toString()"}
+{"diff_id": 29016, "ref": "CAMEL-6841 xpath() method in the RouteBuilder should support to specify the return type", "pred": "Added new method to create XPathBuilder with result type."}
+{"diff_id": 64919, "ref": "Another another flaky test.-------------.", "pred": "Another flaky test.-------------."}
+{"diff_id": 16037, "ref": "Add nullability annotations to reactive streams. am:b70f749a99 .", "pred": "Add nullability annotations to reactive streams. Bug:67379950."}
+{"diff_id": 24758, "ref": "Pig storage handler implements LoadMetadata interface. Patch by brandonwilliams , reviewed by Jeremy Hanna for CASSANDRA-2777 .", "pred": "Add LoadMetadata to pig storage. Patch by brandonwilliams , reviewed by jbellis for CASSANDRA-2484."}
+{"diff_id": 85430, "ref": "Apply timed tryLock() heuristic from commit <issue_id> to tryWriteLock() and tryUpgradeUpdateToWriteLock() , was used only in tryReadLock() and tryUpdateLock()", "pred": "Optimize BigSegmentHeader.tryWriteLock() and other methods to use a timer that is more insensitive to jumps in time like GCs and context switches."}
+{"diff_id": 4123, "ref": "Add implementation for string lib function concat()", "pred": "Update langlib/lang.string/src/main/java/org/ballerinalang/langlib/string/Concat.java."}
+{"diff_id": 50340, "ref": "Add javadoc for methods added to public APIs(Sergey Shelukhin )", "pred": "Add methods to Reader interface for metadata and statistics retrieval."}
+{"diff_id": 73604, "ref": "Automatically selecting a new JTree node in a model listener can cause unusual behavior .", "pred": "Add documentation around model listener updates in javax.swing package."}
+{"diff_id": 61096, "ref": "add test delete non-existent historic decision instances .", "pred": "Add testCleanupFakeHistoryDecisionData test case."}
+{"diff_id": 39849, "ref": "extend AbstractOrchestrationDataSource", "pred": "extend AbstractOrchestrationDataSource"}
+{"diff_id": 88823, "ref": "Make ValidationProblem implement Serializable", "pred": "Make ConfigException.ValidationProblem serializable."}
+{"diff_id": 29500, "ref": "CAMEL-8266 Allows ignoring directories for SFTP/FTP having no read permission using ignoreFileNotFoundOrPermissionError", "pred": "Camel-ftp:Fixed the RemoteFileIgnoreDoPollErrorTest to use if-else instead of switch-case."}
+{"diff_id": 13633, "ref": "added a second findContactIndex method with a contact param(not a joust sim buddy )", "pred": "Added a method to find the index of a contact in the group."}
+{"diff_id": 57754, "ref": "handle all Google country-specific domains , i.e .", "pred": "Add support for google.at URLs and improve google.com URL recognition."}
+{"diff_id": 30279, "ref": "Tokenize XML does not support self-closing XML tokens-added unit test which shows the requested behavior .", "pred": "Add TokenizeLanguageTest to test tokenizing XML messages with different formats and verify the expected results."}
+{"diff_id": 50393, "ref": "Add builder for metastore Thrift classes missed in the first pass-FunctionBuilder(Peter Vary , reviewed by Alan Gates )", "pred": "Added FunctionBuilder class for creating Thrift Function objects for tests and API usage."}
+{"diff_id": 72221, "ref": "Lazy load of connection properties .", "pred": "Driver properties dialog page fix."}
+{"diff_id": 6755, "ref": "Add support for-- js=path/to/zip/file.zip !/relative/path/to/entry.js style js files.-------------.", "pred": "Refactor SourceFile.fromFile to handle zip file paths. Extracts the zip path and entry path from the file name and constructs a SourceFile from the zip entry. If the file name does not contain a zip entry, it constructs a SourceFile from the file name."}
+{"diff_id": 46407, "ref": "add missing duoSecurityPrincipalMultifactorAuthenticationProviderBypass() setup(<issue_id> )", "pred": "Added Duo Security principal bypass provider."}
+{"diff_id": 31783, "ref": "Add OAuth2AuthorizationException", "pred": "Add OAuth2AuthorizationException to handle OAuth 2.0 Authorization errors."}
+{"diff_id": 30965, "ref": "Add a click handler for the message list widget header", "pred": "Add header click action to open unified inbox in widget."}
+{"diff_id": 23, "ref": "OpenSSL added ciphers 0x00A8 and 0x00A9 .", "pred": "Add new TLS_PSK_WITH_AES_128_GCM_SHA256 and TLS_PSK_WITH_AES_256_GCM_SHA384 ciphers."}
+{"diff_id": 46952, "ref": "Developed new Kettle plugin type to handle dynamic datasources(for external receivers).", "pred": "Removed unnecessary interface implementation from BaseStepGenericXulDialog."}
+{"diff_id": 79939, "ref": "Only support Safari on OS X.", "pred": "Ignoring the test for Windows platform."}
+{"diff_id": 5531, "ref": "using a < dl > will make the \\\" Scheduler \\\" and \\\" Backpressure Support \\\" sections fit into the javadoc format more effectively", "pred": "Add annotations about default schedulers to javadocs for Observable operators."}
+{"diff_id": 107818, "ref": "trying a struct approach with jna", "pred": "Refactored WindowsPinger to use ICMP_ECHO_REPLY structure for better readability and maintainability. Updated main method to test the changes and print the average time and TTL."}
+{"diff_id": 42863, "ref": "add OS X quit handler(fixes <issue_id> )", "pred": "Add ThinkDifferent class for Mac OS X menu commands and apple events."}
+{"diff_id": 38813, "ref": "add appendDistinctPlaceholder()", "pred": "modify appendDistinctPlaceholder()"}
+{"diff_id": 90375, "ref": "Added javadoc for the httpCompliance field", "pred": "Add httpCompliance property documentation."}
+{"diff_id": 94788, "ref": "Added print partition stats .", "pred": "# IGNITE-983 ."}
+{"diff_id": 68966, "ref": "new helper method", "pred": "Add method to load lines from a file, ignoring comments."}
+{"diff_id": 100192, "ref": "Partly Revert \\\" Finished feature:Fuse on Win \\\" .", "pred": "Refactored TemporaryMountPointChooser."}
+{"diff_id": 75814, "ref": "HSQLDB and sequences .", "pred": "HSQLDialect should use CALL next value for sequenceName instead of SELECT next value for sequenceName from dual_sequenceName."}
+{"diff_id": 23918, "ref": "Initial changes to DBMSProcessor for insert entry functionality", "pred": "Refactored insertIntoFieldTable method to improve performance and readability."}
+{"diff_id": 40860, "ref": "Add InitialLoggerContext JUnit test rule.-Implements LOG4J2-497 in a more direct manner.-Will update some unit tests to demonstrate how to use this , too. ", "pred": "Add InitialLoggerContext to construct a new LoggerContext using a specified configuration file."}
+{"diff_id": 24992, "ref": "added project references as part of patch for issue <issue_id> .", "pred": "Added a list of projects that reference this dependency and the ability to add a project reference. Former-commit-id: <issue_id>"}
+{"diff_id": 76995, "ref": "Added a parameterized type description for decribing an erasure \\' s generic shape .", "pred": "Refactored type description for generified erasure."}
+{"diff_id": 100255, "ref": "added concurrent read invariant test", "pred": "Add testConcurrentPartialReadsDontInterfere to FileReadWriteTests."}
+{"diff_id": 86178, "ref": "Port BackPressureStatsTrackerImplITCase to new code base .", "pred": "Remove BackPressureStatsTrackerImplITCase ."}
+{"diff_id": 28868, "ref": "Rest DSL-adding support for xml/json binding using Camel \\' s data formats .", "pred": "Rest DSL-adding support for xml/json binding using Camel's data formats."}
+{"diff_id": 38065, "ref": "add getQueryResults()", "pred": "add getQueryResults() function to DQLMergeEngine"}
+{"diff_id": 91165, "ref": "Added MANAGE_EMOTES permission", "pred": "Added MANAGE_EMOTES permission."}
+{"diff_id": 51279, "ref": "Added client config to client instantiation do that connection is being retried indefinitely until the server comes up .", "pred": "Fix testSingleMemberRestart method in ClientClusterRestartEventTest"}
+{"diff_id": 38458, "ref": "add getLogicTableNames()", "pred": "add method getLogicTableNames"}
+{"diff_id": 75136, "ref": "HHH-12501 Fallback implementation for BytecodeProvider should match the default", "pred": "Switch bytecode provider to ByteBuddy in Environment class."}
+{"diff_id": 61152, "ref": "submitting a custom object as a form variable .", "pred": "Add test cases for submitting start form and task form with object variables."}
+{"diff_id": 61489, "ref": "Added rounding for total distance", "pred": "Rounded total distance to two decimal places in DistanceHandler"}
+{"diff_id": 63114, "ref": "Added AppStateManager.getState(class , failOnMiss).", "pred": "Added getState(Class<T> stateClass, boolean failOnMiss) method."}
+{"diff_id": 12947, "ref": "TransactionAspectSupport.currentTransactionStatus() reliably throws NoTransactionException .", "pred": "Update copyright date in TransactionAspectSupport"}
+{"diff_id": 50003, "ref": "Implement commands to manage resource plan(Harish Jaiprakash , reviewed by Sergey Shelukhin)ADDENDUM2", "pred": "Add support for resource plan operations in SQL standard authorization plugin (Niklaus Xiao via Zoltan Haindrich)."}
+{"diff_id": 22407, "ref": "Allow split methods to be bound to a dedicated method version that will never be redefined , since they \\' re used for generated code relating to Method Handles", "pred": "Remove redundant code and fix the method version retrieval for split methods."}
+{"diff_id": 16024, "ref": "Adds new AccessibilityEvent types to the support lib. Change-Id:I <issue_id>", "pred": "Add new event types to AccessibilityEventCompat."}
+{"diff_id": 21053, "ref": "Add jdk.internal.misc.VM.getNanoTimeAdjustment substitution for JDK9OrLater", "pred": "Add IgnoreSIGPIPEFeature to avoid SIGPIPE signal. PullRequest:graal/1864"}
+{"diff_id": 8129, "ref": "Add integration test of bug fixed by previous change to VarReferenceCheck.-------------.", "pred": "Add a test for bug 32660578, which shows that a variable declaration in a for-in loop does not shadow a variable in an outer scope."}
+{"diff_id": 65479, "ref": "Add a toString() to the Runnable created by Futures.addCallback .", "pred": "Refactor Futures.addCallback to use CallbackListener. This makes the code more readable and maintainable."}
+{"diff_id": 60880, "ref": "Support for new listener stuff", "pred": "Added support for adding listeners to ServiceTarget and ServiceBuilder."}
+{"diff_id": 76537, "ref": "Support Direct Web Remoting(DWR)RPC/POST parameters", "pred": "Add VariantDirectWebRemotingQuery class to allow scanning of Direct Web Remoting (DWR) parameters."}
+{"diff_id": 26176, "ref": "Add a property to set the s3 endpoint(<issue_id> )", "pred": "Add support for custom endpoint in S3PinotFS."}
+{"diff_id": 11420, "ref": "Hard-coded inclusion of the new index api(lucene data source)during recovery. ", "pred": "Hard-coded inclusion of the new index api(lucene data source)during recovery."}
+{"diff_id": 33665, "ref": "Add the ability to specify train/dev/test in the case of directories which are a mix of everything", "pred": "Added RegExFileFilter to ArgUtils."}
+{"diff_id": 13487, "ref": "Adds jid tracking to XMPP messaging , so that only the first message in a conversation is sent to all instances of a user .", "pred": "Adding a map that we can use to cache last measured audio levels"}
+{"diff_id": 17779, "ref": "using a filter query for the site parameter in GSA api", "pred": "Fix the query parameter getQueryFields() in GSA servlet."}
+{"diff_id": 45198, "ref": "Add GuavaConverterFactory to JadConfig in CmdLineTool", "pred": "Add GuavaConverterFactory to JadConfig for improved configuration handling."}
+{"diff_id": 4669, "ref": "Added missing bits of information to the view and \\\" Copy to clipboard \\\" action. Made \\\" annotation \\\" part to \\\" Navigation \\\" and allow to toggle it off/on instead of resizing. Added file name/line to the view description.", "pred": "Fixed the layout of the BugInfoView by replacing the SashForm with a Composite and added an ExpandableComposite to the annotation list."}
+{"diff_id": 68125, "ref": "Implemented high level heartbeat in order to detect disconnection from server as soon as possible.", "pred": "Update axon-server-connector/src/main/java/org/axonframework/axonserver/connector/heartbeat/ActiveGrpcChannelCheck.java ."}
+{"diff_id": 25207, "ref": "added support for encrypted passwords per issue <issue_id>", "pred": "Added support for encrypted server passwords in the Maven settings.xml file."}
+{"diff_id": 84644, "ref": "add Timer.schedule(Runnable)support", "pred": "Return schedule with resolution and time unit."}
+{"diff_id": 89431, "ref": "Add START WITH 1 clause for SQL Server", "pred": "Refactor CREATE SEQUENCE statement generation in jOOQ."}
+{"diff_id": 65179, "ref": "Alternative way to get AssertionError instance in com.google.common.util.concurrent.GeneratedMonitorTest , since public AssertionError(String message , Throwable cause)does not exist in Java 6 yet.", "pred": "Add newAssertionError method to handle unexpected exceptions in GeneratedMonitorTest."}
+{"diff_id": 108602, "ref": "Fixed default values and alpha builder", "pred": "Changed setDefaultRippleAlpha to accept float value for alpha. Fixed the issue with setting rippleAlpha in MaterialRippleLayout."}
+{"diff_id": 19015, "ref": "Added a check if database is not set in current thread:now throws a ODatabaseException", "pred": "Thrown ODatabaseException in case ODatabaseRecordThreadLocal.get() has no database instance set in current thread"}
+{"diff_id": 17981, "ref": "automatically swith on query option in case intranet protocols(smb/ftp).", "pred": "Remove unnecessary variable and fix boolean value for crawlingQ."}
+{"diff_id": 3592, "ref": "Implement keySpecifiers() for table type", "pred": "Add keySpecifiers() method to BallerinaTableTypeSymbol"}
+{"diff_id": 5083, "ref": "Support viewport meta tag", "pred": "Enable wide view port in web view settings"}
+{"diff_id": 108902, "ref": "added extract elf file", "pred": "Extract ELF file from APK in ElfTranslator"}
+{"diff_id": 30391, "ref": "Generate spring-boot auto configuration for all Camel data formats that has options that can be configured .", "pred": "Exclude xmlBeans from Spring Boot auto configuration as it does not work with Spring Boot APT compiler plugin."}
+{"diff_id": 46344, "ref": "Handle HEAD/idp/profile/SAML2/Redirect/SSO [ Forward-Port ](<issue_id>).", "pred": "Add SSO HEAD profile redirect request (not allowed) to SSOSamlPostProfileHandlerController."}
+{"diff_id": 32939, "ref": "Adds persistent room surrogates for the persistent rooms that are public , persistent but aren \\' t in memory. ", "pred": "Refactor the MultiUserChatServerImpl class to use a cache for persistent room surrogates. This cache will be used to store surrogates for persistent rooms that are not loaded into memory. If a persistent room is loaded or unloaded from memory, the cache will be updated."}
+{"diff_id": 70622, "ref": "ROWID support fix .", "pred": "Table metadata fix."}
+{"diff_id": 40635, "ref": "Add empty iterator implementation(yay 1.7)along with some warning suppression(it \\' s ok to share immutable collection classes as public fields ). ", "pred": "Refactor to use Java 1.7's Collections.emptyIterator() method."}
+{"diff_id": 23799, "ref": "Add support for getting return value of native Windows threads. PullRequest:graal/5641", "pred": "Add NativeImageMojo configuration@Parameter skip. PullRequest:graal/3246"}
+{"diff_id": 108053, "ref": "added idAssignable flag", "pred": "Add assignable property to Id annotation to allow IDs to be assigned by the developer."}
+{"diff_id": 62146, "ref": "Add coder mapping for DECIMAL .", "pred": "Add support for BigDecimalCoder in RowCoder."}
+{"diff_id": 100459, "ref": "KYLIN-528 Build job flow for Inverted Index building ; Add hashCode and equals method for KylinConfig ;", "pred": "Implement equals() and hashCode() for KylinConfig."}
+{"diff_id": 99098, "ref": "Added quick Queue for all model pages", "pred": "Fixed regex in DuckmoviesRipper.java"}
+{"diff_id": 108374, "ref": "NIFI-3150 Added logic to wait for the zk client to connect to the configured server .", "pred": "Fix ZooKeeper connection race condition in ZooKeeperMigrator."}
+{"diff_id": 96080, "ref": "Applied fragment expressions and NoOpToken to default attribute processor in the Standard Dialects", "pred": "Improved processing of default attributes with FragmentExpressions and NoOpTokens."}
+{"diff_id": 105176, "ref": "import AS3 scripts from GUI", "pred": "AS3ScriptImporter: Import AS3 scripts from file. Fixes #1234."}
+{"diff_id": 79745, "ref": "adding Windows 8.1 platform , so we can use it in saucelabs for IE11 testing", "pred": "Add Windows 8.1 platform."}
+{"diff_id": 97425, "ref": "Add BaseCombinedScanTask.toString(<issue_id> )", "pred": "Override toString() method in BaseCombinedScanTask for better logging."}
+{"diff_id": 91891, "ref": "exposed resource name in process definition interface", "pred": "Added getResourceName() method to ProcessDefinition interface."}
+{"diff_id": 92463, "ref": "Added the state of the HasAllMethodBodies flag in the issue 164 analyser .", "pred": "Refactor DebugSnapshot to include ASTNode bits in shortToString() output."}
+{"diff_id": 72000, "ref": "PG dialect:LOOP begins new block .", "pred": "<issue_id> PG: block toggle support enhancement."}
+{"diff_id": 2710, "ref": "Issue 765:Pointer Lock API for GWT backend(only for Chrome > Version 18 )", "pred": "Added support for cursor lock in GWT."}
+{"diff_id": 48828, "ref": "containsOnlyDigits added", "pred": "Add helper for containsOnlyDigits in StringUtil."}
+{"diff_id": 18404, "ref": "Fixed issue 1190:implemented the support for \\\" Expect:100 continue \\\" from the client .", "pred": "Fixed bug on using decoding() in log warn message in case the command is wrong"}
+{"diff_id": 38380, "ref": "<issue_id> Add return when DataSourceConverter not exist .", "pred": "Return if no XA DataSourceConverter found."}
+{"diff_id": 107704, "ref": "Add ISO-8859-1 charset .", "pred": "Added ISO-8859-1 charset."}
+{"diff_id": 95552, "ref": "Generate Debug for bit set", "pred": "Add debug implementation for bit set types."}
+{"diff_id": 66241, "ref": "Automated rollback of commit <issue_id>. * * * Reason for rollback * * * .", "pred": "Refactor BuildEventStreamerTest consumeToLists method."}
+{"diff_id": 104738, "ref": "Added utility method for checking if a LT , GT , BAND or QUESTION token is not an operator but part of a generic declaration .", "pred": "Refactored checking of operator token for participation in generic declaration into separate method."}
+{"diff_id": 104516, "ref": "added a basic benchmark demo , closes <issue_id>", "pred": "added benchmark sample with stats"}
+{"diff_id": 52520, "ref": "adapt to elastic/elasticsearch <issue_id>:More info classes to implement Writeable rather than Streamable .", "pred": "Fix compilation issue in ClusterStatsResolverTests."}
+{"diff_id": 25713, "ref": "add query runner support for query file resampling(<issue_id>).", "pred": "Add queryMode and queryCount options to QueryRunner and fix queueDepth validation."}
+{"diff_id": 40649, "ref": "Allow for a logger to be defined as \\\" Level , AppenderRef , AppenderRef , .", "pred": "Fix issue with binary search in Log4j1ConfigurationParser."}
+{"diff_id": 39224, "ref": "add reviseInsertColumnsToken()", "pred": "for <issue_id> , reviseInsertColumnsToken to reuse getColumnNames"}
+{"diff_id": 101457, "ref": "Add a regression test for <issue_id> .", "pred": "Add regression test for issue 708 in FieldMissingNullableTest."}
+{"diff_id": 113269, "ref": "Add support for image alpha", "pred": "Add setImageAlpha and getImageAlpha methods to CircleImageView"}
+{"diff_id": 102305, "ref": "extended CustomQueryable", "pred": "Added orderBy method to CustomQueryable signature"}
+{"diff_id": 89552, "ref": "Firebird doesn \\' t support ON { DELETE | UPDATE } RESTRICT", "pred": "Fixed Support annotations for onDeleteRestrict and onUpdateRestrict in ConstraintForeignKeyOnStep"}
+{"diff_id": 105486, "ref": "Android API 8 support(String isEmpty).", "pred": "Fix readRunWithCucumberAnnotation to handle empty strings for glue and features. Fixes #1234."}
+{"diff_id": 26667, "ref": "Show password dialog", "pred": "Prompt user for password when sharing is forbidden due to password enforcement."}
+{"diff_id": 2595, "ref": "add setFlip , getFlipX , getFlipY and tracking of flip state to Sprite.java", "pred": "Added flipX and flipY fields back to Sprite class, and updated the setFlip and flip methods to consider negative coordinates given in the constructor."}
+{"diff_id": 77505, "ref": "add DensityMultiplier to Polyline(<issue_id> )", "pred": "<issue_id> Added density multiplier to polyline for better control over line thickness."}
+{"diff_id": 17440, "ref": "Add item mapping for Berserker Necklace(or )(<issue_id> )", "pred": "Add Berserker Necklace and Ornament Kit to ItemMapping"}
+{"diff_id": 35618, "ref": "Adding additional customization tray bg to match designs. Change-Id:I <issue_id>", "pred": "Fixing issue with background being drawn twice in customization tray. Change-Id:I <issue_id>"}
+{"diff_id": 67454, "ref": "Add a missing \\\" final \\\" modifier.-- .", "pred": "Make COVERAGE_CMD_TIMEOUT final."}
+{"diff_id": 84056, "ref": "Add missing stats tracking .", "pred": "Invalidate all in DefaultRuleKeyCache, add eviction count."}
+{"diff_id": 7500, "ref": "Add additional verification to for ROOT nodes in the AST change tracking verifier.-------------.", "pred": "Verify that root nodes are never marked as changed.-------------."}
+{"diff_id": 39230, "ref": "add getMasterDataSourceNames", "pred": "rename to getMasterDataSourceNamesFromShardingRule"}
+{"diff_id": 34311, "ref": "Add GsonTypeSerializationLibraryAdapterFactory tests", "pred": "Add GsonTypeSerializationLibraryAdapterFactoryTest"}
+{"diff_id": 2069, "ref": "Allow List # setItems() with the original items(<issue_id>).", "pred": "Updated setItems in List to safely handle a modified array."}
+{"diff_id": 96954, "ref": "<issue_id> Added a system property and compiler binding for * unchecked-math * .", "pred": "Added unchecked-math property to Compile main method."}
+{"diff_id": 6025, "ref": "apply compound drawables attributes in shadow text view constructor", "pred": "Refactored the ShadowTextView class to apply text and compound drawable attributes in the constructor. Removed the applyTextViewAttributes method and moved its functionality to the constructor and applyTextAttribute method."}
+{"diff_id": 37986, "ref": "for <issue_id> multi XA DataSource support for XADataSourceFactory .", "pred": "<issue_id> Refactor XADataSourceFactory."}
+{"diff_id": 39051, "ref": "add YamlEncryptorRuleConfigurationBak.java", "pred": "add YamlEncryptorRuleConfigurationBak"}
+{"diff_id": 112511, "ref": "whoops make it static class", "pred": "Make KeyValue class static and add newInstance method."}
+{"diff_id": 49938, "ref": "Add replication test for LOAD command on ACID table(Sankar Hariappan , reviewed by Anishek Agarwal )", "pred": "Add test for load local into acid table (Eugene Koifman, reviewed by Daniel Dai)"}
+{"diff_id": 33397, "ref": "support@RequestMapping annotation of spring 3.x", "pred": "Revert \" support@RequestMapping annotation of spring 3.x \" (<issue_id>)"}
+{"diff_id": 30460, "ref": "Camel AWS EC2:Added enumeration for the possible operations", "pred": "Added missing enums to EC2Operations in Camel-AWS EC2 Configuration."}
+{"diff_id": 2761, "ref": "Add overriden writePNG method with flipY as parameter(<issue_id>).", "pred": "Added a method to write a Pixmap as a PNG with compression and flip the Pixmap vertically if true."}
+{"diff_id": 42383, "ref": "Disable Foreign Key snapshot generation if Database supports Foreign Key Disable option", "pred": "CORE-2894 Oracle snapshot not detecting custom datatypes in different schemas"}
+{"diff_id": 36516, "ref": "RHDM-1047 DMN implementation is not able to evaluate PMML mining model(<issue_id> )", "pred": "Ignore DMNMiningModelPMMLTest due to RHDM-1049 bug."}
+{"diff_id": 71132, "ref": "QM entriesPerPage config validation .", "pred": "Query log viewer:entries per page fix."}
+{"diff_id": 11091, "ref": "Don \\' t mix usage of interface LabelSchemaDescriptor and implementing class LabelSchemaDescriptor", "pred": "IndexCreateIT test failure on different index types and duplicate properties."}
+{"diff_id": 13894, "ref": "Working on the JMF implementation of the media service. added a dummy impl for a newly added listener method", "pred": "Added a method to handle participant transport address changes in the SIP telephony implementation."}
+{"diff_id": 39235, "ref": "<issue_id> Add close xaDataSourceMap logic in ShardingConnection .", "pred": "<issue_id> Add closeDataSource in ShardingDataSource."}
+{"diff_id": 89685, "ref": "Add support for CREATE SEQUENCE", "pred": "Add support for CREATE SEQUENCE IF NOT EXISTS."}
+{"diff_id": 44738, "ref": "add add()", "pred": "Add method to add multiple monitors to DefaultCacheMonitorManager"}
+{"diff_id": 108717, "ref": "include a filter comparator for classes", "pred": "Add FILTER_CLASS_COMPARATOR to sort filters by order."}
+{"diff_id": 75595, "ref": "Fixed query-based read-only support during iteration .", "pred": "Change readOnly to Boolean in AbstractProducedQuery"}
+{"diff_id": 45169, "ref": "Add \\\" ticks \\\" for event deduplication in FakeHttpRawMessageGenerator", "pred": "Add ticks field to FakeHttpRawMessageGenerator for tracking purposes."}
+{"diff_id": 79514, "ref": "Provite support for getHtmlSource .", "pred": "Convert getHtmlSource in XlateHtmlSeleneseToJava.java."}
+{"diff_id": 22306, "ref": "Add missing ExplodeLoop to LLVMX86_64BitVAStart node", "pred": "Add ExplodeLoop annotation to allocateOverflowArgArea in LLVMX86_64BitVAStart"}
+{"diff_id": 112266, "ref": "Add result points for UPC EAN metadata extension .", "pred": "Draw two lines for the barcode and metadata for UPC_A and EAN_13."}
+{"diff_id": 97863, "ref": "next step", "pred": "Add logging to track the upload of temp data to jobstore and fix the getTempDataId method."}
+{"diff_id": 73791, "ref": "PIT:Adding a TrayIcon closes a SplashScreen on Solaris but not on Win32 .", "pred": "Fixed closeSplashScreen() to return early if the window is a TrayIcon window."}
+{"diff_id": 20109, "ref": "Make TestFileBasedSystemAccessControl support concurrent test", "pred": "Refactor TestFileBasedSystemAccessControl to use a single transaction manager."}
+{"diff_id": 46885, "ref": "Support fetching all keys to a binary file. Added ability to specify stores on command line .", "pred": "Added support for fetching keys from a node and store in the Admin tool."}
+{"diff_id": 102383, "ref": "Add rate option parsing to GraphHandler", "pred": "Fix GraphHandler to handle rate options in the query."}
+{"diff_id": 80942, "ref": "Add end index to details string implementation for Ruby SubstringRope", "pred": "byteLength added to substring calculation in RubyDetailsProvider."}
+{"diff_id": 58157, "ref": "Loaded favorites", "pred": "Refactor loadGPXFile method and add file existence check."}
+{"diff_id": 86281, "ref": "Add FlinkMatchers.willNotComplete to assert that a future times out", "pred": "Add matcher for CompletableFuture that won't complete within a given timeout."}
+{"diff_id": 108297, "ref": "AWS clients now work with private link endpoints(VPC).", "pred": "NIFI-3013 GetSNMP fix stop and start null pointer exception."}
+{"diff_id": 82365, "ref": "added interfaces for vertical dividers", "pred": "Add isShowVerticalSeparators() and getVerticalItemDecoration() to ITableView API."}
+{"diff_id": 82748, "ref": "Add new param BsqBlockChain", "pred": "Add BsqBlockChain to TransactionListItemFactory constructor."}
+{"diff_id": 11261, "ref": "Added setCacheCapacity method which can be used to enable cache for certain keys for a batch inserter index .", "pred": "Added setCacheCapacity method which can be used to enable cache for certain keys for a batch inserter index."}
+{"diff_id": 37419, "ref": "<issue_id> Add spiClassName for TransactionType enum .", "pred": "Add find method to TransactionType enum."}
+{"diff_id": 55689, "ref": "Implement toString() in DefaultTempDirContext for diagnostics .", "pred": "Add DefaultTempDirContext #toString() method"}
+{"diff_id": 100780, "ref": "Added the button tint list attribute to checkbox(<issue_id> )", "pred": "Fix <issue_id> set button tint color for show password checkbox in SecurityHelper(<issue_id>)"}
+{"diff_id": 24406, "ref": "Created super class for JavaFX dialogs on top of swing windows", "pred": "Implemented FXAlert class to provide a superclass for future dialogs in JavaFX. This class extends Alert and mimics the behavior of a Swing JDialog, blocking all Swing windows once an instance is shown. It also redirects the focus towards this instance and sets the location relative to the main window."}
+{"diff_id": 99376, "ref": "Support setting hint text colors in TextInputLayout. PiperOrigin-RevId:188822351", "pred": "Update TextInputLayout to support setting the default and hint text colors."}
+{"diff_id": 81818, "ref": "Add log", "pred": "Added logging for suspicious sequencing in PoloniexStreamingService."}
+{"diff_id": 25589, "ref": "Add early terminate in detection loop(<issue_id> )", "pred": "Add early termination in detection loop to avoid long running detection job(<issue_id>)"}
+{"diff_id": 20168, "ref": "Add final UnaliasSymbolReferences optimizer run", "pred": "Add UnaliasSymbolReferences to PlanOptimizersFactory."}
+{"diff_id": 48508, "ref": "First stab at the Denormaliser step in 3.0(untested ! !).", "pred": "Refactor LanguageChoice.java to switch to English if default locale is German. (#1234)"}
+{"diff_id": 26441, "ref": "show correct warning if an account is added twice", "pred": "Refactored the `onCreate` method to extract the deletion of cookies into a separate method for better code organization. Also, removed unnecessary code and reset the web view when the server connection fails."}
+{"diff_id": 13995, "ref": "Allows access to the port tracker for media type \\\" DATA \\\" and to the default port tracker .", "pred": "Refactored the getPortTracker method to handle a null mediaType and return the default port tracker."}
+{"diff_id": 13748, "ref": "Make Google Contacts enabled by default for new Jabber/Google Talk account .", "pred": "Set Google Contacts to be selected by default for new accounts."}
+{"diff_id": 3283, "ref": "Implement review suggestions", "pred": "Refactored SQLDBUtils to include a new method to delete a directory with multiple tries."}
+{"diff_id": 56627, "ref": "add browseLabel option to directory chooser text box", "pred": "Refactor DirectoryChooserTextBox constructor to include additional parameters and improve code readability."}
+{"diff_id": 43828, "ref": "HBASE-14984 Allow memcached block cache to set optimze to false", "pred": "HBASE-15248 Javadoc on what BLOCKSIZE means (related to HBASE-15248)"}
+{"diff_id": 90109, "ref": "[ <issue_id> ] Added parser support for WITH GRANT OPTION", "pred": "Refactor grant and revoke parsing logic."}
+{"diff_id": 79149, "ref": "it \\' s not possible in new groovy to get a method closure from a property .", "pred": "Removed deprecated test cases."}
+{"diff_id": 23777, "ref": "Add CountedLoopInfo.loopCanBeEntered. PullRequest:graal/4654", "pred": "Fixed a bug in the AArch64Assembler and AArch64MacroAssembler classes. PullRequest:graal/4651"}
+{"diff_id": 28039, "ref": "Update KeyValueInptuFormat to extend new hadoop API", "pred": "Update KeyValueInputFormat to use the new API and extend InputFormat<BytesWritable, BytesWritable>"}
+{"diff_id": 39790, "ref": "<issue_id> , move inner class CommandExecutor out for SkyWalking intercept", "pred": "for <issue_id> , move inner class CommandExecutor out for SkyWalking intercept"}
+{"diff_id": 72211, "ref": "Instance server .", "pred": "Minimize shell if not minimized."}
+{"diff_id": 33039, "ref": "OF-1806 Add support for XEP-0232 read response Server", "pred": "OF-1806 Add support for XEP-0232 read response server"}
+{"diff_id": 33527, "ref": "( incorporate more of the original DEBUG change from antjkennedy )", "pred": "Set DEBUG field in NERServer to final and rename to ENV_DEBUG."}
+{"diff_id": 49959, "ref": "add ldap authentication related configuration to restricted list(Anishek Agarwal via Thejas Nair )", "pred": "Update restricted and hidden config lists with LDAP related properties(Gabor Szadovszky , reviewed by Sergio Pena )"}
+{"diff_id": 43022, "ref": "Added Crossbow nbt translator(<issue_id>).", "pred": "Add crossbow NBT translator for Bedrock Edition."}
+{"diff_id": 67616, "ref": "Add a couple more stubs for new resource_ * tools .", "pred": "Add new resource binaries for resource merging and validation."}
+{"diff_id": 110753, "ref": "Allows WebSocket servers to easily override default HTTP behavior .", "pred": "Add a serveHttp method to handle HTTP requests in NanoWebSocketServer."}
+{"diff_id": 103210, "ref": "Added io/SerialCallbackContext.java for use in ObjectOutputStream due to update .", "pred": "Add SerialCallbackContext to android.platform.libcore.ojluni.src.main.java.java.io."}
+{"diff_id": 83917, "ref": "` AppleTest ` is a no-op rule .", "pred": "Remove unnecessary methods from AppleTest."}
+{"diff_id": 110316, "ref": "TFJ-755 add support for language attribute in public stream", "pred": "Added language to FilterQuery."}
+{"diff_id": 93413, "ref": "Add a unit test for deserializing property-based(custom)object ids", "pred": "Add unit tests for external id deserialization."}
+{"diff_id": 113763, "ref": "Adding new methods to the API for checking Internet connectivity-solves <issue_id>", "pred": "Add observeInternetConnectivity with custom InternetObservingStrategy and host."}
+{"diff_id": 102752, "ref": "Image fading transition is applied only if bitmap is not cached", "pred": "Added fading transition to images that were not cached."}
+{"diff_id": 66021, "ref": "Add skylark methods to return the flags and includes needed to compile a target.-- .", "pred": "Add compile_flags method to the C++ Skylark API."}
+{"diff_id": 48247, "ref": "Insert into dimension on portgresql:return of autogenerated keys is not supported .", "pred": "PDI-1853: Dimension Lookup step does not handle auto-increment usage correctly."}
+{"diff_id": 34370, "ref": "* Adds new \\\" mods_path \\\" applet parameter", "pred": "Modified obtainMods method to use mods_path parameter instead of constructing the path from the document base."}
+{"diff_id": 80267, "ref": "Added FileUtils.createTempFolderIn(folder)method", "pred": "Refactored FileUtils.createTempFolder to allow for creating temp folders in a specified parent directory."}
+{"diff_id": 13526, "ref": "custom dialog like JOptionPane which add the \\\" Don \\' t ask again \\\" option .", "pred": "Added a message dialog to the custom controls in the main GUI. The dialog allows the user to display a message and choose between an \"OK\" and \"Cancel\" button. It also includes a \"Do not ask again\" checkbox."}
+{"diff_id": 71695, "ref": "<issue_id> SQLite:multiple unnamed foreign keys support .", "pred": "Add support for multiple unnamed foreign keys."}
+{"diff_id": 85113, "ref": "add extra equiv tests(<issue_id>).", "pred": "Add tests for subsumption relation between pairs of attributes and query equivalence tests for different types of queries."}
+{"diff_id": 69878, "ref": "Support for Ring Buffer tests", "pred": "Fixed NPE in ReferenceTracker."}
+{"diff_id": 87263, "ref": "New multi-thread claim strategy implementation for serialising the publishers .", "pred": "Fix race condition in multi-threaded claim strategy."}
+{"diff_id": 38441, "ref": "add swap()", "pred": "add swap() function in EncryptTableRuleConfigurationYamlSwapper"}
+{"diff_id": 89232, "ref": "Add support for CITEXT and VARCHAR_IGNORECASE types in parser", "pred": "Add support for CITEXT data type and VARCHAR2 data type."}
+{"diff_id": 83025, "ref": "Add null check", "pred": "Refactor TomP2PNode to handle null storedPeerAddress in run() method."}
+{"diff_id": 67874, "ref": "addAll_to_constructor(<issue_id> )", "pred": "Refactor ExtendedMessageFormatTest to use more concise code for adding available locales."}
+{"diff_id": 4237, "ref": "Added a fixed time-out value 1000 as the second parameter to the kslack extension call .", "pred": "Added a parameter to the `reorder:kslack` function to specify the time interval for reordering."}
+{"diff_id": 113435, "ref": "FilterBuilder check for matches for each resource on both file relative path(with/) and fqn(with.)", "pred": "Refactor scan method to use inputs filter for file relative path or fqn."}
+{"diff_id": 107776, "ref": "support for subclasses", "pred": "Refactor Injector requireAll to use isAssignableFrom for type filtering(<issue_id>)"}
+{"diff_id": 59334, "ref": "ClearTextHttp2ServerUpgradeHandler can be merged with inner PriorKnowledgeHandler(<issue_id>).", "pred": "Refactor CleartextHttp2ServerUpgradeHandler to use ByteToMessageDecoder instead of ChannelHandlerAdapter."}
+{"diff_id": 67346, "ref": "Add a convenience method in ` SpawnBuilder ` to add multiple ` ActionInput ` .", "pred": "Add withOutputs method to SpawnBuilder."}
+{"diff_id": 96262, "ref": "Add missing return statement", "pred": "Close connection if request header is too large. Fixes potential resource leak."}
+{"diff_id": 102326, "ref": "Add tsd.stats.canonical config setting for optional FQDN output from stats call", "pred": "Add tsd.stats.canonical config option default."}
+{"diff_id": 8992, "ref": "add anytype support to c # generators(<issue_id> )", "pred": "Add typeMapping for AnyType to Object in C# codegen(<issue_id>)"}
+{"diff_id": 32546, "ref": "Add feature flag for deciding if vespa should be started and stopped with yinst", "pred": "Add feature flag for starting and stopping Vespa with yinst commands or with start and stop scripts"}
+{"diff_id": 46150, "ref": "Issue <issue_id>-Better support for alt PrintStream in StdErrLog .", "pred": "Issue <issue_id>-Add support for alternate PrintStream in StdErrLog."}
+{"diff_id": 65824, "ref": "Add support for a new dependency in generated protos .", "pred": "Add a new target for Stubby proto library runtime, which will eventually contain a subset of the current:rpc3 dependencies."}
+{"diff_id": 54346, "ref": "added extra log line .", "pred": "Log upgrade status response in FullClusterRestartIT."}
+{"diff_id": 38148, "ref": "add getParameterSets()", "pred": "add getParameterSets() to InsertValuesPlaceholder"}
+{"diff_id": 80284, "ref": "Started fat(multi-architecture)libraries support(work in progress )", "pred": "Revised library detection algorithm to include \"fat\" libraries and added support for examples in the root folder."}
+{"diff_id": 99390, "ref": "Add all missing@Override annotations.", "pred": "am 3e3e3e3e:Merge \"Add @Override annotation to ForegroundLinearLayout methods\""}
+{"diff_id": 40321, "ref": "LOG4J2-1172 added utility method to get Executor \\' s thread ID", "pred": "LOG4J2-1172 added utility method to get Executor's thread ID"}
+{"diff_id": 9047, "ref": "serverPort add from cli(<issue_id>).", "pred": "Add serverPort option to FlaskConnexionCodegen CLI options."}
+{"diff_id": 37373, "ref": "message stream processors work with multiple partitions", "pred": "Refactor MessageService to start stream processors on partition add."}
+{"diff_id": 42075, "ref": "CORE-677 Allow specifying Liquibase-Package using a system property instead of in Manifest file .", "pred": "Update ServiceLocator.java"}
+{"diff_id": 62586, "ref": "expandSector implementation", "pred": "Expanded sector size and updated grid accordingly."}
+{"diff_id": 41842, "ref": "Added numeric type for DB2(cherry picked from commit 29e9547 )", "pred": "Added support for DECFLOAT(16) in DB2TypeConverter for CORE-3019."}
+{"diff_id": 78081, "ref": "Add missing DATE_PART mappings in Function", "pred": "Add support for DAY_OF_WEEK and ISO_DAY_OF_WEEK in date functions."}
+{"diff_id": 80483, "ref": "No use case for a sequential processor yet , add support for delayed tasks .", "pred": "Refactor VisualVM to use a shared task processor with a default throughput of 30."}
+{"diff_id": 53523, "ref": "support servlet path as well", "pred": "Update uri and rawPath to include servletPath."}
+{"diff_id": 51655, "ref": "Added unified Near Cache tests for population via EntryProcessors", "pred": "Refactored the Near Cache tests to include methods using EntryProcessors."}
+{"diff_id": 61518, "ref": "Add buffer for gzip streams(<issue_id>).", "pred": "Set input and output buffer sizes for GZIP streams in CompressionType."}
+{"diff_id": 2647, "ref": "Added an LwjglCanvas setting to keep the stacktrace in case a posted runnable throws.", "pred": "Added a method to set whether stacktraces are kept for runnables posted to the LwjglCanvas."}
+{"diff_id": 26078, "ref": "Add an INFO log if inverted index is not loaded for a sorted column , add a WARN log if choose a multi-valued column as sorted .", "pred": "Fixed a bug where inverted index was being generated for sorted single valued columns."}
+{"diff_id": 97755, "ref": "Add delete savepoint for cli(<issue_id>).", "pred": "Add savepoint delete command to delete a savepoint."}
+{"diff_id": 40508, "ref": "LOG4J2-928 added debug logging to show duration of mmap , unmap and .", "pred": "LOG4J2-1343 enabled MemoryMappedFileManager to reuse the garbage-free Layout mechanism defined in the superclass."}
+{"diff_id": 40887, "ref": "LOG4J2-1278 added methods with unrolled varargs to AbstractLogger", "pred": "LOG4J2-1278 added methods with unrolled varargs to AbstractLogger."}
+{"diff_id": 17588, "ref": "add overhead mining animations(<issue_id> )", "pred": "Refactor Pickaxe to use multiple animation IDs."}
+{"diff_id": 13474, "ref": "Implements ChatRoom <issue_id> nnounceConference for jabber .", "pred": "Implements multi chat for jabber. This is a work in progress."}
+{"diff_id": 39446, "ref": "add getQueryResults()", "pred": "use getQueryResults()"}
+{"diff_id": 64854, "ref": "Add failure causes as supressed exceptions for each failed service in the exception thrown by .", "pred": "Remove DI annotations from ServiceManager."}
+{"diff_id": 21609, "ref": "Add check that a node in the NodeMap is alive. PullRequest:graal/4009", "pred": "Use boolean arithmetic instead of bit arithmetic for I1 values. PullRequest:graal/3975"}
+{"diff_id": 2032, "ref": "Add Decoder # readSamples(float [ ] )", "pred": "Add Javadoc to Decoder."}
+{"diff_id": 111892, "ref": "add hide and show in FloatingActionsMenu", "pred": "Add Interpolator for FloatingActionsMenu. Hide the FAB button with animation when it is hidden."}
+{"diff_id": 12899, "ref": "Explicit support for JPA 2.0 \\' s QueryTimeoutException , LockTimeoutException and PessimisticLockException .", "pred": "Added support for JPA 2.0 LockTimeoutException and QueryTimeoutException."}
+{"diff_id": 32590, "ref": "Add VIP handler to logserver container(<issue_id> )", "pred": "Add VIP handler to logserver cluster model."}
+{"diff_id": 9421, "ref": "Add NoRouteToHostException as known valid outcome of ParallelResourcesAndIpSource", "pred": "Ignore NoRouteToHostException in ParallelResourcesAndIpSource."}
+{"diff_id": 91207, "ref": "Added Custom Routes .", "pred": "Added custom routes for DELETE, GET, POST, PUT, and PATCH."}
+{"diff_id": 90782, "ref": "Implement QuarkusRestContainerResponseContext # getEntityStream .", "pred": "Implement OutputStream for QuarkusRestContainerResponseContext.getEntityStream() to handle writing and closing the stream."}
+{"diff_id": 51843, "ref": "Adds wildcard configuration for executors and semaphores .", "pred": "Fixes issue 422. JMX Exception when several instances start in the same JVM."}
+{"diff_id": 19690, "ref": "Add ExtractExpression <issue_id> xtractExpressionsNonRecursive .", "pred": "Refactor ExpressionExtractor to use Visitor class for recursive and non-recursive extraction."}
+{"diff_id": 41878, "ref": "CORE-2720 DB2:Capture full view definition in snapshot/generateChangeLog to support column options", "pred": "CORE-2615 Improved getViewDefinition for DB2Database"}
+{"diff_id": 27907, "ref": "add back keep alive conf(<issue_id> )", "pred": "Set keep alive time and timeout for user network connections."}
+{"diff_id": 79516, "ref": "Thread profile through to capabilities in firefoxdriver constructors .", "pred": "Refactoring FirefoxDriver constructors to use populateProfile method."}
+{"diff_id": 1130, "ref": "HTTP auth support was added in HUDSON-4071 , so I \\' ve only integrated the portion that specifies the timeout and a call to disconnect() .", "pred": "Fixed connection timeout and read timeout to avoid long waiting time for the connection."}
+{"diff_id": 54870, "ref": "add a utility main class that will automatically run it in the foreground without setting a system property", "pred": "Add ElasticSearchF class for running Elasticsearch in the foreground."}
+{"diff_id": 74861, "ref": "JSR292 MethodHandles lookup with interface using findVirtual() .", "pred": "Resolve corner case for invokeinterface of Object method in DirectMethodHandle."}
+{"diff_id": 14196, "ref": "am 5646f278:am 19e77645:Support changing volume of system routes. * commit \\' <issue_id> \\':.", "pred": "am c3cfafaa:am a2baef2f:Get ActionBarDrawerToggle Delegate earlier in constructor ."}
+{"diff_id": 61739, "ref": "Implement toString() in config validator classes(<issue_id> )", "pred": "Add toString() method to CompositeValidator and NonNullValidator in ConfigDef."}
+{"diff_id": 91447, "ref": "add implementation of isEnabled() in BaseAnnotationHandler that defaults to true", "pred": "Add isEnabled() to BaseAnnotationHandler"}
+{"diff_id": 64597, "ref": "added load chunk method", "pred": "Added loadChunk() to the World API."}
+{"diff_id": 16346, "ref": "am b0479627:Adds new AccessibilityEvent types to the support lib. * commit \\' <issue_id> \\':.", "pred": "Add support for margins between pages in a ViewPager. Apps may also supply an optional Drawable that will fill the margin."}
+{"diff_id": 17555, "ref": "Add Meiyerditch Laboratory Bloodveld cannon spot(<issue_id> )", "pred": "Update Bloodvelds cannon location in Slayer Tower(<issue_id> )"}
+{"diff_id": 111551, "ref": "Add endpoint/dubbo/shutdown", "pred": "Refactor and add consumer sample. Add shutdown method to shut down the Dubbo service."}
+{"diff_id": 94529, "ref": "# ignite-sprint-3 Added support for nodes filters and minor cleanup of configs .", "pred": "VisorCacheStoreConfiguration: Fixed method names and added null check for cache."}
+{"diff_id": 89344, "ref": "Add DataType.nullable(Nullability)to support a three valued nullable flag", "pred": "Fix nullable field in ConvertedDataType"}
+{"diff_id": 93820, "ref": "Added an invokeMethod hook to CommandsManager , that wraps method invocation and can be overridden", "pred": "Refactor executeMethod to invokeMethod to handle command execution."}
+{"diff_id": 83386, "ref": "Implement device info/volume methods .", "pred": "Add UNKNOWN DeviceInfo constant."}
+{"diff_id": 25213, "ref": "add overly broad error handling per <issue_id>", "pred": "Error handling for cache construction in DataCacheFactory."}
+{"diff_id": 70767, "ref": "<issue_id> Create object menu .", "pred": "Create new object action fix."}
+{"diff_id": 21107, "ref": "add isAssumedFinal() and getFinalAssumption() methods to allow for assumedly final locations", "pred": "Add isAssumedFinal and getFinalAssumption to Location."}
+{"diff_id": 110181, "ref": "Fixes classpath in CompilerClassLoader for windows support", "pred": "Refactored buildClassPath to handle Windows and non-Windows systems."}
+{"diff_id": 33519, "ref": "Allow for custom version of NERCombinerAnnotator(while leaving standard ner alone), and have reannotate pipeline be specified in a file", "pred": "Add a constructor to create a custom version of NERCombinerAnnotator, while leaving the standard ner alone, and have reannotate pipeline be specified in a file."}
+{"diff_id": 25850, "ref": "Adding another workflow to process federated request. After fully tested , we can merge the logic of single request to it .", "pred": "Refactor the BrokerRequestHandler class to improve the code structure and readability. This includes organizing the methods and variables, removing redundant code, and improving exception handling."}
+{"diff_id": 36579, "ref": "added wbadmin to default web security for business apps(<issue_id> )", "pred": "Add admin user to in-memory authentication."}
+{"diff_id": 2564, "ref": "Added better cross-browser support for the visibilitychange event in GWT(<issue_id> )", "pred": "Added support for different visibility change events in GWT backend."}
+{"diff_id": 65151, "ref": "Add BaseEncoding benchmarks for decode and stream methods .", "pred": "Add benchmark for encoding and decoding streams."}
+{"diff_id": 47093, "ref": "Add a DET visual indicator to the rendering of a step on the canvas-UX requested updates(<issue_id> )", "pred": "Fixed the position of the error icon in the TransPainter class."}
+{"diff_id": 37176, "ref": "adapted MhItemProvider to changes in BindingProvider interface", "pred": "Renamed containsBinding method to providesBindingFor."}
+{"diff_id": 16546, "ref": "am a76a3571:Merge \\\" Add support for enabling workarounds via metadata.\\\" .", "pred": "Add support-annotations for Android."}
+{"diff_id": 22897, "ref": "ICU4JFeature classes should get initialized at native image build time", "pred": "Add runtime and build-time initialization for ICU4J classes."}
+{"diff_id": 40027, "ref": "Add AssignTokenNamesToStringLiteralsInGeneratedParserRuleContexts and AssignTokenNamesToStringLiteralArraysInGeneratedParserRuleContexts unit-tests", "pred": "Add test for AssignTokenNamesToStringLiteralsInGeneratedParserRuleContexts and AssignTokenNamesToStringLiteralArraysInGeneratedParserRuleContexts."}
+{"diff_id": 24174, "ref": "added getActiveBasePanel()", "pred": "Add getActiveBasePanel() method to SidePaneComponent."}
+{"diff_id": 23390, "ref": "Add SafepointRethrowDeoptPETest", "pred": "Add a pure graal version of the SafepointRethrowDeopt test"}
+{"diff_id": 17022, "ref": "MessageNode extends CacheableNode(but Node is close enough )", "pred": "Make MessageNode extend Node"}
+{"diff_id": 17841, "ref": "added httpstatus_i to automatically switched on fields(used in all search queries )", "pred": "Enhance the crawler with additional schema fields for media search and HostBrowser."}
+{"diff_id": 56906, "ref": "add accessor for drag enabled state", "pred": "add dragEnabled accessor to AceEditorNative class"}
+{"diff_id": 61270, "ref": "Add FlexComm acknowledgement", "pred": "Send status message to channel after parsing position"}
+{"diff_id": 28024, "ref": "Add convenient default constructor to LocalTachyonClusterResource", "pred": "Add default constructor to LocalTachyonClusterResource class."}
+{"diff_id": 56263, "ref": "add asset name check in UnfreezeAssetActuator", "pred": "Add validation for asset name in UnfreezeAssetActuator."}
+{"diff_id": 46185, "ref": "make the webapp classloader impleemnt the BundleReference interface just like any other OSGi classloader .", "pred": "Add BundleReference to OSGiWebappClassLoader."}
+{"diff_id": 2691, "ref": "Add isDrawContact and setDrawContact methods to gwt emu , fixes <issue_id>", "pred": "Add methods to draw and set contacts in Box2DDebugRenderer."}
+{"diff_id": 96489, "ref": "Allow end-of-line comments to take format args .", "pred": "Add support for formatting in emitEndOfLineComment."}
+{"diff_id": 39427, "ref": "add isToGenerateTableToken()", "pred": "implements CollectionSQLTokenGenerator < BaseRule >"}
+{"diff_id": 5744, "ref": "add noop type name to prevent jackson exception when setting type to noop(<issue_id> )", "pred": "Add @JsonTypeName annotation to NoopRequestLoggerProvider."}
+{"diff_id": 75118, "ref": "Apply fixups indicated by analysis tools", "pred": "Fix deserialization test."}
+{"diff_id": 2420, "ref": "Allow to specify a custom shader config when creating a PointSpriteParticleBatch", "pred": "Added constructor to PointSpriteParticleBatch(<issue_id>)"}
+{"diff_id": 39087, "ref": "extends Repository < OrderItem >", "pred": "extend Repository < OrderItem >"}
+{"diff_id": 79706, "ref": "The new chrome server has a shiny new healthz URL to check whether or not it \\' s up .", "pred": "Fix URL construction and add health check URL."}
+{"diff_id": 89330, "ref": "Support parsing UPDATE table [ [ AS ] alias ]", "pred": "Support parsing of table aliases in UPDATE statements."}
+{"diff_id": 90054, "ref": "Two more functions supported", "pred": "Add support for PostgreSQL array functions and array_length() function."}
+{"diff_id": 100828, "ref": "Adding debug log msg in HadoopPathElement", "pred": "Added logging to trackPaths configuration option."}
+{"diff_id": 14680, "ref": "am bd254c5a:RecyclerView API:create/onCreateViewHolder , bind/onBindViewHolder .", "pred": "am 3a57beb4:Generify RecyclerView adapters for ViewHolder types ."}
+{"diff_id": 53060, "ref": "Added specific log level to check which shards were refreshed and which shards we searched on", "pred": "Enable trace logging for action.search.type and action.admin.indices.refresh."}
+{"diff_id": 71804, "ref": "SSH logging added .", "pred": "SSH tunnel implementation fix."}
+{"diff_id": 90064, "ref": "Added support for PostgreSQL", "pred": ""}
+{"diff_id": 106812, "ref": "Added DCL around creation of session validation scheduler. To make sure it is created only once , and to not end up with .", "pred": "Enable session validation scheduler if not already enabled. Log an info message when enabling the scheduler."}
+{"diff_id": 19811, "ref": "Add ExpressionTreeRewriter # rewrite(List < Expression > )", "pred": "Refactor ExpressionTreeRewriter to use List instead of ImmutableList in rewrite() method."}
+{"diff_id": 72591, "ref": "( spec)Scrollbar spec should specify that unit increment & decrement functionality may not be present .", "pred": "Scrollbar javadoc clarification for unit increment."}
+{"diff_id": 33181, "ref": "Properties can now be retrieved from the database as long as there is a connection to the database regardless if setup has been completed .", "pred": "Refactored isSetupMode() method to improve readability and maintainability."}
+{"diff_id": 112646, "ref": "Add new TitleState.SHOW_WHEN_ACTIVE_FORCE .", "pred": "Refactored the code to use String.valueOf for integer in text view."}
+{"diff_id": 66259, "ref": "Add desugar support for android.app.admin.FreezePeriod # { getStart , getEnd } .", "pred": "Add conversion for hidden TimeConversions.getStart and TimeConversions.getEnd."}
+{"diff_id": 40380, "ref": "Allow@PluginAliases on a field.-This is already technically supported by PluginBuilder for@PluginBuilderAttribute .", "pred": "Add support for@PluginAliases on fields."}
+{"diff_id": 81903, "ref": "implemented@Override placeStopOrder", "pred": "implemented@Override placeStopOrder"}
+{"diff_id": 96920, "ref": "added SeqEnumeration", "pred": "Added SeqEnumeration"}
+{"diff_id": 88140, "ref": "added failure logging to http download", "pred": "Skip setting relative file path in HttpDownloadConnection and log exception with stack trace"}
+{"diff_id": 53170, "ref": "Add 1.4.2/1.3.7 constants", "pred": "Added versions 1.3.7 and 1.4.2 to the version table."}
+{"diff_id": 67759, "ref": "Initial version of SystemUtils for system constants .", "pred": "Add SystemUtils class."}
+{"diff_id": 25806, "ref": "Create PinotSegmentRecordReader and PinotSegmentToAvroConverter tool", "pred": "Fix typo in exception message"}
+{"diff_id": 99066, "ref": "Added support for video downloading", "pred": "Fixed XhamsterRipper to handle video URLs and added support for video URLs."}
+{"diff_id": 66836, "ref": "Add support for-- javacopt flags terminated by `-- ` to JavaBuilder .", "pred": "Support --javacopts terminated with \"--\"."}
+{"diff_id": 103226, "ref": "Support for JUnit4-annotated classes. Change on 2014/03/10 by mmichalak < mmichalak@google.com > .", "pred": "Fixed JUnitTestRunner native code reference, deleted unused variable. Change on 2016/04/26 by tball < tball@google.com > ."}
+{"diff_id": 32554, "ref": "Add base handlers to container on logserver host(<issue_id> )", "pred": "Create additional container on logserver host and add base handlers and log handler."}
+{"diff_id": 46207, "ref": "Add WebIdentityTokenFileCredentialsProvider(<issue_id>).", "pred": "Add WebIdentityTokenFileCredentialsProvider to AWS credentials chain."}
+{"diff_id": 37147, "ref": "Implement support for valve FHT8v(<issue_id> )", "pred": "Added a method to set the valve position in the FHT binding. The method checks if the valve position is within the valid range (0.0 - 100.0%) and queues a new desired valve position if it is. If the valve position is outside the valid range, an error is logged."}
+{"diff_id": 113650, "ref": "Feature to customize carousel padding values individually and dynamically(<issue_id>).", "pred": "Add Padding class to specify individual padding values for each side of the carousel, as well as item spacing."}
+{"diff_id": 25779, "ref": "Added property for pinot-controller vip port(<issue_id> )", "pred": "Set controller VIP port to the specified value if it exists, otherwise use the default controller port."}
+{"diff_id": 620, "ref": "Add doPrivileged block required for Servlet TCK to pass when running with a security manager .", "pred": "Refactor JspFactoryImpl to use AccessController for security. Bug: 145767095."}
+{"diff_id": 12266, "ref": "PortletWrappingController supports Portlet 2.0 resource and event requests as well(SPR-7430 )", "pred": "added support for ResourceServingPortlet and EventPortlet in PortletWrappingController (SPR-5795)"}
+{"diff_id": 18776, "ref": "Added new metrics to display on Studio EE the tx start/commit/rollback and the number conflicts", "pred": "Added profiler counters for transaction begun, committed, rolled back and conflicts during updating and deleting records."}
+{"diff_id": 66242, "ref": "Add a null check .", "pred": "Add requireNonNull to JavaRuntimeToolchainInfo."}
+{"diff_id": 78393, "ref": "The Shell tool can now enable , disable , and display the current autocommit mode .", "pred": "Added support for enabling or disabling autocommit in the shell."}
+{"diff_id": 54766, "ref": "Add field for expiration conditions", "pred": "Add support for expiration after write and access."}
+{"diff_id": 107155, "ref": "Add handling for no ssh keys in ldap", "pred": "Add null check for attributeValue in LdapAuthenticator."}
+{"diff_id": 87112, "ref": "Allow for a deck parameter when creating a card .", "pred": "Refactor _newCard to accept did as an argument."}
+{"diff_id": 95557, "ref": "add macro for C + + 14 constexpr", "pred": "Add SBE_CONSTEXPR_14 macro for C++14 compatibility."}
+{"diff_id": 109067, "ref": "Support callback query", "pred": "Refactored TelegramLongPollingSessionBot to use sessionManager and chatIdConverter as setters, and added a method to get the session from the message."}
+{"diff_id": 81798, "ref": "Add currency pairs BTC_LTC and BTC_XRP in order to support Justcoin .", "pred": "Add BTC_LTC and BTC_XRP currency pairs."}
+{"diff_id": 15915, "ref": "Option for not showing glow bars in RecyclerView. Change-Id:I <issue_id>", "pred": "am 3cff1132:am d2a6991e:Merge \\\" Option for not showing glow bars in RecyclerView.\\\" into lmp-mr1-ub-dev ."}
+{"diff_id": 1784, "ref": "only support IPv4 addresses for now , as I noticed a failure to connect when IPv6 address is used. ", "pred": "Filter out non-IPv4 addresses in Computer.getHostName() (<issue_id>)."}
+{"diff_id": 89676, "ref": "Add support for byte [ ] in Postgres UDTs-Added support for Octal values(added integration test )", "pred": "Add support for INTERVAL data types-some fixes."}
+{"diff_id": 92634, "ref": "Route matches filter", "pred": "Add RouteMatchesFilter interface"}
+{"diff_id": 38677, "ref": "add getDataSourceConfigurationMap (", "pred": "DataSourceConverter.getDataSourceConfigurationMap()"}
+{"diff_id": 41986, "ref": "62 Added filter for DB2 Z/os implicitly generated columns", "pred": "CORE-2970 MSSQL:Support default value constraint names"}
+{"diff_id": 42025, "ref": "SQLServer 2005 doesn \\' t support cascade drop table", "pred": "MSSQL-Server in Version 10 does not support DropTableCascadeConstraints."}
+{"diff_id": 37531, "ref": "for <issue_id> Add adapter implement for AbstractBackendHandler .", "pred": "For <issue_id>, update AbstractBackendHandler.execute and next method"}
+{"diff_id": 36631, "ref": "CMMN excution support for case management(<issue_id> )", "pred": "Add ResourceType \"solver\""}
+{"diff_id": 45005, "ref": "Add helper methods to register Transports and Codecs in plugins", "pred": "Add transport and codec installation methods to PluginModule."}
+{"diff_id": 77289, "ref": "added todos", "pred": "Refactor Dot to Any. Add TODOs."}
+{"diff_id": 72049, "ref": "<issue_id> Oracle:LOOP keyword added .", "pred": "<issue_id> Oracle: Add LOOP keyword."}
+{"diff_id": 546, "ref": "With a minimum version of OpenSSL 1.0.2 , these features are always available. ", "pred": "Set SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION and SSL_OP_CIPHER_SERVER_PREFERENCE options based on the SSLHostConfig."}
+{"diff_id": 23406, "ref": "ICU4JFeature classes should get initialized at native image build time. PullRequest:graal/3648", "pred": "The commit message is too long. Please shorten it to 50 words or less."}
+{"diff_id": 49579, "ref": "Allow For Customization Of Buffer Size In MapJoinTableContainerSerDe(Beluga Behr via Ashutosh Chauhan).", "pred": "Remove buffer size from fs.open() call in MapJoinTableContainerSerDe (Gopal V, reviewed by Ashutosh Chauhan)"}
+{"diff_id": 108833, "ref": "Implemented basic selection example .", "pred": "Add creature filtering logic in main method."}
+{"diff_id": 88252, "ref": "generate a status entry when a conversion word is registered", "pred": "register conversion word with class in rule registry"}
+{"diff_id": 102115, "ref": "added Nullable annotation", "pred": "Add @Nullable annotation to getSourceFile in Processor.java"}
+{"diff_id": 41020, "ref": "Add check to verify that created_at and updated_at are set in active rules(MT is ignored because it \\' s failing )", "pred": "Ignore RuleActivatorMediumTest for now."}
+{"diff_id": 25963, "ref": "Add segment time unit so that retention manager works for LLC segments(<issue_id> )", "pred": "Setting time unit to milliseconds in PinotLLCRealtimeSegmentManager for consistency and accuracy."}
+{"diff_id": 32812, "ref": "Add \\' SHA256withECDSA \\' as signature algorithm", "pred": "Add SHA256_WITH_ECDSA signature algorithm."}
+{"diff_id": 89175, "ref": "Add@Support annotations to Operator enum", "pred": "Add @Support annotation to AND and OR operators"}
+{"diff_id": 38766, "ref": "<issue_id> , add POSTGRESQL_TYPE", "pred": "<issue_id> , add PostgreSQLColumnType"}
+{"diff_id": 36892, "ref": "JBRULES-1010 pluggeable Dialect Configuration.-Allow for chainedproperties searching , which ignores defaults .", "pred": "Refactored PackageBuilderConfigurationTest to use JUnit 4."}
+{"diff_id": 100377, "ref": "KYLIN-2024 kylin TopN only support the first measure", "pred": "KYLIN-2433 Fix NPE in MergeCuboidMapper"}
+{"diff_id": 61359, "ref": "new tests with real data", "pred": "Update Xrb28ProtocolDecoderTest.java with new test cases"}
+{"diff_id": 68890, "ref": "Add possibility to dynamically add languages by class names", "pred": "adding@since"}
+{"diff_id": 95765, "ref": "Add pebble health uuid .", "pred": "Add UUID for Pebble Health appmessage handler."}
+{"diff_id": 44223, "ref": "HBASE-8781 ImmutableBytesWritable constructor with another IBW as param need to consider the offset of the passed IBW .", "pred": "HBASE-9511 LZ4 codec retrieval executes redundant code."}
+{"diff_id": 47821, "ref": "XML:Create a new step that is capable of processing very large and complex XML files very fast-dialog .", "pred": "PDI-1918.Add PGP encryption to transformation steps to encrypt or decrypt files."}
+{"diff_id": 38690, "ref": "add ShardingMasterSlaveConfigurationRange", "pred": "add ShardingMasterSlaveConfigurationRange"}
+{"diff_id": 45457, "ref": "Issue <issue_id>-Adding toString()", "pred": "Issue <issue_id>-Adding toString() to AtomicConnectionState."}
+{"diff_id": 101297, "ref": "Add org.robolectric.annotation.Implementation to method annotations which exempt parameters from Unused checking.", "pred": "Add org.robolectric.annotation.Implementation to methodAnnotationsExemptingParameters."}
+{"diff_id": 102187, "ref": "<issue_id> Add default patterns", "pred": "added diff methods for DateTimeOps"}
+{"diff_id": 114073, "ref": "Added SlideInOutBottom animation", "pred": "Add SlideInOutBottomItemAnimator to the library."}
+{"diff_id": 49355, "ref": "HiveServer2:Use the fast ShutdownHookManager APIs(Gopal V via Ashutosh Chauhan).", "pred": "Add timeout to addShutdownHook to prevent hanging on shutdown."}
+{"diff_id": 38644, "ref": "add swap()", "pred": "add EncryptTableRuleConfigurationYamlSwapper"}
+{"diff_id": 42699, "ref": "Permit modes to enhance the text editor by adding their own typographical effects to the Painter.", "pred": "Override createPainter method to provide custom painter for JEditTextArea."}
+{"diff_id": 45438, "ref": "Issue <issue_id>-Adding SPNEGO authentication support for Jetty Client. Added client-side classes javadocs.  ", "pred": "Added getters and setters for SPNEGOAuthentication class."}
+{"diff_id": 38572, "ref": "add getLogicTableName()", "pred": "add EncryptColumnPlaceholder()"}
+{"diff_id": 76421, "ref": "Issue 1653:Support context menu key for trees", "pred": "Add key listener to alert panel to show context menu on context menu key."}
+{"diff_id": 34144, "ref": "added handling of mapping files with headers and of different headers specified on each file", "pred": "Add the ability to read header from file and set the read header property of each file to true."}
+{"diff_id": 38576, "ref": "for <issue_id> implement seata global commit & rollback protocol for MockCommandHandler .", "pred": "Refactor MockCommandHandler to use GlobalCommitRequest and GlobalRollbackRequest."}
+{"diff_id": 19334, "ref": "Support passing of metadata to OResult with OContextualRecordId", "pred": "Added metadata from OContextualRecordId to OResultInternal."}
+{"diff_id": 37842, "ref": "<issue_id> , add ParsingEvent", "pred": "<issue_id> , add ParsingEvent"}
+{"diff_id": 43873, "ref": "HBASE-4976 Add compaction/flush queue size metrics mistakenly removed by HFile v2 .", "pred": "HBASE-5998 Add a testcase for HBASE-6065(Ashutosh)."}
+{"diff_id": 79383, "ref": "AlexeiBarantsev , on behalf of ArjanMolenaar:Adding getCssCount to the list of the methods supported by WebDriverBackedSelenium .", "pred": "Add new method to get CSS count."}
+{"diff_id": 17110, "ref": "Add Boiler to Dorgesh-Kaan obstacles IDs(<issue_id> )", "pred": "Add agility obstacle highlight for Dorgesh-Kaan boiler(<issue_id>)"}
+{"diff_id": 89790, "ref": "Add support for CREATE TABLE IF NOT EXISTS", "pred": "Fix CREATE TABLE IF NOT EXISTS for VIEWs in PostgreSQL"}
+{"diff_id": 77735, "ref": "A new String cache is now created at most once every 5 second , so that out of memory exceptions are not artifically delayed .", "pred": "Added a fix suggested by @bielmooca to the IsTextPresent implementation."}
+{"diff_id": 89798, "ref": "Add runtime configuration to specify whether a java.sql.PreparedStatement(with bind variables)or a java.sql.Statement(with inlined parameters)should be executed-Fixed integration tests", "pred": "Skip single batch tests with statement type = STATEMENT"}
+{"diff_id": 26713, "ref": "Show \\' cancel download \\' option in folder actions menu when folder is being downloaded", "pred": "Remove unnecessary condition for hiding cancel download option in FileMenuFilter class"}
+{"diff_id": 2897, "ref": "Add javadoc for related methods(<issue_id> )", "pred": "<issue_id> Clarify that changing case sensitivity will also change the case sensitivity of negatable options."}
+{"diff_id": 42994, "ref": "Support PShape.contains() on GROUP objects by looping through its children(unsupported children will be skipped gracefully )", "pred": "Add support for PShape.contains() in PShape.GROUP by looping through children and catching IllegalArgumentExceptions."}
+{"diff_id": 108483, "ref": "This closes <issue_id>.add FETCH provenance event to FetchFile .", "pred": "NIFI-9002 Changed provenance event from modifyContent to fetch for FetchFile processor."}
+{"diff_id": 39205, "ref": "add setRegCenterForOrchestrationListenerManager()", "pred": "add setRegCenterForOrchestrationListenerManager()"}
+{"diff_id": 82614, "ref": "Added RelayRPC to seed peer", "pred": "Initialize relayRPC in DHTManager constructor."}
+{"diff_id": 36249, "ref": "Add setters for mWorkspaceLoading and mWaitingForResult. Change-Id:I <issue_id>", "pred": "am 155f3bc6:am 802f5d022a:am 1796a7b3:Merge \\\" Fix bug where cancelling config activity leaves user stuck in bad state \\\" into jb-ub-now-jetsonic ."}
+{"diff_id": 12768, "ref": "GenericTypeAwarePropertyDescriptor implements equals/hashCode for proper lookups on IBM JVM 6 .", "pred": "Add PropertyDescriptorUtils with common delegate methods for PropertyDescriptor implementations."}
+{"diff_id": 50604, "ref": "Add tests for beeline force option(Kavan Suresh via Jason Dere )", "pred": "Add test for Beeline with force option to continue running script even after errors."}
+{"diff_id": 80531, "ref": "Automated merge", "pred": "Removed unused code and fixed the ergonomics of the actions."}
+{"diff_id": 82229, "ref": "Allow continuation of training for DL models loaded from file .", "pred": "Fix typo in the code."}
+{"diff_id": 23250, "ref": "Add missing FieldValue recomputations for sun.net.www.protocol.jar.JarFileFactory. PullRequest:graal/1903", "pred": "Add support for Darwin CoreFoundation APIs. PullRequest:graal/2511"}
+{"diff_id": 83294, "ref": "<issue_id> Additional secure DummySurface device exclusions", "pred": "Refactor device exclusions in DummySurface."}
+{"diff_id": 13756, "ref": "Allow access to system environment variables and java properties in provisioning # JITSI-1037 , initial patch by Vieri di Paola", "pred": "Retrieve system environment and system property variables from provisioning URL."}
+{"diff_id": 37254, "ref": "Add an extra overload to the notifyMyAndroid action(event , description , priority )", "pred": "Add new method to send a notification with a priority."}
+{"diff_id": 42925, "ref": "Implementing SHAPE text mode in the OpenGL renderer(<issue_id> )", "pred": "Refactored the `textCharShapeImpl` method in the `PGraphicsOpenGL` class to handle text rendering in the SHAPE mode. Also, added a new `insideSettings` method to handle the settings for the `PApplet` class."}
+{"diff_id": 108394, "ref": "NIFI-5810 Add UserName EL support to JMS processors .", "pred": "NIFI-3013 GetSNMP fix stop and start null pointer exception."}
+{"diff_id": 91352, "ref": "Support for resName in lib projects .", "pred": "Refactor RInnerClass to use a Set for idQualifiedNamesByIdValues."}
+{"diff_id": 26643, "ref": "Enable session support(in MainApp )", "pred": "Revert \" Enable session support for all authentication methods in the app \"."}
+{"diff_id": 43556, "ref": "HBASE-1622 Make KeyValue implement the Comparable interface to make it work with Cascading-- reversed application .", "pred": "HBASE-13812 Deleting of last Column Family of a table should not be allowed(ADDENDUM for failing unit test)"}
+{"diff_id": 88317, "ref": "inclusion should be a core joran feature", "pred": "Added IncludeFileAction to logback-core."}
+{"diff_id": 31770, "ref": "SecurityEvaluationContextExtension implements latest EvaluationContextExtension .", "pred": "Update copyright header in SecurityEvaluationContextExtension"}
+{"diff_id": 77737, "ref": "\\\" handler \\\" field can be declared final", "pred": "Refactored the ValueLobDb class to include a new constructor that accepts a DataHandler object. Updated the createTempClob and createTempBlob methods to use the new constructor."}
+{"diff_id": 50832, "ref": "Added explicit ttl check on ReplicatedMap:: get to prevent dead elements to be returned", "pred": "Add null check for ttl expiration in AbstractReplicatedRecordStore."}
+{"diff_id": 31902, "ref": "NUTCH-2576 HTTP protocol implementation based on okhttp .", "pred": "NUTCH-2699 Protocol-okhttp: Fixing needless loops to increment requested bytes counter."}
+{"diff_id": 82597, "ref": "Add missing synchronization in KeepAliveManager", "pred": "Fix checkstyle violations in KeepAliveManager"}
+{"diff_id": 54094, "ref": "added note", "pred": "Add note explaining the purpose of TemplateService abstraction."}
+{"diff_id": 39653, "ref": "add getDisabledSlaveDataSourceNames()", "pred": "add getDisabledSlaveDataSourceNames() method"}
+{"diff_id": 23683, "ref": "enable usage of ICU4J collator in ICU4J feature", "pred": "Register CollatorServiceShim in ICU4JFeature before analysis. Fixes <issue_id>."}
+{"diff_id": 38536, "ref": "add getDisabledStateEventBusEvent()", "pred": "add assertRenew() and getDisabledStateEventBusEvent()"}
+{"diff_id": 19980, "ref": "Add methods for reversing a map and getting a BiMap to MapTransformer", "pred": "Add public factory methods for MapTransformer."}
+{"diff_id": 93818, "ref": "Implement getMaxY for ForgeWorld. Should play nicer with things like CubicChunks .", "pred": "Added getMaxY() method to ForgeWorld."}
+{"diff_id": 35418, "ref": "Adds feature flag for BC Smartspace. Change-Id:I <issue_id>", "pred": "Rename flag to remove reference to blocked word. Change-Id:I <issue_id>"}
+{"diff_id": 40825, "ref": "LOG4J2-1419 added system properties switch to enable locating where new LoggerContext is started", "pred": "LOG4J2-1024 Add a debug logging event for log4j2.xml not found by Log4jWebInitializerImpl."}
+{"diff_id": 17820, "ref": "enable getCookies for HeaderFramework reusing Jetty CookieCutter", "pred": "Added support for parsing cookies from the header string if the request is not available."}
+{"diff_id": 102276, "ref": "added tests for unique projections", "pred": "added various single projections test"}
+{"diff_id": 111519, "ref": "Add Cache-Control no-cache to Android server response", "pred": "Add Cache-Control header to response if not present."}
+{"diff_id": 1232, "ref": "added the \\' buildTimestamp \\' URL(<issue_id>).", "pred": "Added a method to return the build timestamp in the specified format, allowing for more flexibility in retrieving build information."}
+{"diff_id": 40349, "ref": "Add check for log4j-web to shutdown hook thread.-Don \\' t use shutdown hook if log4j-web is present. ", "pred": "Refactored the shutdown hook thread to use a softly reachable reference instead, which will allow for better memory management. Also, added a check to see if Log4j Web Support is being used."}
+{"diff_id": 14710, "ref": "am 39ca1329:Merge \\\" Add support and better exceptions for Bitmaps with a null config.\\\"", "pred": "Add support for supportInvalidateOptionsMenu()(DO NOT MERGE)."}
+{"diff_id": 16273, "ref": "am 67c95d18:am bb5bfc6e:am 8b318136:am 70678e0e:am c89f5383:Accessibility support and drawing optimization for SlidingPaneLayout .", "pred": "am 3e3e3e3e:am 4f4f4f4f:am 5e5e5e5e:am 6d6d6d6d:am 7c7c7c7c:am 8b8b8b8b:am 9a9a9a9a:am abababab:am bcbcbcbc:am cdcdcdcd:am dededede:am efefefef:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8f8f:am 90909090:am a0a0a0a0:am b0b0b0b0:am c0c0c0c0:am d0d0d0d0:am e0e0e0e0:am f0f0f0f0:am 01010101:am 12121212:am 23232323:am 34343434:am 45454545:am 56565656:am 67676767:am 78787878:am 89898989:am 90909090:am a1a1a1a1:am b2b2b2b2:am c3c3c3c3:am d4d4d4d4:am e5e5e5e5:am f6f6f6f6:am 07070707:am 18181818:am 29292929:am 3a3a3a3a:am 4b4b4b4b:am 5c5c5c5c:am 6d6d6d6d:am 7e7e7e7e:am 8f8f8"}
+{"diff_id": 14587, "ref": "am 3a23cddb:am 5408c26a:am 1da44e93:am 09eeecdb:am 00ca2532:Support layout_margin * on DrawerLayout children .", "pred": "am 6a404cf3d73:am bddf64f602f:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am 1940e7e3:am"}
