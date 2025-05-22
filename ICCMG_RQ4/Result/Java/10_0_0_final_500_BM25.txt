@@ -1,0 +1,500 @@
+{"diff_id": 103670, "ref": "Added java.io.SyncFailedException , which is indirectly referenced by .", "pred": "Add SyncFailedException to java.io package in Apache Harmony."}
+{"diff_id": 39026, "ref": "rename to getAllSlaveDataSourceNames()", "pred": "rename to getAllSlaveDataSourceNames"}
+{"diff_id": 88408, "ref": "add a newline after forked execution success message", "pred": "Add a log message to indicate the successful completion of a forked execution."}
+{"diff_id": 53936, "ref": "Set proper version on InputStream", "pred": "Set version before creating NamedWriteableAwareStreamInput."}
+{"diff_id": 58185, "ref": "Check NPE", "pred": "Refactor EditPoiData class."}
+{"diff_id": 26668, "ref": "Update getSeasonalId method on DisplayUtils class for not changing the app icon on branded clients", "pred": "Add check for app name in getSeasonalIconId()"}
+{"diff_id": 92119, "ref": "adding java type to service task(<issue_id> )", "pred": "Refactor ServiceTaskJsonConverter to use constants for task types and field names."}
+{"diff_id": 33594, "ref": "Attempt to resurrect this benchmark test-needs some more work to remove the dependency on an external script , which is silly", "pred": "Refactor NERBenchmarkSlowITest to use JUnit 5."}
+{"diff_id": 88999, "ref": "Set appearFrom in before values of TransitionDiff .", "pred": "Move the logic to set the beforeValues in the TransitionDiff to the onAppear method. This ensures that the beforeValues are set only when the transition type is APPEARED."}
+{"diff_id": 7615, "ref": "Switch to using getQualifiedName() for NAME nodes in maybeRecordEs6Subclass.-------------.", "pred": "Remove unnecessary conditional check for superclass type in GlobalNamespace class."}
+{"diff_id": 65565, "ref": "Print current directory & hmcl directory when bootstrap", "pred": "Use an @After to ensure deployments are undeployed"}
+{"diff_id": 1386, "ref": "add missing@Override annotations", "pred": "Add @Override annotation to getDescriptor and perform methods in JobProperty class."}
+{"diff_id": 49786, "ref": "Guaranteed NPE in StatsRulesProcFactory(Lars Francke via Prasanth J).", "pred": "Fixed a bug in the getPrimaryKeyCandidates method where the condition to check if the list of operators is not empty was incorrect."}
+{"diff_id": 8871, "ref": "update java jersey1 sample", "pred": "Fix indentation and formatting in ApiClient.java."}
+{"diff_id": 80346, "ref": "Some configuration may totally miss network interfaces , even localhost .", "pred": "Add a check for network interfaces before running the network discovery task. If no network interfaces are available, the task will not run. This prevents unnecessary execution of the task when there are no network interfaces."}
+{"diff_id": 37713, "ref": "modify init()", "pred": "remove init() method and its logic"}
+{"diff_id": 579, "ref": "Refactoring of the removeOldest method in SlowQueryReport to behave as expected. ", "pred": "Refactor SlowQueryReport to use a Comparator for sorting QueryStats by last invocation time. This simplifies the removeOldest method and makes the algorithm more efficient."}
+{"diff_id": 86088, "ref": "close classloader in absence of reference holders", "pred": "Remove the entry from the cache after unregistering the task."}
+{"diff_id": 103123, "ref": "Minor renamings .", "pred": "Refactor SmartPVRTexturePixelBufferStrategy to use a buffer size limit instead of an allocation size maximum."}
+{"diff_id": 71258, "ref": "Context names fix .", "pred": "Refactor JDBCDataSource to use more descriptive names for execution contexts."}
+{"diff_id": 48615, "ref": "Update GridFsTemplateAutoConfigurationTests.java .", "pred": "Add license header to the files."}
+{"diff_id": 97527, "ref": "A smaller testcase demonstrating that a slow fallback also triggers a failure", "pred": "Add test for slow fallback."}
+{"diff_id": 64902, "ref": "Try to uncorrupt the Converter javadoc.", "pred": "Javadoc tweaks."}
+{"diff_id": 51269, "ref": "Use default assert eventually timeout in ReplicatedMapReadYourWritesTest .", "pred": "Remove unnecessary timeout parameter from ReplicatedMapReadYourWritesTest."}
+{"diff_id": 111708, "ref": "remove commands related code to the bottom", "pred": "Remove duplicate method overrides in RNSVGSvgViewManager."}
+{"diff_id": 44868, "ref": "Remove unused sun.security.provider.SHA import(<issue_id> )", "pred": "Remove unused import sun.security.provider.SHA from ShardRouting class."}
+{"diff_id": 84584, "ref": "Revert \\\" [ MBR ] Migrate Aapt2Compile into MBR \\\" .", "pred": "Use AddsToRuleKey instead of Buildable ."}
+{"diff_id": 80887, "ref": "Safe fallback from broken Python version", "pred": "Improved Python Environment Summary"}
+{"diff_id": 22054, "ref": "remove obsolete NodeUtil.findNodeInstancesInFunction(functionally equivalent to findAllNodeInstances )", "pred": "Make some methods in NodeUtil public for people writing custom compiler passes."}
+{"diff_id": 100799, "ref": "Commented out inaccessible methods in Rexster", "pred": "Commented out code for loading extensions and allowable extensions in TitanRexsterApplication."}
+{"diff_id": 62189, "ref": "Add tolerence for empty splits", "pred": "Refactor CassandraIOTest to reduce the number of empty splits and improve parallelism."}
+{"diff_id": 92330, "ref": "builder.default with the old lombok.experimental.Builder annotation only worked in javac , not eclipse .", "pred": "Add support for experimental Builder annotation in HandleBuilderDefault"}
+{"diff_id": 36157, "ref": "am c7cd2cb2:Add callback which got missed in refactor .", "pred": "am 08072c05:Prevent multiple workspace state animators from being started."}
+{"diff_id": 54688, "ref": "Update BWC checks in HasPrivilegesResponse(<issue_id>).", "pred": "Change version condition after backport."}
+{"diff_id": 15720, "ref": "am 25aba069:Merge \\\" Invalidate DrawerLayout when the status bar background changes \\\" into lmp-mr1-ub-dev .", "pred": "am 962160de:am 25aba069:Merge \\\" Invalidate DrawerLayout when the status bar background changes \\\" into lmp-mr1-ub-dev ."}
+{"diff_id": 25723, "ref": "recover deleted api enpoints(<issue_id> )", "pred": "Add endpoint to find anomalies by anomaly ids and return anomalies wrapper object(<issue_id>)"}
+{"diff_id": 91845, "ref": "update testcase to check the ID of variable is fixed after chaning its type", "pred": "Add test case for ACT-1082."}
+{"diff_id": 69263, "ref": "fixed typo in comment .", "pred": "Fix typo in FrenchTagger class JavaDoc."}
+{"diff_id": 87650, "ref": "Comment is deleted .", "pred": "Remove commented out code in WebSecurityConfigurer."}
+{"diff_id": 36234, "ref": "am 314aaeca:am a6a296ba:Revert \\\" Enable Launcher2 workspace import.\\\" .", "pred": "Revert \"Revert \"Enable Launcher2 workspace import.\"\""}
+{"diff_id": 84921, "ref": "build failed if storm.kafka.client.version=0.10.2.0", "pred": "Use MockTime instead of Time in KafkaUnit."}
+{"diff_id": 95242, "ref": "corrected sanity check", "pred": "Fix the condition to check if the innerClass and outerClass strings are of the correct form."}
+{"diff_id": 52299, "ref": "Transactional collections error messages are enhanced", "pred": "Update log messages to be more descriptive and informative."}
+{"diff_id": 71227, "ref": "data type cache made lazy .", "pred": "Fixed data type cache initialization."}
+{"diff_id": 55278, "ref": "turn off CheckIndex for now(it \\' s buggy:there is a race w/deletion of all files in the data dirs )", "pred": "Changed the default value of checkIndexOnClose to false in MockFSDirectoryService."}
+{"diff_id": 73934, "ref": "( process)Clean-up java.lang.ProcessImpl.finalize , does not need to be public .", "pred": "Change finalize method to protected in ProcessImpl class for consistency and security."}
+{"diff_id": 45509, "ref": "Precompile pattern for checking of classes in javax package in ReflectUtils .", "pred": "Precompile pattern for checking of classes in javax package in ReflectUtils."}
+{"diff_id": 49235, "ref": "inject classes in blobservice directly instead of using injector", "pred": "Remove unused injector from BlobService."}
+{"diff_id": 17359, "ref": "Menu entry swapper:Swap last destination for spiritual fairy tree .", "pred": "Add support for swapping the last-destination menu entry for the \"tree\" option."}
+{"diff_id": 36882, "ref": "JBRULES-1520 RightTuple merge for asymmetrical Rete propagations .", "pred": "JBRULES-1520 RightTuple merge for asymmetrical Rete propagations."}
+{"diff_id": 58754, "ref": "Less restriction in shutdown hook modification", "pred": "Add support for adding and removing shutdown hooks from outside the event loop."}
+{"diff_id": 41098, "ref": "Decrease to DEBUG the log \\\" API compatibility mode is enabled on plugin xxx \\\"", "pred": "Changed log level from info to debug when API compatibility mode is enabled on a plugin."}
+{"diff_id": 87491, "ref": "Check if a year/date is a leap year in Java(<issue_id>).", "pred": "Added unit tests for leap year calculation."}
+{"diff_id": 98246, "ref": "renamed method to avoid checkstyle error(<issue_id> )", "pred": "Fix method name in JdbcSource class to follow naming conventions."}
+{"diff_id": 22191, "ref": "Remove the misspelled and deprecated TruffleStackTrace # getStacktrace method", "pred": "Revert \" HBASE-23194 Remove unused methods from TokenUtil(<issue_id>)\" ."}
+{"diff_id": 18242, "ref": "better handling of time-out at solrj in case that a commit is done in a.fail-over case during add", "pred": "Add a commit message."}
+{"diff_id": 33175, "ref": "OF-1252 Move and tweak null store cache message(<issue_id>).", "pred": "Refactor error logging to debug logging for null storage in Cache."}
+{"diff_id": 94176, "ref": "Added test .", "pred": "IGNITE-2434: Added failing test case."}
+{"diff_id": 24665, "ref": "block for AES to clear before we teardown the token metadata for the next test .", "pred": "Ensure that AES is cleared before teardown in AntiEntropyServiceTest."}
+{"diff_id": 82661, "ref": "Use DevEnv.logErrorAndThrowIfDevMode", "pred": "Remove unhandled processState warning in PendingTradesViewModel."}
+{"diff_id": 85449, "ref": "Make field final", "pred": "Make privateAPI final in ChronicleSetBuilder."}
+{"diff_id": 56102, "ref": "minor change", "pred": "Add method to get the best merkle root."}
+{"diff_id": 6164, "ref": "The entire ArrayList of listeners in ShadowSensorManager should have been made into a CopyOnWriteArrayList rather than creating a new one for the iteration in sendSensorEventToListeners(). PiperOrigin-RevId:243087949", "pred": "Remove unnecessary copy in sendSensorEventToListeners."}
+{"diff_id": 21442, "ref": "During CheckCast lowering , if null was never seen and a guard is created for the null case , the instanceof should be done on a non-null value .", "pred": "Re-enabled new lowering of checkcast with the addition of a null-check guard where the profile has nullSeen=FALSE. This change ensures that the resulting type is compatible with the method being invoked."}
+{"diff_id": 104464, "ref": "string to pic", "pred": "Added a new task to convert a string to a bitmap in the `WriteWeiboActivity` class. The `String2PicTask` class extends `MyAsyncTask` and overrides the `doInBackground` and `onPostExecute` methods to handle the conversion process. The `convertStringToBitmap` method now creates a new instance of `String2PicTask` and executes it using the `MyAsyncTask.THREAD_POOL_EXECUTOR`. The `onPostExecute` method displays a success or failure message based on the result of the conversion. Additionally, the `onDestroy` method now cancels the `String2PicTask` and `GetEmotionsTask` tasks using the `Utility.cancelTasks` method."}
+{"diff_id": 107904, "ref": "Add missing params in PipelineBase.zadd(<issue_id> )", "pred": "Update zadd method signature."}
+{"diff_id": 54955, "ref": "pause index following after test", "pred": "Pause follow at the end of the test."}
+{"diff_id": 65490, "ref": "Remove final switch from CaseFormat.-------------.", "pred": "Refactor CaseFormat to use enum methods instead of a switch statement."}
+{"diff_id": 70960, "ref": "Cache fix(null name).", "pred": "Fixed null pointer exception in getCachedObject method."}
+{"diff_id": 22399, "ref": "Try to clarify the logic for DebugContext in TruffleCompilerImpl <issue_id> oCompile", "pred": "Fix TruffleCompilerImpl.openDebugContext to use the OptionValues from the optionsMap instead of TruffleCompilerOptions.getOptions(). PullRequest:graal/893"}
+{"diff_id": 27232, "ref": "Removed explicit argument types and redundant initializer in CopyToLocalCommand", "pred": "Removed explicit argument type in CopyToLocalCommand"}
+{"diff_id": 58782, "ref": "Annotate Http2ServerDowngrader with@UnstableApi .", "pred": "Add @UnstableApi to Http2ServerDowngrader."}
+{"diff_id": 68445, "ref": "remove unused variable in EntitySqlDaoTransactionalJdbiWrapper .", "pred": "Remove unused variable and fix generics in EntitySqlDaoTransactionalJdbiWrapper."}
+{"diff_id": 99568, "ref": "Use the framework \\' s setFitsSystemWindows method rather than the deprecated ViewUtils version. PiperOrigin-RevId:243667717", "pred": "Set fitsSystemWindows directly on NavigationView."}
+{"diff_id": 94133, "ref": "Connection creation should be thread-safe", "pred": "Add null check for timer and assign to variable so it is shutdown."}
+{"diff_id": 1959, "ref": "log full display name to disambiguate jobs when used with folders", "pred": "Fixed log message to display full display name of the job when SCM changes are detected."}
+{"diff_id": 40892, "ref": "LOG4J2-980 Replaced Long.compare(long , 0)with Long.signum(long)in .", "pred": "Refactor BurstFilter to use Long.signum(diff) instead of Long.compare(diff, 0) for better performance."}
+{"diff_id": 22958, "ref": "Remove Java based JFR events since they are redundant. PullRequest:graal/3429", "pred": "Added new test for JVMCI version check."}
+{"diff_id": 80795, "ref": "NBSwingWorker is not needed , replaced by RequestProcessor .", "pred": "Synchronize access to refreshRunning variable."}
+{"diff_id": 24915, "ref": "improved error message per <issue_id> , <issue_id>", "pred": "improve error reporting for 5.x migration to 6.x per <issue_id>"}
+{"diff_id": 75056, "ref": "Remove System.err.println oops .", "pred": "Remove unnecessary print statement in NativeScanner."}
+{"diff_id": 76847, "ref": "adapting error message", "pred": "Refactor label template validation in `PipelineConfig` class to use a constant for the error message."}
+{"diff_id": 108096, "ref": "Shortcut for null values , remove unnecessary assignment .", "pred": "Remove unnecessary assignment in StringPool.get() method."}
+{"diff_id": 9846, "ref": "Update RequestAuthenticator.java", "pred": "Update RequestAuthenticator.java"}
+{"diff_id": 47772, "ref": "copyright correction(<issue_id> )", "pred": "Update OpenERPHelper.java - added missing copyright header"}
+{"diff_id": 44449, "ref": "HBASE-8895 Misc:replace hbase.client.retries.number w/define and remove unused imports ; ADDENDUM UNDO OVERCOMMIT IN RECOVERABLEZOOKEEPER .", "pred": "HBASE-16238 It's useless to catch SESSIONEXPIRED exception and retry in RecoverableZooKeeper (Allan Yang )"}
+{"diff_id": 67784, "ref": "Useless parentheses .", "pred": "Remove unnecessary parentheses and simplify the conditions in the reflectionAppend method of HashCodeBuilder."}
+{"diff_id": 49311, "ref": "Remove ` synchronousIterableGetter ` indirection", "pred": "Use CompletableFuture.completedFuture instead of synchronousIterableGetter ."}
+{"diff_id": 43703, "ref": "HBASE-8077 Configure the job name in ImportTsv .", "pred": "HBASE-13352 Add hbase.import.version to Import usage(Lars Hofhansl )"}
+{"diff_id": 61854, "ref": "Add documentations for async apis .", "pred": "Adds async methods to ClusterQuery class."}
+{"diff_id": 74545, "ref": "Remove un-needed qualified export from java.base to java.desktop .", "pred": "Remove unnecessary exports from java.base module."}
+{"diff_id": 113604, "ref": "JsConsole no longer references its JavasSript prototype .", "pred": "Remove unnecessary annotation and comments in JsConsole class."}
+{"diff_id": 98264, "ref": "trigger build", "pred": "Refactor test data setup in WindowingIntTest"}
+{"diff_id": 97861, "ref": "Remove outdated comment", "pred": "Remove unnecessary comment from JobPollingService"}
+{"diff_id": 94717, "ref": "Added comment .", "pred": "Avoid second start() and stop() calls on store when near cache is enabled."}
+{"diff_id": 67235, "ref": "Make permanent changes already in tools/blaze.blazerc .", "pred": "Add -DDEBUG=1 to FASTBUILD_COPTS."}
+{"diff_id": 86120, "ref": "Minor JavaDoc/deprecation cleanup in CheckpointedFunction", "pred": "Remove `@SuppressWarnings(\"deprecation\")` from CheckpointedFunction interface."}
+{"diff_id": 41901, "ref": "Removed private getLockService method in favor of a direct call to LockService.getInstance()", "pred": "Refactored the code to use LockServiceFactory to get the LockService instance instead of using getLockService method. This ensures that the LockService instance is obtained from the factory, providing better control and management of the lock service."}
+{"diff_id": 34519, "ref": "SimpleNetwork finally uses distance cache to speed its processing in case of often signal change on the network .", "pred": "Refactor the `getDistance` and `isInDistance` methods to use a distance cache to improve performance. This will help to avoid recalculating distances for the same node pairs."}
+{"diff_id": 40543, "ref": "LOG4J2-1278 added explicit cast to disambiguate which method is being called", "pred": "LOG4J2-1677 Completes the work to make MapFilter garbage-free ; call MapMessage:: getDataValue to avoid calling MapMessage:: getData(which allocates )"}
+{"diff_id": 133, "ref": "Using localhost should allow this to work with IPv4 and/or IPv6 .", "pred": "Use localhost instead of 127.0.0.1 to avoid IPv6 issues."}
+{"diff_id": 77586, "ref": "rename R fields using resource names(<issue_id> )", "pred": "Refactor `UserPreferences` class to sort properties before storing them to disk. This is done to be compatible with version control systems, as each change may lead to problems by diff against previous versions if the property entries are randomly distributed."}
+{"diff_id": 109524, "ref": "Improve performance of internal DependencyStack collection", "pred": "Refactor `DependencyStack` to use an array instead of an `ArrayList` to improve performance. PullRequest:guice/1135"}
+{"diff_id": 43646, "ref": "HBASE-21707 Addendum remove debug logs", "pred": "Remove unnecessary logging in RSGroupBasedLoadBalancer."}
+{"diff_id": 78763, "ref": "disable checking if no source unit is available .", "pred": "Add source check in the scope visitor to avoid null pointer exception."}
+{"diff_id": 45326, "ref": "Issue <issue_id>-more HostPort tests .", "pred": "Add more tests to HostPortTest"}
+{"diff_id": 112499, "ref": "Remove useless test.", "pred": "[GR-6789]: Updated the JdkVersion class to reflect the correct version of Java 9."}
+{"diff_id": 25395, "ref": "relax ExaminationPerformanceTest(lower time needed )", "pred": "* Make ExaminationPerformanceTest fast again(temporary workaround)"}
+{"diff_id": 19061, "ref": "added tests on already existend duplicate in case of batch , issue <issue_id>", "pred": "Add test case for issue <issue_id>"}
+{"diff_id": 85552, "ref": "Remove other StandardCharset use .", "pred": "Use explicit character encoding for string conversion."}
+{"diff_id": 85729, "ref": "Removed unneeded import .", "pred": "Remove unused import from UPCReader class."}
+{"diff_id": 35946, "ref": "Automated import from// branches/donutburger/..@141664 , 141664", "pred": "Automated import from// branches/master/..@141665 , 141665"}
+{"diff_id": 42217, "ref": "Add unit test for <issue_id> ORE-3493 Inconsistent resolution of ChangeLogParameters in liquibase.changelog.ChangeLogParameters <issue_id> indParameter", "pred": "Add unit test for ORE-3493 Inconsistent resolution of ChangeLogParameters in liquibase.changelog.ChangeLogParameters ORE-3493 indParameter ."}
+{"diff_id": 96058, "ref": "Improved management of template selectors at TemplateSpec constructors", "pred": "Refactored the TemplateSpec constructor to handle single template selectors more efficiently."}
+{"diff_id": 4028, "ref": "Refactor RefArray copy impl", "pred": "Refactor BRefValueArray.copy() method to avoid null pointer exception."}
+{"diff_id": 107572, "ref": "revert dubbo test case .", "pred": "Refactor ApacheDubboProxyServiceTest class to use JUnit 5 annotations and remove unused imports."}
+{"diff_id": 100658, "ref": "KYLIN-3718 Segments in volatile range is more than designated value", "pred": "Fix comparison in Segments.java to include the latest segment end timestamp in the volatile range."}
+{"diff_id": 44243, "ref": "HBASE-8994 Adding log to chaos monkey actions to show what \\' re performed .", "pred": "HBASE-24658 Update PolicyBasedChaosMonkey to handle uncaught exceptions. (addendum)"}
+{"diff_id": 10517, "ref": "Make buffer size for limit the symmetric between the client and the driver for send and receive .", "pred": "Removed unnecessary shiftsForTermId field and set the position limit reporter to half the term capacity."}
+{"diff_id": 31408, "ref": "Increase test coverage of ImapResponseParserTest", "pred": "Refactored ImapResponseParserTest to use a test callback class and added new test cases for parsing capabilities and untagged responses."}
+{"diff_id": 2025, "ref": "TextButton # getText returns a CharSequence", "pred": "Change return type of getText() to CharSequence in TextButton."}
+{"diff_id": 56148, "ref": "use the class private var cpuProcessor", "pred": "Refactor the code to improve the readability and maintainability of the code. Specifically, the changes include renaming variables, adding comments, and reorganizing the code to make it more understandable. Additionally, the changes involve creating new objects and initializing them with the required parameters. These changes aim to enhance the overall quality of the code and make it easier to understand and maintain."}
+{"diff_id": 105809, "ref": "Adds newline to turbine stream .", "pred": "Add newline character to SSE message payload."}
+{"diff_id": 60650, "ref": "Guard against IllegalStateException during transfer .", "pred": "Refuse the handshake if the ActiveMQ remoting service is stopped or paused."}
+{"diff_id": 101492, "ref": "Enable EmptyBlockTag. And fill out the description a bit more to explain why we might not favour this pattern.-------------.", "pred": "Improve error message for EmptyBlockTag."}
+{"diff_id": 113720, "ref": "clean up", "pred": "Refactor CalligraphyLayoutInflater to use the new LayoutInflaterCompat API."}
+{"diff_id": 3073, "ref": "<issue_id> added failing test", "pred": "Add test for issue 1054."}
+{"diff_id": 90836, "ref": "Space after text and Lambda ResourceHander .", "pred": "Add missing space in error message."}
+{"diff_id": 16040, "ref": "Create MediaSessionCompat.Token with session2 token if specified on SDK < 21 .", "pred": "am 982bcf6a:am 10d92562:am 4843e475:am e6e28247:Merge \\\" MediaSessionCompat:Use Media Button Component on API 21 + \\\" into lmp-mr1-ub-dev ."}
+{"diff_id": 29925, "ref": "Restore behavior of FileEndpoint <issue_id> hmodPermissionsAreValid which was accidentally broken by <issue_id>(\\\" Use primitive types for variables that are never assigned null(as suggested by lgtm.com).", "pred": "Fix invalid permissionsString length in FileEndpoint."}
+{"diff_id": 74985, "ref": "loadWithNewGlobal needs to wrap createGlobal in AccessController.doPrivileged .", "pred": "Fix loadWithNewGlobal to handle RuntimeExceptions."}
+{"diff_id": 36260, "ref": "Resolve split-packages:move everything from kie-api under org.kie.api:move resources directly under org.kie", "pred": "Fix loading of XSD schema in KieModuleModelImpl."}
+{"diff_id": 88880, "ref": "Fixed the test .", "pred": "Removed unnecessary code and added assertions to TestScriptEval"}
+{"diff_id": 3710, "ref": "Revert \\\" Fix ballerina-lang temporarily to get the package structure to work \\\" .", "pred": "Refactor GeneralFSPackageRepository to make it extensible."}
+{"diff_id": 10428, "ref": "Incorporate isConnected() in tryClaim and offer for Publication so NOT_CONNECTED is returned when no subscribers exist .", "pred": "Remove redundant isClosed check on tryClaim/offer."}
+{"diff_id": 32686, "ref": "Update controller-server/src/main/java/com/yahoo/vespa/hosted/controller/restapi/filter/SignatureFilter.java .", "pred": "Refactor comment in SignatureFilter to clarify responsibility for request body validation."}
+{"diff_id": 50110, "ref": "HiveStrictManagedMigration utility should update DB/Table location as last migration steps(Jason Dere , reviewed by Ashutosh Chauhan )", "pred": "HiveStrictManagedMigration updates DB location even with --dryRun setting on (Jason Dere, reviewed by Ashutosh Chauhan)"}
+{"diff_id": 95436, "ref": "touch", "pred": "Update copyright header in TaskRuntimeImpl file."}
+{"diff_id": 49807, "ref": "MoveTask should only release its query associated locks(Chaoyu Tang , reviewed by Yongzhi Chen )", "pred": "Lower MoveTask Lock Logging to Debug(Beluga Behr , Igor Kryvenko via Sahil Takiar)."}
+{"diff_id": 20489, "ref": "add testcase for issue <issue_id>", "pred": "add testcase for issue <issue_id>"}
+{"diff_id": 64158, "ref": "Test bi-directional index following during a rolling upgrade .", "pred": "Mute CcrRollingUpgradeIT.testUniDirectionalIndexFollowing and testBiDirectionalIndexFollowing(<issue_id>)."}
+{"diff_id": 95550, "ref": "change(void)param methods to jsut() for <issue_id> .", "pred": "Remove unneeded String.format."}
+{"diff_id": 47259, "ref": "Added column tracking for streaming worksheet to prevent autosizing error", "pred": "Added tracking of all columns for autosizing if using streaming worksheet in ExcelWriterStep."}
+{"diff_id": 81710, "ref": "improved description for FundingRecord with some null checks", "pred": "Refactor GeminiAdapters.java to improve the readability and maintainability of the code. Specifically, the changes include updating the logic for setting the description of a funding record to make it more concise and easier to understand."}
+{"diff_id": 16506, "ref": "am d95fce37:am c2ec3079:am 517e7cec:Merge \\\" Make focusable rules respect the drawer status.\\\"", "pred": "am 670d0a48:am dee8e20f:am d95fce37:am c2ec3079:am 517e7cec:Merge \\\" Make focusable rules respect the drawer status.\\\""}
+{"diff_id": 50637, "ref": "Hive ZooKeeper Locking-Throw and Log(Igor Kryvenko via Ashutosh Chauhan).", "pred": "Refactor unlockWithRetry method to throw LockException with a message and the original exception."}
+{"diff_id": 53864, "ref": "Remove support for min_similarity in fuzzy query .", "pred": "Remove support for min_similarity in fuzzy query."}
+{"diff_id": 9212, "ref": "Use Implementation-Version from MANIFEST.MF instead of patching JMeterVersion.java .", "pred": "Modify behavior of factory Source.fromFileName(( CharSequence , String)."}
+{"diff_id": 55834, "ref": "Polish DiscoveryRequestTests", "pred": "Refactor DiscoveryRequestTests to use static imports and improve readability."}
+{"diff_id": 52208, "ref": "Deleted a test class..how did that end up in my pr. .", "pred": "Delete Main.java"}
+{"diff_id": 45231, "ref": "Drop ` users:list ` permission from sidecar role(<issue_id>).", "pred": "Remove unused import and permission."}
+{"diff_id": 17565, "ref": "Update dragonhide clue text(<issue_id>).", "pred": "Update skill challenge clue text for crafting a green dragonhide body."}
+{"diff_id": 27345, "ref": "@ uronce-cc add one more assertion in loadWildcardTest", "pred": "Add unit tests for the `load` command in the `TFsShellTest` class."}
+{"diff_id": 64343, "ref": "fixing test for get trained models bwc(<issue_id>).", "pred": "Add page params to the request in GetTrainedModelsRequestTests."}
+{"diff_id": 28013, "ref": "readded remove not existing file test", "pred": "Remove @Ignore from TFsShellTest.rmNotExistingFileTest"}
+{"diff_id": 105409, "ref": "Make getWalletLock final.", "pred": "Fix typo in WalletApplication and make getWalletLock final."}
+{"diff_id": 82976, "ref": "Remove unused SelectBaseCurrencyWindow", "pred": "Remove SelectBaseCurrencyWindow from desktop/src/main/java/bisq/desktop/main/overlays/windows."}
+{"diff_id": 25558, "ref": "Improve PartitionChangeMove javadocs etc(thanks Radovan )", "pred": "Add a comment to PartitionChangeMove class."}
+{"diff_id": 35398, "ref": "Preventing delayed processing of old touch target in Customization drawer. Change-Id:I <issue_id>", "pred": "Add null check for mLastTouchedItem in onInterceptTouchEvent."}
+{"diff_id": 68299, "ref": "Change createEventData method to static object .", "pred": "Add test for EventBuffer to verify the serialization of events."}
+{"diff_id": 6591, "ref": "Update unit test(<issue_id> )", "pred": "Add test for non-static, non-final field with initializer. (#380)"}
+{"diff_id": 111931, "ref": "Update AddressSpace.java .", "pred": "Update AddressSpace.java"}
+{"diff_id": 95644, "ref": "Whitelisted 5.15.7.14", "pred": "whitelist fw 5.15.7.14 <issue_id>"}
+{"diff_id": 2338, "ref": "LWJGL3 remove a redundant controller scan", "pred": "Remove unnecessary controller initialization in Lwjgl3ControllerManager constructor"}
+{"diff_id": 44767, "ref": "Avoid logging excessive exceptions in ProxiedResource(<issue_id>).", "pred": "Add debug log message when unable to call a URL on a node."}
+{"diff_id": 90569, "ref": "filter out multiple vertx instances warning in development", "pred": "Add LogCleanupFilterBuildItem to VertxHttpProcessor"}
+{"diff_id": 18749, "ref": "added test case for check deep linked document save , issue <issue_id>", "pred": "Add test case for deep linked document save."}
+{"diff_id": 99681, "ref": "catch bad version in persistentopic , make its behavior same as namespace(<issue_id>).", "pred": "Change some KeeperException log level to debug(<issue_id>)."}
+{"diff_id": 11924, "ref": "In 3.5 , and Lucene 5.5 , the standard analyzer was filtering English stop words.", "pred": "Add stop words to the StandardAnalyzer. This change adds stop words to the StandardAnalyzer."}
+{"diff_id": 103393, "ref": "Fixing comment to make clearer", "pred": "Fix comment in UnixFileModeAttribute to clarify the purpose of the explicit cast."}
+{"diff_id": 29888, "ref": "jms producer sending Object should madatory convert to serializable and throw exception if not possible. ", "pred": "Refactor JmsBinding to handle NoTypeConversionAvailableException in Object message conversion."}
+{"diff_id": 40291, "ref": "in X11:return Atom constants when calling Atom.fromNative (..) .", "pred": "Add missing XA constants to X11 interface."}
+{"diff_id": 52922, "ref": "Remove 6.1.5 version constant .", "pred": "Remove version 6.1.5(<issue_id>)"}
+{"diff_id": 78428, "ref": "Simplify ConditionInQuery.getValueSlow()", "pred": "Refactored the getValueSlow method in ConditionInQuery class."}
+{"diff_id": 107019, "ref": "Use a specific proxy for the unusual case .", "pred": "Add acceptance test for trusting targets by host name"}
+{"diff_id": 102323, "ref": "Add generics test", "pred": "Add tests for Generic15Test class."}
+{"diff_id": 88771, "ref": "missed inheritence .", "pred": "Refactor ActiveProjectArtifact to split the immutable and mutable parts of an artifact into separate classes. PiperOrigin-RevId: 195717688"}
+{"diff_id": 72951, "ref": "Prevent instantiation of EnumSet subclasses through deserialization .", "pred": "Add readObjectNoData method to throw InvalidObjectException."}
+{"diff_id": 36463, "ref": "jbpm still uses the old method signurature , adding it back.(cherry picked from commit <issue_id> )", "pred": "Add method to get MVELCompilationUnit from MVELDialect."}
+{"diff_id": 109580, "ref": "Make it possible to inject constant instances .", "pred": "Make the constant method public in ContainerBuilder."}
+{"diff_id": 78046, "ref": "Ensure threads are stopped after the test finishes .", "pred": "Add condition to exclude DB_CLOSE_DELAY from random SQL test."}
+{"diff_id": 66734, "ref": "Set-fmodules-cache-path to be rooted in the genfiles directory whenever modules are enabled. Also warn when-fmodules-cache-path is explicitly set by the user(either in configuration or rule attributes).", "pred": "Remove the unused registerLinkActions method. PiperOrigin-RevId:194430205"}
+{"diff_id": 41238, "ref": "The \\\" Squid \\\" rule engine should be renamed \\\" Sonar \\\" rule engine in the web interface", "pred": "Change repository name from \"Squid\" to \"Sonar\" in SquidConstants."}
+{"diff_id": 107589, "ref": "Use import .", "pred": "Refactor Response class to use Request from okhttp3"}
+{"diff_id": 10484, "ref": "changed Ping runSubscriber control back to number of messages based , but used a counter in the data handler instead of return value from poll .", "pred": "Fix the volatile boolean pongSubscriberDone to a long numPongsReceived to avoid the need for a volatile write and read."}
+{"diff_id": 71744, "ref": "Remove internal API usage .", "pred": "Fix class loader issues in driver descriptor."}
+{"diff_id": 111420, "ref": "StringBuffer decorator .", "pred": "Add StringBufferWriter from JDK."}
+{"diff_id": 3631, "ref": "Move defined readonly type array creation to the constructor", "pred": "Refactored the `JMethodResolver` class to use a predefined set of read-only member types."}
+{"diff_id": 84798, "ref": "import org.slf4j instead of parquet.org.slf4j .", "pred": "Update import statements for Logger and LoggerFactory in ZeppelinR class."}
+{"diff_id": 52217, "ref": "MPSCQueueStressTest added max capacity to the queue to prevent OOME", "pred": "Increased the duration of the test to 30 seconds and added a sleep condition to the producer thread."}
+{"diff_id": 20391, "ref": "Make the click listener equally inaccessible for now.// FREEBIE", "pred": "Comment out the device category in the preferences activity."}
+{"diff_id": 81381, "ref": "Reformat", "pred": "Remove unnecessary line break in AsynchronousProcessor class definition"}
+{"diff_id": 52699, "ref": "awaitFix on OpenLdapTests.testUsageStats .", "pred": "Mute OpenLdapTests.testUsageStats()."}
+{"diff_id": 111705, "ref": "Revert 0.47.0", "pred": "Add createJSModules method to SvgPackage"}
+{"diff_id": 29676, "ref": "Camel-AWS-*:Lets adopt the same approach as CAMEL-12936 for all the components , camel-aws-ddbstreams", "pred": "Camel-AWS-*: Adopt the same approach as CAMEL-12936 for all the components, camel-aws-ddb"}
+{"diff_id": 51211, "ref": "added labels to ClientEndpoint # toString() method(<issue_id> )", "pred": "Add labels to client endpoint logging"}
+{"diff_id": 2870, "ref": "<issue_id> removed duplicate methods", "pred": "Remove unused `CommandSpec.args()` and `CommandSpec.argValues()` methods."}
+{"diff_id": 58760, "ref": "Faster memory copy between direct buffer and byte array(part 2 )", "pred": "Optimize PooledUnsafeDirectByteBuf to reduce memory copy if possible."}
+{"diff_id": 92065, "ref": "Prevent issue when retrieving user task without form properties", "pred": "Add null check for property value in TaskPropertiesResource"}
+{"diff_id": 43672, "ref": "HBASE-6528 Raise the wait time for TestSplitLogWorker # testAcquireTaskAtStartup to reduce the failure probability .", "pred": "Increase timeout for acquiring task in TestSplitLogWorker."}
+{"diff_id": 13684, "ref": "Replaces the dependency of.service.protocol.SecureEvent on.impl.media.CallSessionImpl with.service.media.CallSession as reported by Javier Mendiara .", "pred": "Refactor SecureEvent class to use fully qualified imports and update the javadoc."}
+{"diff_id": 1093, "ref": "JEP-224 GA system read permission(<issue_id> )", "pred": "Remove @Restricted(Beta.class) from SYSTEM_READ permission."}
+{"diff_id": 101402, "ref": "Use getGeneratedBy to look up Generated annotations .", "pred": "Refactor RefersToDaggerCodegen (1 of 2)."}
+{"diff_id": 85656, "ref": "Indentation wtf", "pred": "Fix indentation and add comments."}
+{"diff_id": 34007, "ref": "Update reference to NLP cluster model file in dependency parser integration test", "pred": "Update expected depparser English SD accuracy and file paths."}
+{"diff_id": 41381, "ref": "SONAR-8957 Refactor DeactivateActionTest", "pred": "Remove unused fields and variables in PermissionTemplateServiceTest."}
+{"diff_id": 51278, "ref": "Re-enabling RepartitioningStreeTest.callWithBackups(<issue_id> )", "pred": "Ignore RepartitioningStressTest.callWithBackups test due to issue #3683."}
+{"diff_id": 1337, "ref": "@ Extension.ordinal() should now work , at least those that are specified on a class .", "pred": "Update@Retention to RUNTIME."}
+{"diff_id": 51220, "ref": "ParkedOperation IDS for the sake of static code validation(<issue_id> )", "pred": "Implement IdentifiedDataSerializable in ParkedOperation."}
+{"diff_id": 45591, "ref": "435412 Make AbstractSession.access() more amenable to customization", "pred": "Add checkExpiry method to AbstractSession."}
+{"diff_id": 50769, "ref": "Improvement performance of MapOperator for Parquet(Colin Ma , reviewed by Ferdinand Xu )", "pred": "Add a check to skip processing if the table name is already present in the configuration."}
+{"diff_id": 42941, "ref": "few more undefined < x > errors", "pred": "Simplified errors <issue_id>"}
+{"diff_id": 55302, "ref": "Mute failure in InternalEngineTests(<issue_id> )", "pred": "Mute failure in InternalEngineTests(<issue_id>)"}
+{"diff_id": 68226, "ref": "Tag based connection strategy:reformat code", "pred": "Remove redundant instruction from AxonServerConnectionManager."}
+{"diff_id": 4029, "ref": "Correct the grammar. Co-Authored-By:praneesha < praneesha@wso2.com >", "pred": "Correct the grammar. Co-Authored-By:praneesha < praneesha@wso2.com >"}
+{"diff_id": 41139, "ref": "Revert \\\" SONAR-6036 Try deleting the memory mapped file at JVM termination \\\" .", "pred": "SONAR-6036 Remove the deletion of the memory mapped file at JVM termination"}
+{"diff_id": 8250, "ref": "Remove obsolete logic for removing a.starlark_aspect.i.js suffix from.i.js files. PiperOrigin-RevId:336995045", "pred": "Remove redundant code for non-ijs files."}
+{"diff_id": 23492, "ref": "disable ConvertDeoptimizeToGuardPhase for snippet graphs containing snippet counters to avoid(silent)deletion of counters on a path terminated by a deopt", "pred": "Refactor finalizeGraph method in ReplacementsImpl to handle snippet counters."}
+{"diff_id": 48426, "ref": "CubeInput/CubeOutput for 3.0..some optimization(variables support)follows for easier test case generation .", "pred": "Removed unused classes and updated TODOs."}
+{"diff_id": 35528, "ref": "am 23094b46:am 378fc245:Merge \\\" Updating call to match framework.\\\"", "pred": "Updating call to match framework."}
+{"diff_id": 90231, "ref": "Unit tests for goto and goto/16 instructions embiggening .", "pred": "Add tests for converting goto to goto/16 and goto/16 to goto/32 instructions. This will ensure that the conversion is done properly."}
+{"diff_id": 49628, "ref": "Investigate test failure on mapjoin_filter_on_outerjoin.q [ Spark Branch ](Chao Sun via Szehon).", "pred": "Refactor SparkHashTableSinkOperator to set the tag order in the initializeOp method. This change ensures that the tag order is properly set when initializing the operator."}
+{"diff_id": 32671, "ref": "Whitelist correct non-docker metric names. * disk.limit will be calculated in metricsproxy , so remove it .", "pred": "Fix memory usage metric name in SystemMetrics."}
+{"diff_id": 73262, "ref": "Remove the implNote in the DOM package description added by JDK-8249643 .", "pred": "Remove outdated @implNote from org.w3c.dom.package-info"}
+{"diff_id": 92470, "ref": "Replace duplicate code with new method , add null check", "pred": "Refactored the code to use a separate method for copying the member value pair name."}
+{"diff_id": 103083, "ref": "Minor changes in LoopModifier .", "pred": "Refactor LoopModifier to use constants from LoopModifier class."}
+{"diff_id": 18676, "ref": "removed throw IOException in OJSONWriter.listToJSON() and OJSONWriter.mapToJSON()", "pred": "Patch by Luca Molino to log errors on transforming records to JSON."}
+{"diff_id": 47308, "ref": "If the default locale wants to be German on first load , switch to English. ", "pred": "Fix the default locale to German if it is set to German on first load."}
+{"diff_id": 24330, "ref": "Disable auto complete for crossref field <issue_id>", "pred": "Remove unused field AUTOCOMPLETER_COMPLETE_FIELDS."}
+{"diff_id": 24750, "ref": "more informative exception message snappy uncompressing fails", "pred": "Throw a more descriptive exception when failed to merge rows in PrecompactedRow."}
+{"diff_id": 14326, "ref": "am 0aa85c9a:Merge \\\" Invalidate structure when adapter is changed \\\" into klp-modular-dev .", "pred": "am 1a0aad1c:RecyclerView:suppress double ACTION_DOWN for item touch listeners ."}
+{"diff_id": 29293, "ref": "camel-core optimize-CamelURIParser for parsing almost all commong Camel endpoint URIs in a faster and lighter way than using java.net.URL .", "pred": "Remove unused method isSafeFastParser from UnsafeUriCharactersEncoder class."}
+{"diff_id": 109464, "ref": "Catch a rare exception when starting the reschedule service on devices from Acer", "pred": "Add try-catch block to handle exceptions when starting JobRescheduleService."}
+{"diff_id": 44438, "ref": "HBASE-2824 A filter that randomly includes rows based on a configured chance ; Clarify test .", "pred": "Change on 2016/12/05 by kstanger < kstanger@google.com > ."}
+{"diff_id": 86775, "ref": "MemoryManager.release is now called after task has finished", "pred": "Unregister task from memory manager and IO manager in TaskManager's unregisterTask method."}
+{"diff_id": 67772, "ref": "Add missing JavaDoc .", "pred": "Add Javadoc to FastDatePrinter."}
+{"diff_id": 105734, "ref": "adding description to Ignore comment", "pred": "Ignore test that is not possible to mock in Java 9."}
+{"diff_id": 26766, "ref": "Remove condition to ignore android.hardware.action.NEW_PICTURE events in devices with version >=4.0", "pred": "Remove the version check for the unofficial photo action."}
+{"diff_id": 29740, "ref": "reconnect netty4 consumer on channel close as well", "pred": "CAMEL-1077: Refactored the code to schedule a reconnect to happen when the channel closes."}
+{"diff_id": 8417, "ref": "Added note in JavaDoc that the ChatStateManager # getInstace need be called in order to receive chat state notifications. ", "pred": "Add note about the necessity of calling `ChatStateManager.getInstance(XMPPConnection)` in order for the listeners to be registered appropriately with the connection. If this does not occur, update notifications will not be received."}
+{"diff_id": 40993, "ref": "Drop deprecated QGChangeEventListener.onChanges", "pred": "Remove deprecated method and turn default method into an interface method in QGChangeEventListener"}
+{"diff_id": 64114, "ref": "Unmute testBanOnlyNodesWithOutstandingDescendantTasks", "pred": "Use ConcurrentSet in testTrackingChannelTask(<issue_id>)."}
+{"diff_id": 68989, "ref": "improve suggestion", "pred": "Fix typo in replacement for 'unswar'"}
+{"diff_id": 67724, "ref": "Update docs for-- combined_report flag .", "pred": "Refactor combined_report option to only support LCOV reports. RELNOTES:None."}
+{"diff_id": 104285, "ref": "add argument separator before path", "pred": "Added a command to specify the filename in Mercurial repository."}
+{"diff_id": 29354, "ref": "Added Main class in camel-test-blueprint , to make it easier to run Camel Blueprint out of container. ", "pred": "Add method to load resources from a package name using the thread context class loader or the class loader used to load the class."}
+{"diff_id": 69906, "ref": "move timestamp assertion", "pred": "Fix the timestamp issue in RollCycleMultiThreadStressTest."}
+{"diff_id": 97721, "ref": "add test for NamedThreadFactory(<issue_id> )", "pred": "add NamedThreadFactoryTest.java file with license."}
+{"diff_id": 4690, "ref": "String.contains(CharSequence)only exists in 1.5. Use indexOf(String)>=0 instead. ", "pred": "Fix the priority of the circular dependency bug to be low if the class name contains a dollar sign."}
+{"diff_id": 102909, "ref": "Use HttpWaitStrategy for SimpleNginxTest(<issue_id>).", "pred": "Add HttpWaitStrategy to SimpleNginxTest."}
+{"diff_id": 367, "ref": "Start to align the APR/native readMessage() method implementation with BIO and NIO to aid future refactoring. ", "pred": "Refactor the readMessage() method in AjpAprProcessor to throw an IOException when the message length is invalid. This aligns the method with the BIO and NIO implementations."}
+{"diff_id": 3443, "ref": "Update unit test utils to verify dianostics in the tree", "pred": "Update unit test utils to verify dianostics in the tree"}
+{"diff_id": 65802, "ref": "Automatic code cleanup. PiperOrigin-RevId:230978198", "pred": "Refactored the `add` method in the `PhaseStatistics` class to improve readability and maintainability. Also, removed the `add` method from the documentation to ensure consistency."}
+{"diff_id": 64971, "ref": "Add javadoc to DiscreteDomains methods , and rename private classes because when .", "pred": "Add toString() to DiscreteDomains."}
+{"diff_id": 60524, "ref": "Check if ApplicationPolicy is not null .", "pred": "Removed unnecessary null check."}
+{"diff_id": 76143, "ref": "Remove raw type now that I \\' ve removed the type parameters from Subject. RELNOTES=n/a .", "pred": "Restore the type parameters in IterableSubject.isNotIn."}
+{"diff_id": 86626, "ref": "[ gelly ] remove old hackathon test file", "pred": "Removed GraphTest.java as it was not needed."}
+{"diff_id": 18146, "ref": "remove heuristics if index receive is switched off", "pred": "Remove heuristics if indexReceive is false in ConfigNetwork_p."}
+{"diff_id": 108831, "ref": "Simplifies an if statement", "pred": "Refactor isOperator method to use a single return statement."}
+{"diff_id": 18409, "ref": "added test case for issue <issue_id>", "pred": "Added two new test cases to the ServerTest class. The first test case checks the list of databases, and the second test case checks the connection and disconnection to the server."}
+{"diff_id": 16178, "ref": "am 6f1b7c1b:am 81a79561:MediaRouter:Display the empty states clearly .", "pred": "am 3e4f3b3d:MediaRouter:Hide the title view when there is no media info available."}
+{"diff_id": 7538, "ref": "Clean up pass overview comments", "pred": "Add an example to the ConvertChunksToESModules class to illustrate how it works. This will help users understand the purpose and functionality of the class."}
+{"diff_id": 58276, "ref": "Further fixes", "pred": "Remove unnecessary code."}
+{"diff_id": 113085, "ref": "Removed test that depended on since-removed JDK class name", "pred": "Remove unnecessary testMethodWithInnerClassDollarSign from TestParseUtil"}
+{"diff_id": 8818, "ref": "own messages update read state", "pred": "Revert \"revert ConversationActor change read state by own message\""}
+{"diff_id": 16477, "ref": "am 1fa99d0d:am b6b67d21:Merge \\\" MediaRouter:Handle volume thumb color for SDK_INT < 16 \\\" into mnc-ub-dev .", "pred": "am 3e4e3b3d:am 3e4e3b3d:MediaRouter:Refactor setVolumeSliderColor to accept Context."}
+{"diff_id": 89469, "ref": "Ignore strategy/name when strategy/matchers is present , in code generator", "pred": "Reset custom strategy name if a matcher is set."}
+{"diff_id": 32305, "ref": "Increase default node object cache size", "pred": "Increase default value for NODE_OBJECT_CACHE_SIZE to 2000"}
+{"diff_id": 73406, "ref": "apple.laf.JRSUIConstants.getConstantName(int)checks for THUMB_START twice .", "pred": "Fixed incorrect constant comparison in JRSUIConstants."}
+{"diff_id": 28020, "ref": "NAP-GHJ:update core/common/src/main/java/alluxio/collections/ConcurrentHashSet.java", "pred": "NAP-GHJ: Update core/common/src/main/java/alluxio/collections/ConcurrentHashSet.java"}
+{"diff_id": 86966, "ref": "Put the original value back if the new value is invalid", "pred": "Added validation for input fields in StudyOptions"}
+{"diff_id": 14040, "ref": "am b18ac11e:Merge \\\" Move Compat specific MediaBrowserCompat logic to ImplBase class \\\" into mnc-ub-dev .", "pred": "am 00f6be66:am b18ac11e:Merge \\\" Move Compat specific MediaBrowserCompat logic to ImplBase class \\\" into mnc-ub-dev ."}
+{"diff_id": 107585, "ref": "Add test for empty response body still uses converter .", "pred": "Add test for empty response body."}
+{"diff_id": 14574, "ref": "am 11b652b9:am 973ef1dc:am 58df9e66:am 47f4c78d:Merge \\\" Make sure we always use the provide Tab text colors \\\" into lmp-mr1-ub-dev .", "pred": "am 973ef1dc:Merge \" Make sure we always use the provide Tab text colors \" into lmp-mr1-ub-dev ."}
+{"diff_id": 58647, "ref": "HTTP/2 Make DefaultHttp2HeadersDecoder \\' s Http2Headers object creation extensible .", "pred": "Add new methods to DefaultHttp2HeadersDecoder for better extensibility."}
+{"diff_id": 99878, "ref": "<issue_id> Missed dryRun on maintenance of secrets .", "pred": "Remove deprecated parameters in KubernetesSecretsTokenAuthProvider."}
+{"diff_id": 54377, "ref": "add adler to checksum tests", "pred": "Add Adler32 checksum to ChecksumBenchmarkTest."}
+{"diff_id": 42464, "ref": "Catch MissingResourceException when language key is missing", "pred": "Handle MissingResourceException in Language.text() to return the original text if translation is not found."}
+{"diff_id": 90888, "ref": "Unnecessary logging in AddExtension", "pred": "Add logging to display the extensions added to the project."}
+{"diff_id": 79044, "ref": "Trivial refactoring:simplify code", "pred": "Refactor avg method to use mapper directly instead of method reference."}
+{"diff_id": 20756, "ref": "step 3 , InlineInfo leaves populateInlineInfo fully initialized", "pred": "Refactored the `populateInlineInfo` method to include the `Inlineable` element and `getInlineableElement` method."}
+{"diff_id": 95527, "ref": "correction tests unitaires", "pred": "Remove unnecessary assertion in TestSamplingProfiler."}
+{"diff_id": 17045, "ref": "Update Quests", "pred": "Add new quests: The Ascent of Arceuus and The Forsaken Tower."}
+{"diff_id": 15680, "ref": "Annotate savedInstanceState in Fragment # onCreate() is@Nullable .", "pred": "Annotate savedInstanceState in Fragment # onCreate() as @Nullable."}
+{"diff_id": 96220, "ref": "Increase the buffer leak detector timeout", "pred": "Increase buffer leak timeout to 2000 ms"}
+{"diff_id": 66790, "ref": "Rename test platforms as part of removing old host_platform. Part of work on <issue_id>. PiperOrigin-RevId:288926225", "pred": "Fix the platform names in PlatformTest."}
+{"diff_id": 16153, "ref": "Document best practices for display intent activities(Compat ). Bug:15412926 .", "pred": "am bc8f49b8:Document best practices for display intent activities(Compat ). * commit ' <issue_id> '."}
+{"diff_id": 71363, "ref": "<issue_id> Improved transformation of source code when pasting SQL code.", "pred": "<issue_id> SQL auto format from source code."}
+{"diff_id": 109829, "ref": "Removed unnecessary code", "pred": "Remove unnecessary list initialization in linesToStatements test."}
+{"diff_id": 35540, "ref": "am bc51766d:Merge \\\" Removing itemCount , fromIndex and toIndex from AccessibilityEvent.TYPE_VIEW_SCROLLED sent by PagedView .", "pred": "Remove unnecessary item count attribute from TYPE_VIEW_SCROLLED event."}
+{"diff_id": 85302, "ref": "HCOLL-191 added missing close to the test case", "pred": "Added a test case to the EventListenerTestWithTCPSocketReplication class."}
+{"diff_id": 38712, "ref": "use EncryptDataSourceBeanDefinitionParser", "pred": "Use EncryptDataSourceBeanDefinitionParser"}
+{"diff_id": 53973, "ref": "isHeldByCurrentThread should return primitive bool", "pred": "Change return type of isHeldByCurrentThread to boolean"}
+{"diff_id": 61201, "ref": "Revert changes for arm and disarm commands", "pred": "Update Gps103ProtocolEncoder.java with new command types."}
+{"diff_id": 59651, "ref": "expression rejection transformer", "pred": "Add RejectExpressionValuesTransformer class for rejecting values containing an expression. This class is used to transform operations and resources by checking for expression values and rejecting them. It also provides a WriteAttributeTransformer for handling write attribute operations."}
+{"diff_id": 20384, "ref": "Remove audio player usage of AttachmentServer. Now that we use ExoPlayer , it \\' s no longer needed .", "pred": "Remove unnecessary code and fix formatting in AudioSlidePlayer."}
+{"diff_id": 56884, "ref": "add comment", "pred": "Added TODO comments for future work in the CodeBrowserContextWidget class."}
+{"diff_id": 32767, "ref": "Revert \\\" Reply in own thread \\\"", "pred": "Revert \" Revert \" Revert \" Reply in own thread \" \" \""}
+{"diff_id": 36543, "ref": "In the then part(RHS)of guided rule editor , it is not possible to affect a value with variable name of the when part(LHS)and not possible to call a method in the new created instance .", "pred": "Add nature to ActionFieldValue. Test:none."}
+{"diff_id": 108569, "ref": "NIFI-45 Providing all validation results when more than one property is invalid for a referenced ControllerService", "pred": "Refactor PropertyDescriptor to collect all invalid validation results and return them all at once."}
+{"diff_id": 51560, "ref": "Remove problematic annotation since eviction refactored , if a test fails , individually mark it as problematic", "pred": "Refactored test for issue 477 and added assertions for better coverage."}
+{"diff_id": 5217, "ref": "Show seek bar only when action bar is shown", "pred": "Update seek bar visibility on found position and size."}
+{"diff_id": 32648, "ref": "Verify handshake is complete in write() + flush()", "pred": "Add handshake verification in TlsCryptoSocket's write and flush methods."}
+{"diff_id": 61122, "ref": "reset time to prevent errors in following tests", "pred": "Reset time after test execution in DurationHelperTest."}
+{"diff_id": 64775, "ref": "Release withTimeout as@Beta .", "pred": "Add public access to withTimeout method in Futures class."}
+{"diff_id": 56934, "ref": "add missing border to file list bread crumbs", "pred": "Refactor FilePathToolbar to use consistent styling and layout."}
+{"diff_id": 111340, "ref": "remove unnecesary call to getHeaderId()", "pred": "Fixed a bug where the header was not updated when the first visible item changed."}
+{"diff_id": 27709, "ref": "Update CheckConsistencyCommandTest.java", "pred": "Remove unused import in CheckConsistencyCommandTest."}
+{"diff_id": 47579, "ref": "Perfromance degradation when opening Select Directory Dialog", "pred": "Refactored the PurRepository class to include a new method, `loadRepositoryFileTreeFolders`, which loads the repository file tree for folders. This method is used to fetch the folder tree from the root to the destination path for populating the folder. The `loadRepositoryFileTreeFolders` method is called within the `getRepositoryDirectoryTree` method to improve the efficiency of loading the folder tree. Additionally, the `loadRepositoryFileTreeFolders` method is used to check for the possibility of a speedy algorithm and to fetch the folder tree from the root to the destination path for populating the folder."}
+{"diff_id": 50134, "ref": "Change an FS <issue_id> xists call to FS # isFile call in AcidUtils(Karen Coppage via Peter Vary )", "pred": "Fix the condition to check if the version file exists in AcidUtils # writeVersionFile(Karen Coppage via Peter Vary)"}
+{"diff_id": 37363, "ref": "wait for default-topic before topic subscription test", "pred": "Wait until default topic exists in TopicSubscriptionTest"}
+{"diff_id": 51457, "ref": "ClientTestApp added to examples", "pred": "Add a new class `ClientTestApp` to the `hazelcast-client` module. This class is used to interact with the Hazelcast instance. It provides methods to access and manipulate distributed data structures such as queues, topics, maps, multimaps, sets, lists, and atomic numbers. The `start` method starts a command line interface to interact with the Hazelcast instance."}
+{"diff_id": 66941, "ref": "More descriptive error message on ActionMetadataHandler # injectDigest failure .", "pred": "Ensure the digest supplied matches the actual digest if it exists."}
+{"diff_id": 73390, "ref": "Typo in Connection.isValid .", "pred": "Fix typo in Connection javadoc."}
+{"diff_id": 79414, "ref": "Negative speed defaults to 0(tested by TestSetSpeed).", "pred": "Fix negative speed value in setSpeedForSession method"}
+{"diff_id": 66196, "ref": "Stop populating deprecated fields in the TargetComplete Message in the .", "pred": "Remove the direct reporting of artifacts as soon as clients no longer need it."}
+{"diff_id": 93815, "ref": "Updated for Bukkit commit <issue_id> .", "pred": "Fix setSignText method in BukkitWorld"}
+{"diff_id": 24954, "ref": "comment out test code", "pred": "Commented out the user-agent request property to avoid potential issues with web requests."}
+{"diff_id": 61282, "ref": "Schedule reconnection only if current task stopped", "pred": "Fix reconnection task scheduling in SmppClient."}
+{"diff_id": 27268, "ref": "replace the \\' meta data \\' to metadata in StorageDir.java(nju mpr course:ALLUXIO-2277 )", "pred": "Fix typo in comments in StorageDir.java"}
+{"diff_id": 30648, "ref": "Ignore ZipkinMDCScopeDecoratorTest for the moment", "pred": "Ignore ZipkinMDCScopeDecoratorTest as it is failing."}
+{"diff_id": 42150, "ref": "use linkedset to preserve ordering of commandParams so we get the \\\" tag \\\" correctly. ", "pred": "Change commandParams to a LinkedHashSet to preserve order and avoid duplicates."}
+{"diff_id": 3023, "ref": "DOC improve javadoc for ParserSpec.aritySatisfiedByAttachedOptionParam", "pred": "Add `@since` tag to `collectErrors` method in `ParserSpec` class."}
+{"diff_id": 79822, "ref": "Only check hostname for connections that use host names", "pred": "Refactor isSubAddressIPv6 to handle inproc URIs."}
+{"diff_id": 64838, "ref": "Update links to URL and HTML specs where necessary.-Use https for all links , new and old.-Remove claim that the * fragment * will be percent-encoded at * parse * time , as this is apparently not true:.", "pred": "Update Javadoc for UrlEscapers regarding Apache Commons Text ."}
+{"diff_id": 10658, "ref": "Removed accidental static from Map field in NodeValueINdexCursorTestBase", "pred": "Removed accidental static from Map field in NodeValueIndexCursorTestBase"}
+{"diff_id": 93917, "ref": "Add static to some fields on BlockTransformExtentTest .", "pred": "Change ROTATE_90 and ROTATE_NEG_90 to static final in BlockTransformExtentTest"}
+{"diff_id": 56352, "ref": "Whitespace , minor tweaks", "pred": "Clear deferred output when terminal is ready and set reloading to false."}
+{"diff_id": 30954, "ref": "Remove now unused code in \\' K9WebViewClient \\' and simplify implementation", "pred": "Refactor K9WebViewClient to remove the need for separate implementations for different Android versions."}
+{"diff_id": 12223, "ref": "Update Javadoc for AnnotationUtils.findAnnotation() .", "pred": "Optimized AnnotationUtils findAnnotation performance for repeated search on same interfaces (SPR-7630)"}
+{"diff_id": 20541, "ref": "add testcase for issue <issue_id>", "pred": "add testcase for issue <issue_id>"}
+{"diff_id": 39134, "ref": "for <issue_id> , add \\' useLocalSessionState=true \\' to JDBC URL to prevent SQL \\' select@@ session.tx_read_only \\'", "pred": "Add useLocalSessionState=true to MySQL JDBC URL in DatabaseEnvironment(<issue_id>)."}
+{"diff_id": 57608, "ref": "extra test case for xml embedded expr null", "pred": "Add test for evaluating XML embedded expressions that return null"}
+{"diff_id": 60265, "ref": "Revert \\\" AS7-2968 StatefulComponentInstanceInterceptor is clearing the ComponentInstance private data too early , moved StatefulComponentInstanceInterceptor to fire before the transaction interceptor \\\" .", "pred": "Update InterceptorOrder to include ASSOCIATING_INTERCEPTOR"}
+{"diff_id": 52696, "ref": "handle cases when the body is not set in thrift", "pred": "Add null checks to ThriftRestRequest content accessors."}
+{"diff_id": 100245, "ref": "Added further invariant tests", "pred": "Add tests for file system invariants."}
+{"diff_id": 4689, "ref": "false positive test case added for [ 1460518 ] Incorrect DMI error message for Date.setDate() .", "pred": "Add falsePositive method to DumbMethodInvocations class."}
+{"diff_id": 64482, "ref": "Mute AutoFollowIT(<issue_id>).", "pred": "Mark AutoFollowIT as AwaitsFix."}
+{"diff_id": 23968, "ref": "Update error message for entries without BibTeX key", "pred": "Update LatexCitationsTabViewModel for better error message when entry does not have a key."}
+{"diff_id": 53507, "ref": "use 1 instead of 0 as filler version value for nested docs", "pred": "Change the default value for nested documents to 1 for efficiency."}
+{"diff_id": 67225, "ref": "Add missing word in javadoc. RELNOTES:None .", "pred": "Update FileValue.java - fix a typo in the Javadoc."}
+{"diff_id": 60676, "ref": "Deprecate registerOperationHandler(String ,..) in favor of Operation definition", "pred": "AS7-1961 Use the right parent resource"}
+{"diff_id": 102120, "ref": "fixed typo", "pred": "Fix typo in comment: reflaection -> reflection"}
+{"diff_id": 62175, "ref": "Retry setup in DataflowExampleUtils .", "pred": "Refactor `setup` method in `DataflowExampleUtils` to use exponential backoff for retrying setup operations. This ensures that the setup process is more resilient to transient errors."}
+{"diff_id": 30569, "ref": "Shutdown only AWS clients owned by the context-AWS SES", "pred": "Shutdown only AWS clients owned by the context-AWS SES"}
+{"diff_id": 92727, "ref": "Removed a few more compile warnings", "pred": "Remove unnecessary @SuppressWarnings(\"unchecked\") annotations from StateMachineConfig class."}
+{"diff_id": 79587, "ref": "Updating to differentiate between missing socket and missing address. r6223", "pred": "Refactored NotConnectedException to provide a more informative message when the socket fails to connect within the specified time."}
+{"diff_id": 74219, "ref": "Extend the WhiteBox API to provide information about the availability of compiler intrinsics .", "pred": "Add method to determine if an intrinsic is available for a given method and compilation level in the WhiteBox class. This method checks if the intrinsic is enabled and if the platform provides the necessary instructions for the compiler to generate the intrinsic code."}
+{"diff_id": 96340, "ref": "Use optimised algorith to parse the content length", "pred": "Refactor HttpTransferEncoding class."}
+{"diff_id": 11035, "ref": "Add an additional rendezvous point for test queries to avoid errors during shutdown", "pred": "Remove unused SuppressOutput rule and Ignore annotation from ListQueriesProcedureTest."}
+{"diff_id": 24093, "ref": "revert change from <issue_id>", "pred": "Fixed dialog visibility issue in GeneralFetcher."}
+{"diff_id": 94903, "ref": "# gg-8466:Finalization .", "pred": "Disabled GridHadoopClientProtocolEmbeddedSelfTest due to unresolved issue GG-8466."}
+{"diff_id": 11074, "ref": "Add a test that shows ` awaitIndexesOnline ` can throw an exception if it is overlapping with another transaction that drops indexes .", "pred": "Add test for awaitIndexesOnline method."}
+{"diff_id": 55939, "ref": "remove unuse line", "pred": "Remove duplicate trigger names and reformat EventPluginConfig."}
+{"diff_id": 7250, "ref": "Moving ObjectPropertyStringPreprocess to before the late transpilation step .", "pred": "Moving objectPropertyStringPreprocess pass to before the late transpilation step."}
+{"diff_id": 68550, "ref": "Minor code review for chnages on analytics", "pred": "Fix logic to find reparation items in BusinessInvoiceDao."}
+{"diff_id": 46945, "ref": "As an ETL developer I want to be able to use the DataCleaner profiling tool inside of Spoon .", "pred": "PDI-4770: Added a new unit test case for the Blocking Step."}
+{"diff_id": 21601, "ref": "Extract JNI argument index computation to method", "pred": "Instrument cutoff invokes. PullRequest:graal/1878"}
+{"diff_id": 11780, "ref": "Made flaky AuthScenariosLogic.roleManagement6 slightly more permissive to try to avoid timing problems .", "pred": "Made flaky AuthScenariosLogic.roleManagement6 wait longer to make less flaky."}
+{"diff_id": 17219, "ref": "Correctly reset widget.originalY in WidgetOverlay(<issue_id> )", "pred": "Fix widget overlay positioning bug."}
+{"diff_id": 112, "ref": "Tiny bit of de-duplication. Add reference to RFC2616 for case insensitivity of transfer encoding .", "pred": "Refactor addInputFilter to trim and convert to lower case the provided encoding name. This makes the code more readable and consistent with the RFC2616, section 3.6."}
+{"diff_id": 9332, "ref": "Extend JMeterTestCase(so properties are initialised if reqd).", "pred": "Refactored `UrlConfigTest` to extend `JMeterTestCase` instead of `TestCase`."}
+{"diff_id": 69431, "ref": "little fix", "pred": "Fix typo in request_cookie parameter name."}
+{"diff_id": 86831, "ref": "[ gelly ] type information in Graph and in getUndirected method", "pred": "[FLINK-12345] Made the fields verticesType and edgesType final in the Graph class."}
+{"diff_id": 65182, "ref": "Make ImmutableEntry.setValue() final .", "pred": "Add UnsupportedOperationException to setValue in ImmutableEntry."}
+{"diff_id": 67994, "ref": "Moved identityToString(StringBuffer , Object)to identityToString(Appendable , Object)per LANG-542 .", "pred": "Refactor `identityToString` to use `StringBuilder` instead of `StringBuffer`."}
+{"diff_id": 80614, "ref": "Make sure system properties are not null when detecting JVM architecture", "pred": "Refactored getJVMArchitecture method to handle null system properties."}
+{"diff_id": 7822, "ref": "Change JsfileParser to accept ECMASCRIPT8(ES2017).", "pred": "Update language mode to ES8 strict with non-strict fallback. Add warnings."}
+{"diff_id": 61054, "ref": "adjust ProcessEngineRule javadoc .", "pred": "Rename activitiRule to processEngineRule in ProcessEngineRule class."}
+{"diff_id": 27776, "ref": "Test improvement in zk failure test(<issue_id> )", "pred": "Fix thread declaration in ZookeeperFailureIntegrationTest."}
+{"diff_id": 65201, "ref": "Doc-only changes to the InternetDomainName family clarifying validation options and fixing some references to deprecated methods.-------------.", "pred": "Fix comment to refer to InternetDomainName.isValid instead of deprecated isValidLenient. Also, add a comment to the equals method in the InternetDomainName class."}
+{"diff_id": 65425, "ref": "Make a couple of optimizations to UnsignedLongs.toString(x , radix ):.", "pred": "UnsignedLongs.toString is suboptimal.-------------."}
+{"diff_id": 29159, "ref": "Make double checked locking in AbstractCamelContext # getBootstrapConfigurerResolver thread-safe .", "pred": "Make the bootstrapConfigurerResolver field volatile to ensure visibility of changes across threads."}
+{"diff_id": 27008, "ref": "Remove superfluous AddressFormatException from BIP38PrivateKey.decrypt() .", "pred": "Remove unnecessary exception from BIP38PrivateKey.decrypt."}
+{"diff_id": 73414, "ref": "langtools test jdk/javadoc/doclet/testModules/TestModuleServicesLink.java fails with compilation error .", "pred": "Add missing modules declaration in TestModuleServicesLink.java"}
+{"diff_id": 55536, "ref": "Fix the tags to be in sync with docs .", "pred": "Add listener to putRoleMappingAsync in SecurityDocumentationIT."}
+{"diff_id": 52582, "ref": "_all field should be added to the list of fields under the mapping registry so it can be easily referenced", "pred": "Refactor JsonDocumentMapper to use newArrayList instead of ArrayList."}
+{"diff_id": 71389, "ref": "<issue_id> JSON values escaping .", "pred": "Cleanup ."}
+{"diff_id": 94644, "ref": "Added semaphore tests to data structures suite", "pred": "* Include IgniteLocalSemaphoreSelfTest and IgnitePartitionedSemaphoreSelfTest in IgniteCacheDataStructuresSelfTestSuite."}
+{"diff_id": 57967, "ref": "Prevent NPE", "pred": "Fix null pointer exception in OptionsBottomSheetDialogFragment"}
+{"diff_id": 68168, "ref": "Added javadoc to the SnapshotEventEntry for JPA .", "pred": "Add Javadoc to SnapshotEventEntry class"}
+{"diff_id": 77009, "ref": "Added missing javadoc .", "pred": "Add a transformer for applying an Advice where the advice class might reference types of both the agent's and the user's class loader. This allows applying advice without including any library dependencies of the advice class, which are then looked up from the transformed class's class loader. To use this transformer, it is required to register the advice class's class loader manually via the include methods and to reference the advice class by its fully-qualified name. The advice class is then never loaded but rather described by a TypePool."}
+{"diff_id": 105840, "ref": "have common code in the setUp section", "pred": "Refactored TermKeyListenerTest to use KeyStateMachine instances for different scenarios. Updated the test methods to use the new KeyStateMachine instances and consume key down events accordingly."}
+{"diff_id": 63826, "ref": "Ensure relocation occur in testRelocationWithConcurrentIndexing(<issue_id>).", "pred": "Relocate shards to new node in testRelocationWithConcurrentIndexing(<issue_id>)."}
+{"diff_id": 79491, "ref": "green the json wire protocol response test", "pred": "Refactor JsonWireProtocolResponseTest to use a local variable for the Json instance."}
+{"diff_id": 58343, "ref": "Update OsmAnd/src/net/osmand/plus/activities/MapActivityActions.java", "pred": "Set focus on the name field when editing a favorite."}
+{"diff_id": 14510, "ref": "Have wrapper statment extend wrapper program. am:858324c2e8 .", "pred": "Refactor `FrameworkSQLiteStatement` to extend `FrameworkSQLiteProgram` instead of implementing `SupportSQLiteStatement` directly. This change allows for better code organization and reuse of common functionality."}
+{"diff_id": 99638, "ref": "Remove UUID generation on sending message(<issue_id>).", "pred": "Remove unused code and optimize the serialization of messages in ProducerImpl."}
+{"diff_id": 68941, "ref": "improve exception message", "pred": "Refactor code to handle exceptions and improve error handling in the SentenceSourceChecker."}
+{"diff_id": 77430, "ref": "Remove unused parameter", "pred": "<issue_id> Removed the mapBoxMapId parameter from the constructor, as it is now set using the retrieveMapBoxMapId method."}
+{"diff_id": 47477, "ref": "Modified image look up image in image map to use configId from JobEntryBase to promote consistency .", "pred": "Fix NPE when launching a Job or Transformation from a Job/Transformation Job Entry that references a repository object by reference."}
+{"diff_id": 33572, "ref": "Fix up the unittest for dependencies now that rel is gone", "pred": "Add a test for the noncollapsed dependencies for the attr-removed trees"}
+{"diff_id": 2990, "ref": "ignore test(instead of passing)if DejaGnu not installed ; added javadoc", "pred": "Address review comments. Add copyright header. Reformat to use 4 space indents."}
+{"diff_id": 92291, "ref": "Multitask test no need FileDownloadListener # progress callback , so setCallbackProgressTimes(0 )", "pred": "Add missing semicolon in MultitaskTestActivity"}
+{"diff_id": 3000, "ref": "add long descriptions to Example to test auto(terminal)width in native images", "pred": "<issue_id> improve usage help ; handle invalid input better"}
+{"diff_id": 34933, "ref": "Remove extra call to AllAppsContainerView # reset. We were calling reset twice:.", "pred": "am e7349f040d:Remove unnecessary reset call in startAnimationToWorkspaceFromAllApps."}
+{"diff_id": 64317, "ref": "Increase Timeout in testDynamicRestoreThrottling(<issue_id>).", "pred": "Increase timeout for restoreSnapshotResponse in RestoreSnapshotIT."}
+{"diff_id": 42091, "ref": "Stop mutating the input driver argument.(cherry picked from commit <issue_id> )", "pred": "Refactor openConnection method to remove unnecessary code and improve readability."}
+{"diff_id": 4603, "ref": "After the RunAnalysisDialog finishes , make the new analysis run node .", "pred": "Added the ability to make the new node the currently selected node in the tree."}
+{"diff_id": 21790, "ref": "Add note in the comment. PullRequest:graal/5408", "pred": "The changes include specifying the locale when lower-casing, preventing NPEs in EngineBenchmark, enhancing the test for wait/notify method parsed but not invoked corner case, and specifying the locale when lower-casing."}
+{"diff_id": 69138, "ref": "tiny formatting cleanup", "pred": "Refactor code to improve readability and maintainability."}
+{"diff_id": 22147, "ref": "speculate that no classes with finalizers have been loaded when compiling Object.< init >", "pred": "Add finalizer registration for objects in constructors. PullRequest:graal/1234"}
+{"diff_id": 93204, "ref": "Comment out image write breaking tests on non * nix platforms", "pred": "Commented out the image writing in the test case to avoid writing to the file system during the test."}
+{"diff_id": 2864, "ref": "<issue_id> add more AutoComplete overwriting after confirmation tests", "pred": "Add test for AutoComplete.main(\"--writeCommandScript\", \"--force\", \"-o=...\") to verify that the command script file will be overwritten if requested."}
+{"diff_id": 53792, "ref": "Small correction in comments(<issue_id> )", "pred": "Small correction in comments."}
+{"diff_id": 61384, "ref": "Remove script line number from event", "pred": "Fix event parsing in CalAmp decoder"}
+{"diff_id": 75081, "ref": "HHH-6133 add an additional AnnotationValue for each mocked AnnotationInstance to mark it is from xml", "pred": "Add mock mark to annotation values in MockHelper."}
+{"diff_id": 98180, "ref": "remove unused import(<issue_id> )", "pred": "Remove extra semicolon from import statement"}
+{"diff_id": 82573, "ref": "remove backoff policy todo(<issue_id> )", "pred": "Remove unnecessary TODO comment in AbstractManagedChannelImplBuilder."}
+{"diff_id": 69411, "ref": "using PLACE name instead of ANNOTATION where applicable", "pred": "Fixed the location source and place context for the message entry."}
+{"diff_id": 109366, "ref": "Check OpenJpa query validation .", "pred": "Add test case for query validation with OpenJpa."}
+{"diff_id": 68858, "ref": "add TODO comment", "pred": "Add a TODO comment to investigate why lm.getCount(\"_START_\") returns 0 for Google data in ConfusionProbabilityRule."}
+{"diff_id": 54755, "ref": "Fix versions to match reality", "pred": "Add version 2.2.0 to the master branch."}
+{"diff_id": 71084, "ref": "Disconnect pause .", "pred": "Added a delay after disconnecting to allow the UI to update actions."}
+{"diff_id": 26953, "ref": "Add back deprecated variants of isDeterministicUpgradeRequired() and upgradeToDeterministic() for compatibility .", "pred": "Update deprecated methods in the Wallet class."}
+{"diff_id": 83023, "ref": "Remove exception which is never thrown", "pred": "Removed unnecessary exception from getMajorityHash method."}
+{"diff_id": 69560, "ref": "Fixes <issue_id>:Add test for NominatimService.java to increase test coverage(<issue_id> )", "pred": "Add tests for NominatimService class in NominatimServiceTest.java."}
+{"diff_id": 37404, "ref": "increase wait time for reopening topic subscription .", "pred": "Refactor TopicSubscriptionTest to use Objects.nonNull."}
+{"diff_id": 39444, "ref": "for <issue_id> Remove ShardingTransactionalResource .", "pred": "Remove ShardingTransactionalResource class."}
+{"diff_id": 101493, "ref": "Avoid calling filter(x-> true).", "pred": "Refactor findSuperMethods to use a single stream pipeline."}
+{"diff_id": 66516, "ref": "Restore error messages during a repository rule fetch failure to not suppress contextual console output .", "pred": "Fix error message in SkyframeDependencyResolver."}
+{"diff_id": 113089, "ref": "Another test to AssemblyProcess , to improve coverage .", "pred": "Fixed test by using an immutable string object."}
+{"diff_id": 75032, "ref": "HHH-11356 Unused const", "pred": "Remove unused constant from ConfigSettings."}
+{"diff_id": 73633, "ref": "Enhancing CounterMode.crypt() for AES .", "pred": "Merge pull request #2 from jdk8u/jdk8u302"}
+{"diff_id": 72355, "ref": "FLUME-1217 .", "pred": "Fixed the generic type of ProxyCallable to be Callable<T> instead of just Callable."}
+{"diff_id": 55889, "ref": "Removed the ` throws IOException ` and annotated the javadoc with information about when to use the ` iterableBufferedImages ` method .", "pred": "* Improved the javadocs for the `iterableBufferedImages` method ."}
+{"diff_id": 94074, "ref": "refactoring", "pred": "Refactor createOptions method in RedissonTransaction class."}
+{"diff_id": 80464, "ref": "Enhance Thread display with info about java.util.concurrent locks .", "pred": "Refactor the logic to determine the thread status to handle the PARKED status separately."}
+{"diff_id": 37520, "ref": "add assertGetParametersWithRoutingUnit()", "pred": "Refactor InsertParameterBuilderTest assertGetParametersWithRoutingUnit"}
+{"diff_id": 38084, "ref": "for <issue_id> , move the UpdateStatementParserTest relative test cases to IntegrateParsingTest for oracle special syntax 11th .", "pred": "for <issue_id> , removed useless codes of UpdateStatementParserTest."}
+{"diff_id": 70278, "ref": "Remove Guava code in examples(<issue_id> )", "pred": "Refactor DATA to use Arrays.asList instead of ImmutableList. Use Arrays.asList to create a list of strings. This change simplifies the code and makes it more readable."}
+{"diff_id": 36866, "ref": "log service discovery messages as debug", "pred": "Change log level in KieRepositoryImpl.addKieModule to DEBUG(<issue_id> )"}
+{"diff_id": 38814, "ref": "<issue_id> , add types", "pred": "Add PostgreSQLComDescribePacket, PostgreSQLComExecutePacket, PostgreSQLComSyncPacket."}
+{"diff_id": 86023, "ref": "Remove unused FutureUtils.runSync", "pred": "Remove FutureUtils.runSync() method."}
+{"diff_id": 63350, "ref": "Fixes <issue_id>:Add a test to assert that no exception occurs when mocking a final class", "pred": "Add FinalClassMockingTest."}
+{"diff_id": 37691, "ref": "<issue_id> , add bytesBeforeZero()", "pred": "Add bytesBeforeZero method to PostgreSQLPacketPayload."}
+{"diff_id": 96888, "ref": "interim checkin", "pred": "interim checkin"}
+{"diff_id": 26419, "ref": "use custom SSO value for authTokenType-> to detect if account is added by SSO .", "pred": "Check if the authentication type is SSO in the extras to determine if the account is being added for SSO."}
+{"diff_id": 73273, "ref": "Merge", "pred": "Merge"}
+{"diff_id": 42973, "ref": "Find/Replace dialog uses GroupLayout", "pred": "Commenting out the code that is not being used."}
+{"diff_id": 60763, "ref": "Defend against missing subhandlers", "pred": "Add missing null check in AsyncHandlerAdd."}
+{"diff_id": 100902, "ref": "Add tests for HibernateMetrics.monitor() with SessionFactory(<issue_id> )", "pred": "Keep strong reference on Statistics in HibernateMetricsTest(<issue_id>)."}
+{"diff_id": 9448, "ref": "Cast one of the operands to double , to make it clear , that we are using the result as double. ", "pred": "Fix ResponseTimeDistributionGraphConsumer to correctly calculate response time."}
+{"diff_id": 56802, "ref": "tweak sweave toolbar sizing logic", "pred": "add compile PDF button to main toolbar and adjust button visibility based on window width"}
+{"diff_id": 72391, "ref": "Fix deprecation warnings in jdk.naming module .", "pred": "Remove deprecated code and unnecessary suppression."}
+{"diff_id": 81695, "ref": "Trades are now compared by tids instead of timestamps", "pred": "Refactor compareTo method in Trade class to compare by ID instead of timestamp"}
+{"diff_id": 31635, "ref": "* test/net/sf/acegisecurity/taglibs/authz/AuthorizeTagTests.java:.", "pred": "* core/src/test/java/org/acegisecurity/taglibs/authz/AuthorizeTagTests.java: Remove unused test method."}
+{"diff_id": 103558, "ref": "Add missing includes to Posix class. Change on 2018/03/20 by cnester < cnester@google.com > .", "pred": "Add missing include for StructStat in Posix."}
+{"diff_id": 86895, "ref": "[ logging ] Add Thread name to FileSystem disposeFileSystemCloseableRegistryForTask .", "pred": "Ensure all FileSystem streams are closed for the current thread in disposeFileSystemCloseableRegistryForTask."}
+{"diff_id": 9151, "ref": "ReplaceableObjectKryo serializes synthetic fields + some minor improvements", "pred": "Refactor ReplaceableObjectKryo to use ClassValue instead of ConcurrentHashMap."}
+{"diff_id": 6928, "ref": "Cleanup child/children mismatch in IRFactory.-------------.", "pred": "Refactor the code to use `addChildToBack` method instead of `addChildrenToBack` to improve consistency and readability. Also, use `addChildToFront` method to add children to the front of the node."}
+{"diff_id": 3879, "ref": "Update language-server/modules/langserver-core/src/main/java/org/ballerinalang/langserver/codeaction/providers/ChangeAbstractTypeObjExecutorCodeAction.java. Update version info .", "pred": "Update language-server/modules/langserver-core/src/main/java/org/ballerinalang/langserver/codeaction/providers/ChangeAbstractTypeObjExecutorCodeAction.java. Update version info."}
+{"diff_id": 55951, "ref": "Update TransactionUtil.java", "pred": "Removed unnecessary comment in the validBytes method."}
+{"diff_id": 85295, "ref": "Cover the last corner case in DefaultEventualConsistencyStrategy", "pred": "Refactor `DefaultEventualConsistencyStrategy` to improve readability and maintainability. Specifically, the method `acceptUpdate` has been refactored to use a more descriptive variable name and to simplify the conditional logic. Additionally, the class now imports `Replica` to improve code readability."}
+{"diff_id": 94744, "ref": "# gg-7167-2-code review .", "pred": "# GG-9435 Refactor GridCacheQueryClassResolver to include object parameter in resolveFieldType and valueOf."}
+{"diff_id": 86765, "ref": "[ kafka ] Indent Kafka010FetcherTest with tabs instead of spaces", "pred": "KAFKA-8822 ; Consolidate ` PartitionRecords ` and ` CompletedFetch ` types in Fetcher(<issue_id>)."}
+{"diff_id": 88509, "ref": "Set a name for the container .", "pred": "o using container configuration to setup plexus container."}
+{"diff_id": 106912, "ref": "Update TODO list", "pred": "Refactor CentralizedManagement to use a single instance of valueConfig and add TODOs for future improvements."}
+{"diff_id": 77595, "ref": "assertion already passes(PR <issue_id> )", "pred": "Fix iterable arg type in TestGenerics6."}
+{"diff_id": 94645, "ref": "# gg-8022", "pred": "Add COMBINE task type to GridHadoopTaskType enum"}
+{"diff_id": 75824, "ref": "HHH-5558 Change made so that temp tables need not to be deleted , they get deleted automatically in Sybase. ", "pred": "HHH-5558 rollback ."}
+{"diff_id": 83705, "ref": "resolve <issue_id> store the language as normalised attribute so we can access it from the track parser", "pred": "Add language to normalized attributes in SmoothStreamingManifestParser."}
+{"diff_id": 52978, "ref": "when retrying on primary shard when node disconnected , add it again the the cluster service as a listener", "pred": "Retry primary operation on ConnectTransportException, NodeCloseException, or IllegalIndexShardStateException."}
+{"diff_id": 63331, "ref": "..", "pred": "Replace NutRuntimeException with RuntimeException in FileSystemResourceLocation."}
+{"diff_id": 42669, "ref": "tmp folders delete much better", "pred": "Refactored the code to speed up compilation and to unlock all the jars if it is a mode or tool."}
+{"diff_id": 75474, "ref": "HHH-10044 automatically add hibernate-core and hibernate-entitymanager Bundles to OsgiClassLoader", "pred": "Add automatic addition of hibernate-core to OsgiSessionFactoryService."}
+{"diff_id": 16757, "ref": "am 03b49b6c:am e4a4df63:am c0e8df33:Merge \\\" Post volume updates to the callback thread in MediaRouter \\\" into lmp-mr1-dev .", "pred": "Merge \\\" Post volume updates to the callback thread in MediaRouter \\\" into lmp-mr1-dev ."}
+{"diff_id": 103321, "ref": "Removed internal bug id that was causing native code comment to be stripped. Change on 2013/04/18 by tball < tball@google.com > .", "pred": "Make Posix more pruning friendly."}
+{"diff_id": 29999, "ref": "Use BindToRegistry annotation wherever possible", "pred": "Use @BindToRegistry wherever possible in tests, Camel-Google-BigQuery"}
+{"diff_id": 26610, "ref": "Unit Tests for Download a file:New DownloadFileTest", "pred": "Add unit test for download file operation."}
+{"diff_id": 28449, "ref": "Save and restore context classloader when UFSFactory creates UFS", "pred": "Refactored UnderFileSystem creation to use the context classloader of the factory class. This ensures that the correct classloader is used during UFS creation."}
+{"diff_id": 84451, "ref": "Check gRPC operation objects for errors .", "pred": "Added error handling for the operation response."}
+{"diff_id": 57490, "ref": "Add onError and refactor", "pred": "Use lambda expressions for readability and consistency."}
+{"diff_id": 3807, "ref": "Incorporate review feedback", "pred": "Refactor taint analyzer logic and fix minor issues."}
+{"diff_id": 21657, "ref": "LSRA spill optimization:remove spill block probability assertion(temporarily).", "pred": "LSRA spill optimization:remove the assert for probability difference."}
+{"diff_id": 27865, "ref": "Group S3 underfs constants with other underfs constants", "pred": "Add S3 proxy configuration options and remove duplicate declaration."}
+{"diff_id": 72695, "ref": "[ TESTBUG ] gc/arguments/TestSmallInitialHeapWithLargePageAndNUMA is referencing no longer existing group .", "pred": "Fix the import statements in TestSmallInitialHeapWithLargePageAndNUMA.java. PullRequest:hotspot/1234"}
+{"diff_id": 4004, "ref": "Improve test annotation processing", "pred": "Refactor the completeTestSuite method to processAnnotations method."}
+{"diff_id": 5567, "ref": "Unit testing what happens when the number of arguments doesn \\' t match the number of observables .", "pred": "Add test for zip collection size different than function."}
+{"diff_id": 61608, "ref": "Remove redundant initialization of ` Stats.index `(<issue_id> )", "pred": "Remove unused variable index in Stats class."}
+{"diff_id": 38890, "ref": "update error info", "pred": "update error info for h2"}
+{"diff_id": 95998, "ref": "Several changes made .", "pred": "Refactored the `DOMSelector` class to the `org.thymeleaf.dom` package. The `DOMSelector` class was moved to the `org.thymeleaf.dom` package and refactored to improve the selection of nodes. The `select` method was updated to return a list of nodes, and a new method `checkChildrenSelection` was added to handle the selection of child nodes. The `parseAttribute` method was also updated to normalize the attribute names before adding them to the map."}
+{"diff_id": 39516, "ref": "Use batch commit transaction(<issue_id> )", "pred": "Add transaction management in doFlush method."}
+{"diff_id": 111206, "ref": "code cleanup", "pred": "Refactor code in HomePresenter to move the code to load the first page to an Interactor. This will improve the separation of concerns and make the code more maintainable."}
+{"diff_id": 51927, "ref": "replicated map stat default value for backward compatability", "pred": "Remove redundant comments and empty lines in Hazelcast code."}
+{"diff_id": 87691, "ref": "Refactored Junits", "pred": "Refactored test names and removed duplicate tests."}
+{"diff_id": 46849, "ref": "Reduced BdbStorageEngineTest transiency", "pred": "Refactor BdbStorageEngineTest to use AtomicBoolean to control the threads and shutdown the executor gracefully."}
+{"diff_id": 110113, "ref": "Cleaned up some code", "pred": "Removed unnecessary code and added a boolean variable to check if the app needs to be restarted after changing the theme."}
+{"diff_id": 20828, "ref": "Improve compilation performance of scheduler phase. PullRequest:graal/3745", "pred": "The commit message seems to be incomplete. Can you please provide more details about the changes made in the commit?"}
+{"diff_id": 61463, "ref": "Pass path to getTemplate", "pred": "Refactor getTemplate method to accept path as parameter."}
+{"diff_id": 7882, "ref": "Migrate from Truth \\' s deprecated.is(expected)to.isEqualTo(expected ).-------------.", "pred": "Fix assertion in Es6InlineTypesNotYetParsedTest to use isEqualTo instead of is."}
+{"diff_id": 79310, "ref": "Changed indent printer field access level from \\' private \\' to \\' protected final \\'-easier sub-classing. Added null-pointer check to constructor. ", "pred": "Add a null check in the constructor of NodePrinter."}
+{"diff_id": 78847, "ref": "minor refactor", "pred": "This commit introduces the `BuilderASTTransformation` class, which handles the generation of code for the `@Builder` annotation. This class is responsible for creating a builder strategy and building the code for the annotation. It also includes the `AbstractBuilderStrategy` class, which provides helper methods for the builder strategy."}
+{"diff_id": 23489, "ref": "remove duplicate code in VMToCompilerImpl.compileMethod", "pred": "Refactored the method `compileMethod` to use `HotSpotResolvedJavaMethod.fromMetaspace` instead of manually creating the `HotSpotResolvedJavaMethod` object."}
+{"diff_id": 69578, "ref": "Add a testcase to reproduce <issue_id> .", "pred": "Refactor ImportOrderTest to use standard method for running tests and add a new standard test case."}
+{"diff_id": 3871, "ref": "Use java defaults when the user hasn \\' t specified trusted certs", "pred": "Refactor HttpUtil to handle SSL configuration."}
+{"diff_id": 16653, "ref": "am 49b0dde9:am 1a0aad1c:RecyclerView:remove deprecated version of onAddFocusables() .", "pred": "Remove deprecated onAddFocusables method in RecyclerView.LayoutManager. Bug: 68336400. Test: None. Change-Id: I639071efe3d."}
+{"diff_id": 56217, "ref": "format code in ShieldedTransferActuator.java", "pred": "Update ShieldedTransferActuator.java"}
+{"diff_id": 13206, "ref": "Completes r10244 by making sure that offending formats would get a payload type of their own when one wasn \\' t previously available .", "pred": "Fixes a bug where the same payload type was being remapped to a different format. Now, the system checks if the payload type is already mapped to the same format and if so, it does not create a new mapping. If the payload type is already mapped to a different format, the system will create an overriding mapping, but only if the format itself has a payload type that can be overridden."}
+{"diff_id": 30377, "ref": "camel-main-configuring properties report better error if missing JARs on classpathand other mistakes .", "pred": "CAMEL-2297, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, CAMEL-1077, C"}

@@ -1,0 +1,500 @@
+{"diff_id": 13654, "ref": "Send file date in XEP-0082 format", "pred": "Fixed date format for XEP-0082 in FileElement class."}
+{"diff_id": 18675, "ref": "Invalid RID now is only if position is-1(before it was id==-1 & & position==-1 )", "pred": "Remove redundant check for CLUSTER_ID_INVALID in ORecordId.isValid() method"}
+{"diff_id": 61542, "ref": "fix logging of unsued options always showing null ; reviewed by Ewen Cheslack-Postava and Jiangjie Qin", "pred": "Fix logUnused method to use the original configuration values instead of the resolved values."}
+{"diff_id": 53061, "ref": "Fix IndexerUtilsTests that relies on indexed fields .", "pred": "Remove AwaitsFix annotation from IndexerUtilsTests."}
+{"diff_id": 113742, "ref": "Android M \\' s support is removed accidently .", "pred": "Fix API level check for ARM 64-bit architecture."}
+{"diff_id": 14261, "ref": "am f9ac06b0:am f5a423a2:am 2722fc1d:Merge \\\" Fix RTL bug for actionbar tooltips \\\" into lmp-dev .", "pred": "am 2722fc1d:Merge \\\" Fix RTL bug for actionbar tooltips \\\" into lmp-dev ."}
+{"diff_id": 47779, "ref": "Add-on fix for <issue_id>:also optionally enclose any arguments or it will cause similar problems. ", "pred": "PDI-2713: Unzip Job entry-\\\" Use zip filename as root directory \\\" doesn't work."}
+{"diff_id": 44961, "ref": "Use correct port for StartTLS(<issue_id>).", "pred": "Fix method invocation in LdapConnectorSSLTLSIT test."}
+{"diff_id": 109641, "ref": "fix use the wrong class loader in unmarshal parcelable", "pred": "Fix ParcelableHelper to handle List types in Parcelable classes. Bug: 75289452."}
+{"diff_id": 110450, "ref": "And fix tests after incorrectly fixing compilation .", "pred": "Fix issue with FinalRClassBuilder to correctly check if a field is of type int."}
+{"diff_id": 24650, "ref": "Throw RuntimeException if starting transfer of already completed OutgoingFileMessage", "pred": "Fix exception when starting transfer of a file that has already been completed or aborted."}
+{"diff_id": 98981, "ref": "Fix bad reference", "pred": "Refactor MineBehavior to use scanChunkRadius for better performance."}
+{"diff_id": 76547, "ref": "Issue 887-Scanners \\' pause button with inconsistent selection/enabled state .", "pred": "Fixed the issue with the scan buttons and progress bar not being reset after a scan is finished."}
+{"diff_id": 105866, "ref": "Fix NPE on Cupcake.(Works around bug in Cupcake version of android.net.Uri .", "pred": "Fix NullPointerException when writing to Parcel for Android SDK level 3 in AddShortcut class. Set unused fields to null in the Uri Builder."}
+{"diff_id": 22699, "ref": "Inlining:Properly re-route anchor usages of exception object nodes when inlining into a graph with unwind. PullRequest:graal/4685", "pred": "Fixed a bug in the code."}
+{"diff_id": 36565, "ref": "DROOLS-4488 DMN runtime listener from kmodule(followup for Kogito )(<issue_id>).", "pred": "Fix NPE when DMNRuntimeImpl is created with null knowledgeBase."}
+{"diff_id": 34903, "ref": "Snap workspace back to screen on ACTION_CANCEL. Bug:3066123 .", "pred": "Snap workspace back to screen on ACTION_CANCEL. Bug:3066123"}
+{"diff_id": 31931, "ref": "NUTCH-2447 Work-around SSLProtocolException:handshake alert:unrecognized_name .", "pred": "Fix SSL connection to handle \"handshake alert:  unrecognized_name\" error."}
+{"diff_id": 85279, "ref": "fix concurrent modification issue in cache(<issue_id> )", "pred": "Refactor SemanticCache to use queries() method to retrieve queries and improve readability."}
+{"diff_id": 31415, "ref": "Fall back to HELO command if the server doesn \\' t know EHLO(SMTP).", "pred": "Fixed a bug in the SMTP code that caused the client to not send the HELO command if the server did not support the EHLO command."}
+{"diff_id": 52614, "ref": "Log exceptions thrown by HttpHandlers in repository integration tests(<issue_id>).", "pred": "Wrap HTTP handlers to log exceptions in ESMockAPIBasedRepositoryIntegTestCase."}
+{"diff_id": 51680, "ref": "Correct javadoc for no-timeout setAsync", "pred": "IMap.set(K key, V value, long ttl, TimeUnit timeunit) javadoc fix."}
+{"diff_id": 79958, "ref": "Unignoring a test , regressing issue in Firefox has been fixed", "pred": "Ignoring a test fixed in Firefox Nightly."}
+{"diff_id": 75128, "ref": "Schema Update-Single table Inheritance with bi-directional OneToMany referencing superclass fails", "pred": "Removed unnecessary comparison in equals method"}
+{"diff_id": 103664, "ref": "Fixed LinkedList.voidLink memory leak. Change on 2013/04/11 by tball < tball@google.com > .", "pred": "Fix memory leak in LinkedList finalizer."}
+{"diff_id": 108641, "ref": "resolve conflicts", "pred": "Fix NacosPropertySourceBuilder to handle null values correctly."}
+{"diff_id": 59139, "ref": "Fix memory leak in UnpooledTest .", "pred": "Fix UnpooledTest to release buffer after test."}
+{"diff_id": 85171, "ref": "Make sure to consume streams when precompute all(<issue_id>).", "pred": "Refactor Reasoner class to use the new answerStream method and commitGraph method."}
+{"diff_id": 46501, "ref": "@ RefreshScope on ServiceTicketExpirationPolicy causes deserializtion err(<issue_id>).", "pred": "Revert \" KEYCLOAK-4727 KEYCLOAK-4652-Fixing protocol mappers when evaluating policies using the tool \""}
+{"diff_id": 71736, "ref": "Results viewer key binding contexts fix .", "pred": "Context listener fix."}
+{"diff_id": 53575, "ref": "fix defaults in DiscoverySettings", "pred": "Fix initialization of DiscoverySettings(<issue_id>)."}
+{"diff_id": 90419, "ref": "DropwizardAppRule should not require a configPath to operate .", "pred": "Fix DropwizardAppRule to handle null configPath. Fixes #1234."}
+{"diff_id": 95258, "ref": "don \\' t return null from ReflectionTraceInfo", "pred": "Fixed null pointer exception in ReflectionTraceInfo."}
+{"diff_id": 43878, "ref": "HBASE-16747 Track memstore data size and heap overhead separately-Addendum to fix TestIOFencing .", "pred": "Adjust memstore flush size in TestIOFencing to encourage more flushes."}
+{"diff_id": 93075, "ref": "fixed formatting", "pred": "Fix indentation in MapMLController."}
+{"diff_id": 72395, "ref": "jdk/jshell/StartOptionTest.java fails on Windows after JDK-8147515 .", "pred": "Fix spelling and formatting issues in the code."}
+{"diff_id": 109478, "ref": "String fix", "pred": "Fix error message in ImageLoader class."}
+{"diff_id": 74022, "ref": "JDK-8221359 breaks TestG1ParallelPhases.java .", "pred": "Remove unnecessary phase from TestG1ParallelPhases.java."}
+{"diff_id": 113691, "ref": "fix tms links", "pred": "Fix link name in Allure1Plugin."}
+{"diff_id": 90129, "ref": "Fix newline issue for smali tests on Windows", "pred": "Don't print the expected/actual tokens during the lexer tests. Add newline replacement for the expected token text."}
+{"diff_id": 88126, "ref": "always use ipv4 localhost for Orbot connections", "pred": "Fixed the issue with creating a socket over Tor by using the correct local host address."}
+{"diff_id": 77335, "ref": "Fixed turning mini-map on and off in SampleExtensive.java", "pred": "Fix minimap toggle in SampleExtensive."}
+{"diff_id": 66244, "ref": "Fix adding bigger-- max_idle_secs parameter when debugging Bazel in test .", "pred": "Fix the issue with setting the max idle seconds for debug mode in BuilderRunner."}
+{"diff_id": 68322, "ref": "Added stack strace to log statements where asynchronous event processing results in exceptions. Fixes issue <issue_id>", "pred": "Fixed logging in prepareBatchRetry method."}
+{"diff_id": 48511, "ref": "Also activate double click editing for job entries(bug <issue_id>).", "pred": "Add support for editing Chef Graph Entry in Spoon."}
+{"diff_id": 30336, "ref": "camel-jdbc-Fix this issue report about retriving generated keys", "pred": "CAMEL-7251 Fixed NPE of SqlProducer with thanks for Mathieu"}
+{"diff_id": 110093, "ref": "add log for the cause of flush and sync data from memory to filesystem failed , because on the final time it is significant .", "pred": "fix the issue of not closing the output stream in MultiPointOutputStream."}
+{"diff_id": 80955, "ref": "bugfix <issue_id> , writeStream must be flushed in LongBuffer.revertBuffer()", "pred": "bugfix <issue_id> , added missing flush() call before reading from the file."}
+{"diff_id": 96203, "ref": "UNDERTOW-1093 Don \\' t use XNIO buffer pool for the indirect pool", "pred": "Refactor XnioByteBufferPool to use DefaultByteBufferPool for array-backed buffers."}
+{"diff_id": 47077, "ref": "Metadata Injection on all tabs of select values step is causing error-revert public api change", "pred": "Refactored SelectValuesMeta to use setters and getters for selectName, selectRename, selectLength, and selectPrecision. This change improves the readability and maintainability of the code."}
+{"diff_id": 89468, "ref": "OutOfMemoryError with SQL Azure , caused by long-running loop of .", "pred": "Increase the maximum number of consumed exceptions in consumeExceptions to prevent infinite loops and OutOfMemoryError. Fixes #3696."}
+{"diff_id": 75090, "ref": "HHH-8127 OutOfMemoryError when running tests", "pred": "Fixed a bug in junit 4.7 rules, but exceptions don't yet work."}
+{"diff_id": 93454, "ref": "further fix related to <issue_id> , but on deserializer side", "pred": "Fix issue with deserializer cache."}
+{"diff_id": 79010, "ref": "get the xml:namespace URI right .", "pred": "Fix the built-in XML namespace in BaseMarkupBuilder."}
+{"diff_id": 80718, "ref": "do not invoke TargetAppRunner.getDefault() if hiResTimeStamp is empty", "pred": "Fixed issue with converting high-resolution timestamps to milliseconds."}
+{"diff_id": 47233, "ref": "Fixed issue with creating report using streaming HTML output and updated Copyright data", "pred": "Fix the issue with the file name when creating a content item. PullRequest: pentaho/pentaho-kettle#7027"}
+{"diff_id": 24173, "ref": "Fix <issue_id>:Removing entry from group updates view properly", "pred": "Quick fix for <issue_id>"}
+{"diff_id": 66047, "ref": "Fix a bug in the StrictJavaDeps plugin when a rule in the targetMapping has a strict deps error.", "pred": "Fix a bug in which the XcodeGen generates two Xcode target with the same name(case-insensitive ). RELNOTES:None ."}
+{"diff_id": 110863, "ref": "fix an error in how the memory is parsed that was introduced in the initial support for parsing decimal-formatted memory values", "pred": "Fixed issue with extracting memory values from the log line."}
+{"diff_id": 48065, "ref": "PDI-5525.Excel writer step throws java.lang.ArrayIndexOutOfBoundsException .", "pred": "Fixed bug in Excel Writer Step with the number of fields."}
+{"diff_id": 88976, "ref": "Fix NPE when clickable spans are null. Summary:This fixes T80105198 where if we are using Ax and the text is not spannable , the clickable spans can be null.", "pred": "Fix potential NPE in RCTextView."}
+{"diff_id": 91972, "ref": "Fix imports for moved AbstractEngineConfiguration", "pred": "Fix AbstractEngineConfiguration import in AbstractEngineAutoConfiguration"}
+{"diff_id": 36750, "ref": "allow to optinally pass a ClassLoader to the RuntimeManagerFactory", "pred": "Initialize RuntimeManagerFactory lazily to avoid issues with classloading. PullRequest:jbpm/2518"}
+{"diff_id": 59589, "ref": "WFLY-8369:resteasy.scan in context parameter doesn \\' t need to be handled in JaxrsIntegrationProcessor", "pred": "Remove unnecessary code that is not needed for the JAX-RS integration processor."}
+{"diff_id": 97119, "ref": "Don \\' t reset RTT on error in RTT monitor .", "pred": "Closed connection after monitoring."}
+{"diff_id": 68821, "ref": "fix losing line breaks(e.g .", "pred": "Remove unnecessary line break replacement in WikipediaTextFilter"}
+{"diff_id": 102994, "ref": "Fix fixed host port test(<issue_id>).", "pred": "Fixed test case for FixedHostPortGenericContainer. Fixes #1234."}
+{"diff_id": 63169, "ref": "* Fixed issue 550.", "pred": "Fixes for LwjglContext and LwjglCanvas."}
+{"diff_id": 46927, "ref": "Database query fields doesn \\' t fall back to old lookup method of firing query. ", "pred": "Fix for PDI-481:Grab SQL layout from prepared statement without executing ."}
+{"diff_id": 23800, "ref": "if canon:allow same direction being two loop ends to the same loop with the same phi value", "pred": "Fix the NullPointerException from DefaultHomeFinder.getGraalVmHomeFallBack by adding a null check in the method."}
+{"diff_id": 71916, "ref": "RSV context menu fix .", "pred": "<issue_id> General menu fix."}
+{"diff_id": 93781, "ref": "the parser thread should always set runState to STOPPED .", "pred": "Refactor `run` method in `MaxwellParser` to separate the logic into a private method `doRun` and handle the run state accordingly. This change ensures that the `run` method starts the parser, sets the run state to running, and then calls the `doRun` method to execute the parser logic. Finally, it sets the run state to stopped after the `doRun` method completes."}
+{"diff_id": 58271, "ref": "research issue where A-GPS data sometimes seems destroyed but not reloaded", "pred": "Fix issue with A-GPS data not being reloaded properly. Added try-catch block to handle the situation where A-GPS data seems destroyed but not reloaded."}
+{"diff_id": 10749, "ref": "Revert \\\" Merge pull request <issue_id> from phughk/3.2-backupSettingsDescriptionFix \\\" .", "pred": "Remove deprecated annotations and descriptions from OnlineBackupSettings."}
+{"diff_id": 53488, "ref": "Fix potential for negative sleep(elastic/x-pack-elasticsearch <issue_id>).", "pred": "Fix test to not rely on Thread.sleep."}
+{"diff_id": 24881, "ref": "updated how the description is processsed from the manifest to fix issue <issue_id> for wss4j-1.5.7.jar .", "pred": "BUGFIX: Trim long descriptions in the JarAnalyzer class. If the description contains one of the following strings beyond 100 characters, then the description used will be trimmed to that position: \"such as\", \"like \", \"will use \", \"* uses \"."}
+{"diff_id": 82762, "ref": "Fix bug with missing trade completion", "pred": "Fix the bug that the payoutTx is not broadcasted after the lock time."}
+{"diff_id": 71137, "ref": "Script selector tooltip fix .", "pred": "Add tooltip text to display description of the selected script."}
+{"diff_id": 104296, "ref": "Bug <issue_id>:Make IndexChangedListener public", "pred": "Changed access modifier of addIndexChangedListener and removeIndexChangedListener to public."}
+{"diff_id": 1172, "ref": "Handle correctly missing View/Read permission during view deletion", "pred": "Add error message when user is missing the View/Read permission."}
+{"diff_id": 60430, "ref": "Fix thread safety issue", "pred": "Fix typo in StandaloneServerImpl JavaDoc."}
+{"diff_id": 59094, "ref": "Fix a ConstantPoolTest failure", "pred": "Add test to verify the order of elements in the array returned by the set in ConstantPoolTest."}
+{"diff_id": 106579, "ref": "Fix import bug", "pred": "Add basic authentication support for requests. Fixes issue #<issue_id>."}
+{"diff_id": 48381, "ref": "PDI-3350 Variables in error handling tab of Excel Input step do not resolve , fixed in trunk and 4.0.2.", "pred": "PDI-1545: Bug in excel input step with sheetname field filled."}
+{"diff_id": 10155, "ref": "Fix system tests against C media driver to work with renamed interceptor configuration environment variables .", "pred": "Change the environment variable name to match the Aeron C media driver."}
+{"diff_id": 15327, "ref": "am 3bbbabe6:am c4c932be:am ae5248b8:Force Overflow to show when using Toolbar standalone .", "pred": "am 3e3f3f3b:am 3e3f3f3b:am 3e3f3f3b:am 3e3f3f3b:am 3e3f3f3b:am 3e3f3f3b:am 3e3f3f3b:am 3e3f3f3b:am 3e3f3f3b:am 3e3f3f3b:Merge \\\" Fix ActionMenuView overflow button not showing \\\" into lmp-mr1-ub-dev ."}
+{"diff_id": 61681, "ref": "KAFKA-6296 ; Increase jitter to fix transient failure in NetworkClientTest.testConnectionDelayDisconnected .", "pred": "Adjusted jitter value in NetworkClientTest to improve test reliability."}
+{"diff_id": 44577, "ref": "HBASE-2579 Add atomic checkAndDelete support ; fix broke build-- i forgot to change one of the prepareDelete calls .", "pred": "HBASE-9645 Regionserver halt because of HLogs \"Logic Error Snapshot seq id from earlier flush still present\""}
+{"diff_id": 24678, "ref": "make sendMessage only return true after ack by recipient. patch by Jun Rao ; reviewed by jbellis for CASSANDRA-34 .", "pred": "Fix the hack in sendMessage() to ensure the data is written on the other end."}
+{"diff_id": 42420, "ref": "add error when using loadFont() with a non-vlw file", "pred": "Add file extension check to loadFont() to only work with .vlw font files. Fixes <issue_id>."}
+{"diff_id": 91148, "ref": "Fix NullPointerException in EmoteImpl # getGuild()", "pred": "Fix null pointer exception in EmoteImpl#getGuild."}
+{"diff_id": 38979, "ref": "Revert \\\" fix bug for merging sharding value(<issue_id>)\\\"(<issue_id>).", "pred": "Fixed mergeListRouteValues method in WhereClauseShardingConditionEngine. PullRequest:sharding-sphere/1234"}
+{"diff_id": 23503, "ref": "Don \\' t fail cache lookup of a deleted node. PullRequest:graal/6936", "pred": "The code changes are related to the following:"}
+{"diff_id": 92703, "ref": "Fix too late initialization of secret sources(<issue_id> )", "pred": "Initialize secret sources before applying changes to avoid master in a weird state."}
+{"diff_id": 21143, "ref": "graph size verification:do not enable per default if assertions are enabled", "pred": "Disable VerifyGraalPhasesSize by default. PullRequest:graal/2785"}
+{"diff_id": 48351, "ref": "PDI-10781 Can \\' t find repository when mixing repo and file-based transformations .", "pred": "PDI-10147 Transactional behavior on the transformation level leads to a NPE."}
+{"diff_id": 45734, "ref": "432473 web.xml declaration order of filters not preserved on calls to init()", "pred": "Fix the issue with the declaration order of filters not being preserved on calls to init()."}
+{"diff_id": 81433, "ref": "Fix for <issue_id>", "pred": "Remove unnecessary event notification in resume()."}
+{"diff_id": 20921, "ref": "made HotSpotConstantPool.loadReferencedType handle attempts to resolve constant pool indexes that do not refer to a type", "pred": "Fixed a bug in the HotSpotConstantPool class where the method was not handling null tags correctly."}
+{"diff_id": 66893, "ref": "Do not run imported jars through ijar when-- nouse_ijars is on the command line. RELNOTES:None. PiperOrigin-RevId:157569836", "pred": "Refactor processWithIjar to processWithIjarIfNeeded to better reflect its purpose and add a boolean flag to determine whether to use Ijar."}
+{"diff_id": 58545, "ref": "Fix very tiny comment error in Recycler(<issue_id>).", "pred": "Fix comment typo in Recycler class."}
+{"diff_id": 93848, "ref": "Fixed permissions issue regarding the wand and super pick axe .", "pred": "Fixed a bug that prevented the use of the \"/worldedit\" command for block destruction."}
+{"diff_id": 52719, "ref": "Fixes QueryStringQueryBuilderTests .", "pred": "Fix QueryStringQueryBuilderTests to work with unmapped fields."}
+{"diff_id": 102273, "ref": "fix to TypeResolver", "pred": "Fixed issue with TypeResolver."}
+{"diff_id": 4428, "ref": "disable exec(so noop if the jnlp libs aren \\' t there).", "pred": "Disable the showViaEval method in LaunchBrowser."}
+{"diff_id": 3551, "ref": "Correcting test case so that CheckStockStream price won \\' t be equal to that in event table .", "pred": "Fix UpdateFromRDBMSTestCase test case."}
+{"diff_id": 58645, "ref": "Fix a test case problem:testSwallowedReadComplete (..) may fail with an AssertionError sometimes .", "pred": "Fix delay in FlowControlHandlerTest"}
+{"diff_id": 88551, "ref": "o slight lifecycle mixup with executions , temporary fix but the bootstrap works .", "pred": "The commit messages provided are not clear and do not provide a good understanding of the changes made in the code. They also contain some comments and code that are not relevant to the commit message. Here are some improved commit messages for the code changes:"}
+{"diff_id": 9398, "ref": "Mail on userlist reported NPE here-looks like only happens if there are network errors , but check anyway .", "pred": "Handle null backingEngine in reset method to avoid NPE."}
+{"diff_id": 41167, "ref": "SONAR-8798 do not set obsolete discovery.zen.ping.multicast.enabled .", "pred": "Disable multicast in Elasticsearch settings and set transport and network host and port."}
+{"diff_id": 62896, "ref": "* Fixed incorrect byte-> float conversion when loading color buffer in Blender loader .", "pred": "Fix color conversion in MeshHelper to correctly handle alpha values."}
+{"diff_id": 52032, "ref": "Fixed findbugs issues", "pred": "Removed unused variable nullPlaceHolder in NearCacheContext."}
+{"diff_id": 83531, "ref": "Fix Libopus renderer \\' s isReady to take into account outputBuffer avail .", "pred": "Fixed issue with audio track readiness."}
+{"diff_id": 54680, "ref": "Random script fields can \\' t overlap .", "pred": "Fix InnerHitBuilderTests to dedupe script fields on their field name."}
+{"diff_id": 69765, "ref": "Don \\' t cancel disk cache puts .", "pred": "Fixed issue <issue_id>: Added condition to check if the image is in the disk cache before putting it in the disk cache."}
+{"diff_id": 61209, "ref": "Correct filter Limit", "pred": "Removed unnecessary code and fixed the filter handler."}
+{"diff_id": 47288, "ref": "Fixed bug in database repository code related to r_trans_data_service table .", "pred": "PDI-2753 validation failing in \" Get sequence value from database \" step"}
+{"diff_id": 79303, "ref": "Fixed unary plus/minus not being found on floating numbers", "pred": "Fix type check for double category in unary plus and minus operations."}
+{"diff_id": 11136, "ref": "Shut down a core server before trying to copy its store. Makes test happy under Windows which doesn \\' t like live copies .", "pred": "Fix shutdown of follower before copying its data."}
+{"diff_id": 25416, "ref": "copy paste errors", "pred": "Fix null check in CloudBalancingStartingSolutionInitializer. Fixes issue #<issue_id>."}
+{"diff_id": 40218, "ref": "Add missing Deprecated annotation(fixes build warning )", "pred": "Marked a warning as deprecated."}
+{"diff_id": 31030, "ref": "Make notification task back stack consistent to activity flow. Fixes <issue_id> .", "pred": "Refactored TaskStackBuilder to remove abstractions and added methods to skip accounts and folders in the back stack. Bug:75289452."}
+{"diff_id": 86753, "ref": "Fix checkstyle violations in ExceptionInChainedStubException", "pred": "Remove unnecessary comments and whitespace from the code."}
+{"diff_id": 71309, "ref": "<issue_id> SQL viewer:NPE fix .", "pred": "<issue_id> SQL dialog fix for null document."}
+{"diff_id": 19396, "ref": "disables connectTest that fails silently avoind creation of jacoco report", "pred": "Disable testConnect in RemoteProtocolCommandsTest."}
+{"diff_id": 72251, "ref": "<issue_id> Make detached info panel the default looks and feel .", "pred": "Set default preference for entity editor detach info to true."}
+{"diff_id": 62612, "ref": "Fixed Java 10-related crash", "pred": "Fixed Array initialization in BlockRenderer."}
+{"diff_id": 82955, "ref": "Fix missing entryMap init for seednodes", "pred": "Added functionality to read persisted entry map after basic services are initialized."}
+{"diff_id": 46672, "ref": "Fixed a small bug in the retry logic for getting the FileSystem", "pred": "Retry logic for getting a valid Filesystem object in HdfsFetcher."}
+{"diff_id": 71474, "ref": "<issue_id> UI freeze fix .", "pred": "DBEAVER-1234 - Fixed a bug where the SQL completion processor would hang indefinitely due to a missing job scheduling."}
+{"diff_id": 44103, "ref": "HBASE-24698 Turn OFF Canary WebUI as default(<issue_id>).", "pred": "HBASE-24086: Disable output stream capability enforcement when running on LocalFileSystem. This change disables the enforcement of durability guarantees when running on LocalFileSystem, which does not support the required capabilities `HSYNC` and `HFLUSH`. This is done by setting the `UNSAFE_STREAM_CAPABILITY_ENFORCE` property to `false` for the LocalFileSystem. This change is made to address the issue of output stream capability enforcement when running on LocalFileSystem."}
+{"diff_id": 76397, "ref": "Do not try to authenticate without credentials .", "pred": "No commit message provided."}
+{"diff_id": 113622, "ref": "fixes keyReleased vs.keyPressed bug in Draw", "pred": "Fix incorrect method call in keyPressed event listener."}
+{"diff_id": 65064, "ref": "Fix typo in Javadoc:ImmutableList is a \\\" list \\\" , not a \\\" set \\\".-------------.", "pred": "Fix typo in ImmutableList javadoc"}
+{"diff_id": 71506, "ref": "<issue_id> SQL indent fix .", "pred": "<issue_id> SQL auto indent fix(indentation)."}
+{"diff_id": 95474, "ref": "fix pour issue 101:In the collector server , can \\' t add an application when the applications.properties file does not exist", "pred": "Fixed a bug in CollectorController that prevented adding or removing applications in the applications.properties file."}
+{"diff_id": 96230, "ref": "Fix potential NPE", "pred": "Fix AsyncSenderImpl onComplete callback NPE"}
+{"diff_id": 106261, "ref": "Fixes <issue_id> .", "pred": "Fix log initialization in LoggingCache. Fixes #1234."}
+{"diff_id": 101149, "ref": "Correct (@link javadoc tag for SqlStdOperatorTable # OVER", "pred": "Fix javadoc in SqlStdOperatorTable"}
+{"diff_id": 14327, "ref": "am 6ca4e721:am 7652fb7e:am 7142e877:Merge \\\" Fix invocation of computeFitSystemWindows via reflection \\\" into lmp-dev .", "pred": "Fixed the issue with the invocation of `computeFitSystemWindows` via reflection."}
+{"diff_id": 1734, "ref": "PluginWrapper should not throw IOException if somebody enables the enabled plugin(<issue_id> )", "pred": "PluginWrapper should not throw IOException if somebody enables the enabled plugin(<issue_id>)."}
+{"diff_id": 41613, "ref": "CORE-2172 dropPrimaryKey without constraint name on sql server doesn \\' t honour schema information", "pred": "CORE-2387 dropPrimaryKey without constraint name on sql server doesn't query schema correctly"}
+{"diff_id": 44216, "ref": "HBASE-8705-RS holding META when restarted in a single node setup may hang infinitely without META assignment(Ram).", "pred": "HBASE-6896 sync bulk and regular assigment handling socket timeout exception"}
+{"diff_id": 16337, "ref": "Do not send input range intent immediately. Set the OnSeekBarChangeListener only after setProgress is called to avoid sending the action intent immediately. Change-Id:I <issue_id> .", "pred": "Do not send input range intent immediately. Set the OnSeekBarChangeListener only after setProgress is called to avoid sending the action intent immediately."}
+{"diff_id": 71304, "ref": "<issue_id> QueryManager default colors fix .", "pred": "Updated the color code for COLOR_LIGHT_GREEN to fix the color glitch in the dark theme."}
+{"diff_id": 63294, "ref": "Fix to constraint \\' s influence loading(if IPO of the influence was not present then NPE was raised ). ", "pred": "Fix <issue_id> ."}
+{"diff_id": 72324, "ref": "copy-paste issue with RecoverableMemoryChannel .", "pred": "Fix incorrect context keys in RecoverableMemoryChannel."}
+{"diff_id": 47643, "ref": "PDI-6818 Specifying more than one parameter in XSL Transformation job step results in \\\" Index out of bounds \\\" error .", "pred": "Fixed the number of rows in the output properties and fields in the XSLT dialog."}
+{"diff_id": 100984, "ref": "Fix license check(<issue_id> )", "pred": "Fix license header in StatsdGaugeTest. Bug:123456."}
+{"diff_id": 96591, "ref": "Revert fixed thread pool change .", "pred": "Fix thread pool creation in AsyncHttpClientConfig."}
+{"diff_id": 85567, "ref": "Always hide single-tab pager .", "pred": "Hide tab bar when there is only one tab available in the library fragment."}
+{"diff_id": 25337, "ref": "Don \\' t rely on the entity/value \\' s equals/hashcode method", "pred": "Use IdentityHashMap instead of HashMap in AbstractScoreDirector."}
+{"diff_id": 49894, "ref": "TableDesc.getDeserializer() should use correct classloader when calling Class.forName()(Jason Dere via Ashutosh Chauhan).", "pred": "Fixed class loading issue in TableDesc."}
+{"diff_id": 98735, "ref": "VertxHandler should close using ChannelHandlerContext instead the Channel when it closes upon an exception caught", "pred": "Remove redundant channel close in exceptionCaught method."}
+{"diff_id": 43103, "ref": "Thrift DemoClient failed with error IllegalArgument(message:Row length is 0).", "pred": "Remove unnecessary code that tries empty strings in DemoClient."}
+{"diff_id": 36567, "ref": "DROOLS-1084 Exclude \\' provided \\' , \\' test \\' and \\' system \\' scope before scanning full tree(<issue_id>).", "pred": "Refactor the code to use a constant for the DependencyFilter.ExcludeScopeFilter."}
+{"diff_id": 34342, "ref": "AbstractNode temporary workaround for reusing dependencies after module base \\' d dag tampering", "pred": "Update the code to include the context in the constructor and set the dependencies after reconnecting the input connection to the output."}
+{"diff_id": 90369, "ref": "compile error fix", "pred": "Refactored logException method to remove unnecessary parameter."}
+{"diff_id": 29878, "ref": "camel-olingo2 assumes \\'/\\' at end of URI", "pred": "Fixed the CS errors of camel-olingo2-api"}
+{"diff_id": 45619, "ref": "Issue <issue_id> Exclude cdi packages coming from maven plugin dependencies(<issue_id>).", "pred": "Add javax.enterprise and javax.decorator to the list of server classes to be knocked out from the webAppContext."}
+{"diff_id": 84601, "ref": "Fix ` ChromeTraceBuildListenerTest ` on Windows .", "pred": "Ignore test if root directory cannot be made read-only."}
+{"diff_id": 17663, "ref": "correct inventory dumper log message [ ci skip ]", "pred": "Update log message to reflect the correct dumped inventories count and directory."}
+{"diff_id": 111458, "ref": "make JSObject.getString return null instead of \\' null \\' string(<issue_id> )", "pred": "Fix java.lang.NullPointerException in JSObject.getString() method."}
+{"diff_id": 45945, "ref": "473243 Delay resource close for async default content", "pred": "473243 Delay resource close for async default content"}
+{"diff_id": 22989, "ref": "LoopFragment detection potentially processes floating nodes multiple times. PullRequest:graal/1078", "pred": "The commit message seems to be cut off. Can you please provide the full commit message?"}
+{"diff_id": 44227, "ref": "HBASE-11248-KeyOnlyKeyValue # toString() passes wrong offset to .", "pred": "Remove unnecessary offset and length calculations in toString() method of KeyValue class."}
+{"diff_id": 59153, "ref": "Fix NPE which accour when send a 100-continue response and using the HttpContentEncoder", "pred": "Fix a bug where the HttpContentEncoder was not handling 100-continue responses correctly."}
+{"diff_id": 48023, "ref": "Kettle remote execution:all requests are sent twice because authentication header is missing at 1st attempt .", "pred": "Bug 60991-XPath Extractor:Implement XPath 2.0."}
+{"diff_id": 80209, "ref": "Do not store the sketch name in Sketch .", "pred": "Fixed the Sketch constructor to use the file parameter to get the sketch folder and removed the name field from the Sketch class."}
+{"diff_id": 45842, "ref": "Issue <issue_id>-backport fix to websocket upgrade from jetty-10 .", "pred": "Fix issue with unsolicited response. Added status field to track the status of the response."}
+{"diff_id": 113198, "ref": "default replicas should be 1 and default shards should be 5", "pred": "Change default shard and replica settings to 5 and 1, respectively."}
+{"diff_id": 15860, "ref": "Make background helper \\\\ \\' s API 21 workaround more permissive am:779bf4e .", "pred": "Remove unused code and fix the background tinting on API 21. Bug: 75289452."}
+{"diff_id": 74953, "ref": "CorruptEntry.java fails after push for JDK-8145260 .", "pred": "Fixed encoding issue in ZipFile class."}
+{"diff_id": 68820, "ref": "correct identation for fix bug <issue_id>", "pred": "Remove unnecessary condition in checkDetAdjNounAgreement method in AgreementRule."}
+{"diff_id": 8728, "ref": "Fixed Readme client using owner/owner instead of owner/name in url", "pred": "Fix parameter in CheckHasReadMeClient to correctly check for readme in repository."}
+{"diff_id": 50093, "ref": "Child process of HiveServer2 fails to get delegation token from non default FileSystem(Sushanth Sowmyan , reviewed by Thejas M Nair )", "pred": "HIVE-24086: Add delegation tokens for all HDFS servers in SecureCmdDoAs (Yongzhi via Chao)"}
+{"diff_id": 47293, "ref": "Bug <issue_id> Filter rows:IndexOutOfBoundsException:Row.getValue() returns null now when value is not found , also secured Row.removeValue() when value is not found .", "pred": "Fix NPE in Row class."}
+{"diff_id": 65876, "ref": "Fix debugging info when crashing with missing SkyFunction.-- .", "pred": "Fix error message in ParallelEvaluator. RELNOTES: None."}
+{"diff_id": 44869, "ref": "Give useful message on default grok patterns fail(<issue_id>).", "pred": "Add default grok patterns to the system during migration. If the content pack with the default grok patterns is already found, a ContentPackException is thrown. If the installation of the default grok patterns fails, a warning message is logged."}
+{"diff_id": 76840, "ref": "Go Server should delegate \\' all \\' HTTP verbs to plugin", "pred": "Add support for multiple HTTP methods in plugin controller."}
+{"diff_id": 45881, "ref": "Issue <issue_id>-add test to reproduce the ExecutorThreadPool.join() issue .", "pred": "Add test for join method in ExecutorThreadPoolTest."}
+{"diff_id": 97462, "ref": "Fix case sensitivity setting(<issue_id> )", "pred": "Fixed NPE in IcebergSource when spark.sql.caseSensitive is not set"}
+{"diff_id": 72806, "ref": "[ TEST_BUG ] java/awt/Modal/ModalDialogOrderingTest/ModalDialogOrderingTest.java fails .", "pred": "[ TEST_BUG ] java/awt/Modal/ModalDialogOrderingTest/ModalDialogOrderingTest.java fails on timeout ."}
+{"diff_id": 49438, "ref": "metastore.HiveMetaStore should set the thread local raw store to null in shutdown()(Travis Crawford via Ashutosh Chauhan).", "pred": "Shutdown threadLocalMS in HiveMetaStore.shutdown() to avoid memory leak."}
+{"diff_id": 11468, "ref": "( tentative)Fix for Read Only support in the lucene-index component.", "pred": "Fix issue with read_only parameter in LuceneDataSource."}
+{"diff_id": 30546, "ref": "CAMEL-3788 HTTP Producer should not return a out message with null when the timeout exception is thrown. ", "pred": "Fixed issue with response body extraction in HttpProducer."}
+{"diff_id": 110076, "ref": "Fixes crash after accepting permission dialog(<issue_id>).", "pred": "Fix issue with starting camera preview and add error logging."}
+{"diff_id": 103278, "ref": "Fixes parameter names in inner enum constructor invocation. Change on 2013/08/09 by kstanger < kstanger@google.com > .", "pred": "Fixed a bug in the ObjectiveCImplementationGenerator that caused incorrect insertion of synthetic parameters in the constructor invocation."}
+{"diff_id": 1213, "ref": "JNLP clients perform periodic ping to detect terminated connections and recover automatically. ", "pred": "* Fixed a bug that caused the application to terminate when the ping failed."}
+{"diff_id": 113052, "ref": "Fix bug in SubscriberMethod.equals() .", "pred": "Fixed issue 7811:SubscriberMethod.equals() does not check methodString for null."}
+{"diff_id": 94983, "ref": "external exec default false", "pred": "Changed default value for external execution flag to false in GridHadoopConfiguration(<issue_id>)"}
+{"diff_id": 72904, "ref": "Disconnect button leads to wrong popup message .", "pred": "Fixed a bug where the user could disconnect twice by clicking the disconnect button."}
+{"diff_id": 18025, "ref": "another bugfix for share/www. Now you can Use share/and not only share/dir.html .", "pred": "Fix file path for target file in httpdFileHandler."}
+{"diff_id": 68169, "ref": "Issue <issue_id>:Fixed a bug where the upcaster chain would not be set into the FileSystemEventStore.", "pred": "Added support for upcasters in FileSystemEventStoreBeanDefinitionParser."}
+{"diff_id": 61576, "ref": "fix the JoinWindows retention deprecation doc(<issue_id>).", "pred": "Fix deprecation warnings and update javadoc in JoinWindows class."}
+{"diff_id": 35428, "ref": "Fix focus and touch issues in 3D all apps. Bug # 2506026 .", "pred": "Fixed 2305903 Scrolling trackball upwards at the top of the app menu selects app at the bottom left."}
+{"diff_id": 61843, "ref": "KAFKA-4469 ; Fix consumer performance regression from inefficient list removal and copy .", "pred": "Fix a bug in the Fetcher class that causes the drainRecords method to return an empty list when it should not."}
+{"diff_id": 47794, "ref": "PDI-11899 Stream field dropdowns do not populate on Dimension Lookup", "pred": "PDI-8871: Get data from XML: Can't close error dialog"}
+{"diff_id": 95568, "ref": "fixed check when computing root blocklength to return current blocklength value when hitting a group", "pred": "Fix block length calculation in Message class."}
+{"diff_id": 80690, "ref": "Fixes in resolving JMX connection , debug output removed .", "pred": "Resolve JMXServiceURL and Host for JmxApplication."}
+{"diff_id": 64035, "ref": "Fix SnapshotStatusApisIT(<issue_id>).", "pred": "Fix SnapshotStatusApisIT to handle SnapshotMissingException."}
+{"diff_id": 5252, "ref": "Fixed reference quote span", "pred": "Fixed quote span in reply/forwarded message view."}
+{"diff_id": 78293, "ref": "Multiple UNION queries could not be used in derived tables .", "pred": "Removed unnecessary parentheses in the SQL plan generation for UNION ALL."}
+{"diff_id": 109183, "ref": "Fix <issue_id> .", "pred": "Fix <issue_id> - Add methods to get scroll duration and use them in smooth scroll methods."}
+{"diff_id": 61653, "ref": "KAFKA-7799 ; Fix flaky test RestServerTest.testCORSEnabled(<issue_id>).", "pred": "Add setup method to RestServerTest."}
+{"diff_id": 30098, "ref": "Fixed the Elsql producer inconsistent behavior compared to sql component producer", "pred": "Remove unnecessary comment in ElsqlProducer."}
+{"diff_id": 97623, "ref": "fixed qualifier", "pred": "Fix exception type in execute method signature"}
+{"diff_id": 99800, "ref": "Fix ReaderHandler in WebSocket Proxy(<issue_id> )", "pred": "Fix ReaderHandler in WebSocket Proxy(<issue_id>)"}
+{"diff_id": 66111, "ref": "Don \\' t declare parameters of type Iterable < Path > .", "pred": "Fix method signature in JavacTurbineTest to use Collection instead of Iterable."}
+{"diff_id": 95737, "ref": "Fix BLE type conversions problems", "pred": "Fix issue with month calculation in BLETypeConversions. Fixes <issue_id>."}
+{"diff_id": 62913, "ref": "Fix for travis", "pred": "Remove unused imports and classes from BufferUtils."}
+{"diff_id": 35148, "ref": "Call displayCompletions couple frames after selectAll is called am:730c238b8d .", "pred": "Add a delay before displaying completions in the FolderNameEditText to ensure that the IME animation and state handling has settled. This is a workaround until there is an IMM callback to notify when the IME animation and state handling is finished."}
+{"diff_id": 42672, "ref": "hitting Run should restart the sketch , even when debugging(fixes <issue_id> )", "pred": "Handle restart of sketch when hitting Run while a sketch is running."}
+{"diff_id": 3428, "ref": "Fix code analyzer visitor to ignore unused items", "pred": "Fixed the CodeAnalyzer to ignore package declarations and variable definitions."}
+{"diff_id": 68894, "ref": "fix parameter order for assertEquals()", "pred": "Fix a bug in the test case."}
+{"diff_id": 81378, "ref": "Fixes <issue_id>", "pred": "Fixes <issue_id>"}
+{"diff_id": 30832, "ref": "Don \\' t check for WRITE_CONTACTS permission in RecipientLoader", "pred": "Removed unnecessary check for write contacts permission in RecipientLoader."}
+{"diff_id": 57689, "ref": "Fix AV notes widget", "pred": "Fix recording control visibility bug"}
+{"diff_id": 41873, "ref": "CORE-2815 Rollback by tag doesn \\' t roll back tagDatabase changeSet", "pred": "Remove changeSets that only tag the database from the list of changeSets after a tag."}
+{"diff_id": 98937, "ref": "Fixing opcode reset during PAYLOAD .", "pred": "Fix issue with payloadRead not being reset to 0 after processing a WebSocket frame."}
+{"diff_id": 13862, "ref": "Do not stop current video when we switch to desktop sharing(or vice-versa)as starting desktop sharing will trigger new session that closes and releases stuff from previous session .", "pred": "Fix enabling desktop sharing when local video is already enabled."}
+{"diff_id": 64218, "ref": "AwaitsFix for <issue_id>", "pred": "AwaitsFix for elastic/elasticsearch <issue_id>."}
+{"diff_id": 81640, "ref": "Bitbay v3 user trades query params fix", "pred": "Add createTradeHistoryParams method to BitbayTradeService."}
+{"diff_id": 20287, "ref": "Switch to \\\" home as up \\\" button on new contact selection activity. Fixes <issue_id> .", "pred": "Hide action button and enable back navigation in New Conversation Activity. Fixes <issue_id>."}
+{"diff_id": 110098, "ref": "fix style check issue on store-on-cache", "pred": "fix may occur out-of-range error from sparse-array on store-on-cache"}
+{"diff_id": 44440, "ref": "HBASE-14421 Follow-on from HBASE-14421 , just disable TestFastFail * until someone digs in and fixes it", "pred": "Ignoring testFastFail due to potential zombie state as per HBASE-14421."}
+{"diff_id": 16469, "ref": "Floating Toolbar:Handle TextView position changes. Bug:119904334 .", "pred": "Fix memory leak in ToolbarController."}
+{"diff_id": 103905, "ref": "DBZ-20 Prevent spotted JVM crash", "pred": "Fail the task instead of JVM crash when interrupted while stopping coordinator in OracleConnectorTask."}
+{"diff_id": 4282, "ref": "detect the IllegalStateException when the zip file is closed on getEntry() .", "pred": "Fix ResourceNotFoundException when the zip file has been closed."}
+{"diff_id": 30576, "ref": "camel-spring-ldap fixed switch/cases indentation see CAMEL-14540", "pred": "Spring LDAP producer should not throw UnsupportedOperationException for unsupported operations."}
+{"diff_id": 37054, "ref": "fix for duplicate key exceptions", "pred": "fix for duplicate key exceptions"}
+{"diff_id": 76342, "ref": "Initialise the default antocsrf tokens if none set .", "pred": "Add default Anti-CSRF tokens if none are provided."}
+{"diff_id": 82209, "ref": "Fixed GLM cross validation(just 1 and 0 swapped in scoring )", "pred": "Fixed bug in GLMModel where the wrong prediction was added to the validation."}
+{"diff_id": 34897, "ref": "Reset disabled flags when action buttons lose visibility. Bug:159993889 .", "pred": "Fix issue with disabled scrolling when RecentsView is not visible."}
+{"diff_id": 53181, "ref": "Fixed document already exists error when concurrently sending update request with upsert using the same id.", "pred": "Handle DocumentAlreadyExistsException in TransportUpdateAction"}
+{"diff_id": 103684, "ref": "Fixes memory leak in IosHttpURLConnection-copied object wasn \\' t being .", "pred": "Fix for IosHttpURLConnection not validating SSL certificates."}
+{"diff_id": 29436, "ref": "Convert body EIP uses a default message type like the transform and setbody EIP does. ", "pred": "Remove unnecessary body conversion in MultipleDestinationConsumeTest."}
+{"diff_id": 9224, "ref": "Fix location of test file ; add test for noFile present(causes NPE at present).", "pred": "Fixed file not found error handling in CSVRead."}
+{"diff_id": 57462, "ref": "Fixed nullpointer exception in SyndTypeUtils", "pred": "Fixed null pointer exception in SyndTypeUtils. Bug:36069458."}
+{"diff_id": 17556, "ref": "grandexchange plugin:log cancelled buy/sell offers", "pred": "Fix handling of cancelled Grand Exchange offers."}
+{"diff_id": 11139, "ref": "fixed the Gremlin test back to the original state , where Blueprints is not deleting stuff .", "pred": "Fix GremlinSessionTest to correctly evaluate the result of the gremlin query."}
+{"diff_id": 42993, "ref": "texture wrap can be set multiple times in a sketch , fixes <issue_id>", "pred": "Refactor code to use diamond operator for generic types, and remove unnecessary initializations. Also, flush the buffer when the texture wrap setting changes."}
+{"diff_id": 70133, "ref": "Make the method really search for the@Path annotation in the ancestor hierarchy .", "pred": "Fix bug in getAnnotatedResourceClass method to traverse the class hierarchy and find the annotation."}
+{"diff_id": 80474, "ref": "test for thread node fixed", "pred": "Fixed bug in isRegular method to correctly identify regular nodes."}
+{"diff_id": 83553, "ref": "Allow packed audio without PRIV timestamps .", "pred": "Remove unnecessary exception in HlsMediaChunk. Issue: 186"}
+{"diff_id": 42190, "ref": "CORE-666 sqlFile stripComments doesn \\' t work with Oracle pacakges/package bodies .", "pred": "CORE-2717 Oracle: Remove trailing / from SQL statements before executing them"}
+{"diff_id": 74158, "ref": "address Findbugs issue in WebRowSetXmlWriter .", "pred": "Fix serialization issue in WebRowSetXmlWriter."}
+{"diff_id": 60352, "ref": "The request was rejected as the container is suspended during server shutdown", "pred": "Added exception handling for EJBComponentUnavailableException in LoggingInterceptor."}
+{"diff_id": 109508, "ref": "fix imageResOnLoading .", "pred": "Fix incorrect method call in DisplayImageOptions. Bug: 123456."}
+{"diff_id": 100029, "ref": "BlockAwareSegmentInputStreamImpl shouldn \\' t use LedgerEntry # getLength(<issue_id>).", "pred": "Fixed memory leak in BlockAwareSegmentInputStreamImpl."}
+{"diff_id": 36245, "ref": "am c1cd23b4:Build fix:Removing FastOutSlowIn interpolator .", "pred": "Fix issue where \"X\" would appear over QSB bar in landscape mode."}
+{"diff_id": 86959, "ref": "Fix timer not starting on new deck", "pred": "Fixes whiteboard and timer bug."}
+{"diff_id": 16944, "ref": "scene mixin:disable clickbox checks when detatched camera is enabled .", "pred": "Fix entities at mouse count when oculus orb state is not 0."}
+{"diff_id": 49538, "ref": "ACID:Load data followed by a select * query results in incorrect results(Vaibhav Gumashta , reviewed by Gopal V).", "pred": "am 3e297b57:Merge \\\" Disable hotseat buttons if AllApps is visible.\\\""}
+{"diff_id": 15426, "ref": "Respect drawer \\' s lock state in drawer toggle. Bug:25346710 .", "pred": "Fix issue with drawer toggle not respecting lock mode. Bug: 123456."}
+{"diff_id": 76333, "ref": "Issue 1559:Fixed incorrect mandatory parameters for setPolicyAlertThreshold and setScannerAlertThreshold actions", "pred": "Fixed the ActiveScanAPI class to remove unused imports and variables, and to improve the code readability."}
+{"diff_id": 78263, "ref": "Fix==", "pred": "Fix comparison of column names in AlterTableAlterColumn."}
+{"diff_id": 92861, "ref": "Fix namespace for load opeations .", "pred": "Fix load(InputStream) to use the correct namespace."}
+{"diff_id": 43762, "ref": "HBASE-17330 SnapshotFileCache will always refresh the file cache(Jianwei Cui )", "pred": "Fixed the file leak in SnapshotFileCache."}
+{"diff_id": 4502, "ref": "SF Bug 2528264:change execution mechanism to correctly redirect output to files when specified. ", "pred": "Add a property to store the return code of the child process using a task identifier and a UUID to ensure the exit code corresponds to this execution. This is done to prevent the underlying Ant Java object from throwing an exception if the execution fails. If the execution fails, it will be reported, and the return code will be set to 0."}
+{"diff_id": 73291, "ref": "Xsl transformation gives different results in 8u66 .", "pred": "Fix typo in comment."}
+{"diff_id": 42730, "ref": "remove the delay loop , may fix <issue_id> , <issue_id> , <issue_id> , <issue_id>", "pred": "Remove commented out code in PApplet.java."}
+{"diff_id": 71048, "ref": "Data transfer progress monitoring fix .", "pred": "<issue_id> Database transfer progress monitor fix."}
+{"diff_id": 58726, "ref": "Fix <issue_id>:ZlibDecoder does not support preset dictionary", "pred": "Fix <issue_id> - ZlibDecoder should set the dictionary after initializing the ZStream."}
+{"diff_id": 110307, "ref": "fix compile error", "pred": "Fix testDownload method in TextContentSelectorTest"}
+{"diff_id": 103434, "ref": "Fixes issue where method returns without releasing the lock .", "pred": "Fix ThreadPoolExecutor.runTask to avoid potential deadlock."}
+{"diff_id": 109409, "ref": "fix localbus + portio", "pred": "Removed unused code and commented out code."}
+{"diff_id": 9269, "ref": "Default to creating the RMI registry within the server(server.rmi.create=true).", "pred": "Refactor RemoteJMeterEngineImpl to use a property to control whether it creates its own RMI registry. This allows the user to specify whether the server should create its own RMI registry or use an existing one."}
+{"diff_id": 50685, "ref": "Tez:Analyze command fails with dbclass=counter(Gunther Hagleitner).", "pred": "Fixed NPE in CounterStatsAggregatorTez when sourceTask is not an instance of TezTask."}
+{"diff_id": 10079, "ref": "Send ` leadershipTermId ` in ` SessionCloseRequest `", "pred": "Add leadershipTermId to sessionCloseRequestEncoder."}
+{"diff_id": 35344, "ref": "am 8e1b4f65:am fa4086dd:Fixing issue where selected tab did not match AllApps page upon rotation. * commit \\' <issue_id> \\':.", "pred": "am 3d8bdd63:am eb04476d:Merge \" Fix issue where \" X \" would appear over QSB bar in landscape mode \" into jb-dev ."}
+{"diff_id": 89690, "ref": "Fix compilation error", "pred": "DSLContext constructor should not set null values for the configuration."}
+{"diff_id": 35833, "ref": "Use correct interpolator for recents scale when quick scrubbing am:4ff7d8e7b3 am:ca1cda1e84 .", "pred": "Fix issue with overview scale and translation Y factor interpolation."}
+{"diff_id": 70516, "ref": "DS save:do not save disabled network handlers configs .", "pred": "Fixed issue with saving network handler configuration."}
+{"diff_id": 14758, "ref": "Removed Mockito from this test in hopes of fixing the test when run on P. Bug:77895281 .", "pred": "Fix DrawerInteractionTest to use MockView instead of Mockito.spy."}
+{"diff_id": 93260, "ref": "@ Ignored tests as workaround for [ GEOS-5879 ] KML TimeStamp date-month swap", "pred": "Ignore failing tests in KMLTest due to time constraints."}
+{"diff_id": 45977, "ref": "Jetty client unable to recover from Time outs when connection count per address hits max. Test that shows that upon initial investigation , HttpClient works well , contrary to what reported in the bug .", "pred": "Fixed issue with version 9.2.10/9.2.13."}
+{"diff_id": 14208, "ref": "am 7dc8e31c:am efd9a24d:am 8f5c183b:Fix NPE in playback controls when no details description presenter. * commit \\' <issue_id> \\':.", "pred": "am 8f5c183b:Fix NPE in playback controls when no details description presenter."}
+{"diff_id": 91241, "ref": "Attempt to fix j9 javac messup", "pred": "Fix casting issue in AudioConnection.flip() method."}
+{"diff_id": 74249, "ref": "java/lang/ProcessHandle/PermissionTest.java fails with TestNG 7.1 .", "pred": "Fix for JDK-8067801 breaks java/lang/ProcessHandle/PermissionTest.java ."}
+{"diff_id": 111610, "ref": "fix toggling bug", "pred": "Fix enabled state of play button in AudioRecordingActivity"}
+{"diff_id": 70176, "ref": "Fixed minor typo in UriComponent javadoc. Change-Id:I <issue_id> .", "pred": "Fix typo in UriComponent class."}
+{"diff_id": 52754, "ref": "Fix performance of RoutingNodes <issue_id> ssertShardStats .", "pred": "Refactor the code to use a map to group shards by shard id."}
+{"diff_id": 108318, "ref": "NIFI-730:.", "pred": "Fixed the logic for determining if a drop request is complete."}
+{"diff_id": 63308, "ref": "Fix to loading object animation for Blender 2.62 +(found by \\' reactlogic \\' ). ", "pred": "Fix incorrect array index for rotation in IpoHelper."}
+{"diff_id": 103894, "ref": "Don \\' t pass null exception/mismatch between # placeholders in log message and # arguments", "pred": "Fix exception handling in watcher."}
+{"diff_id": 56164, "ref": "khaos has to rollblack when applyBlock throw Exception", "pred": "Fix error handling in applyBlock."}
+{"diff_id": 56154, "ref": "fix validateSignature bug , use default permission if account does not exist", "pred": "Fix PermissionException in TransactionCapsule"}
+{"diff_id": 98528, "ref": "Fix a bug of SwipeDismissItemAnimator", "pred": "Fix swipe dismiss item animator to handle all swipe directions"}
+{"diff_id": 42151, "ref": "CORE-2009 Fixing regression where the AntClassLoader parentFirst setting was set to true when it should not be .", "pred": "Do not set parent first for Ant classloader in BaseLjsonbaseTask."}
+{"diff_id": 49176, "ref": "do not rewrite to source lookup if symbol is part of orderBy", "pred": "Rewrite the QueryAndFetchConsumer to avoid rewriting symbols used in the ORDER BY clause to source lookup. This is necessary because the field must be loaded to the cache anyway, so there's no need to rewrite it."}
+{"diff_id": 80821, "ref": "Bugfix <issue_id>-Display error dialog if showing tray icon throws AWTException .", "pred": "Fix tray icon not supported issue with VisualVM."}
+{"diff_id": 78388, "ref": "Don \\' t try to load procedures for PostgreSQL", "pred": "Fix NullPointerException in DbContents class when reading procedures for PostgreSQL."}
+{"diff_id": 112189, "ref": "Fix <issue_id>", "pred": "Fix environment variables mapping test to use dynamic expected size."}
+{"diff_id": 45679, "ref": "JETTY-1439 space in directory installation path causes classloader problem", "pred": "Fixed the formatting and indentation issues in the code."}
+{"diff_id": 101792, "ref": "Fix food bar not rendering when non-living entities are mounted(<issue_id> )", "pred": "Fix incorrect condition for rendering food when riding a mount(<issue_id>)"}
+{"diff_id": 40333, "ref": "LOG4J2-1010 DynamicThresholdFilter should get context data from the configured ContextDataInjector , not hard-coded from ThreadContext", "pred": "LOG4J2-1010 DynamicThresholdFilter should get context data from the configured ContextDataInjector, not hard-coded from ThreadContext. Fixed the filter methods to use the current context data instead of ThreadContext."}
+{"diff_id": 47814, "ref": "kitchen isn ` t freeing allocated memory after using \\\" Database lookup/Database value lookup \\\" step in a transformation(remove System.out.println).", "pred": "Remove unnecessary print statement in CentralLogStore."}
+{"diff_id": 80613, "ref": "do not hardcode Color.GRAY", "pred": "Set disabled line color for details renderer."}
+{"diff_id": 100444, "ref": "bug fix", "pred": "Fixed file path issue in DeployUtil."}
+{"diff_id": 98994, "ref": "clear all keys including sprint in the next movement , fixes <issue_id>", "pred": "Fix sprinting into blocks when executing path."}
+{"diff_id": 57153, "ref": "correct off-by-one in error text for shinyapps ; fixes <issue_id>", "pred": "Fixed error message for app title length."}
+{"diff_id": 14785, "ref": "am 9e670348:Merge \\\" Fix window inset handling for overlay action modes \\\" into lmp-dev .", "pred": "am 41042808:Merge \" Fix window inset handling for overlay action modes \" into lmp-dev ."}
+{"diff_id": 59213, "ref": "Fix merge issue introduced by 04c0d77 .", "pred": "Fixed messageReceived to channelRead0 in Http2ServerInitializer."}
+{"diff_id": 24594, "ref": "handle subcolumn queries in cache fast-path , fixing system test regressions introduced in CASSANDRA-1267 .", "pred": "Optimize read path for slice queries on wide rows. If the filter is asking for less columns than we have cached, we fall back to the slow path since we have to copy out a subset."}
+{"diff_id": 17950, "ref": "Fixed settingsAck_p.html back link for case where referrer is stripped .", "pred": "Fixed backlink for SettingsAck_p.java."}
+{"diff_id": 105128, "ref": "<issue_id> Search in AS bug(when navigating to searched results)fixed", "pred": "Fixed the issue with the null pointer exception in the tag tree."}
+{"diff_id": 72077, "ref": "UUID editor fixed .", "pred": "Fix UUID value manager."}
+{"diff_id": 189, "ref": "Port r706574 from tcnative trunk to tc trunk. \\\" Fix API function name recvFrom-> recvfrom.\\\" .", "pred": "Fix typo in native method name in Socket class."}
+{"diff_id": 9483, "ref": "Bug 54154-HTTP Proxy Server should not force user to select the type of Sampler in HTTP Sampler Settings .", "pred": "Fix for Bug 62212: Recorder: Improve UX by providing a popup above all windows to be able to change Transaction names and pauses while using Browser."}
+{"diff_id": 98174, "ref": "fix flaky RestApiTest # shouldExecutePushQueryOverRest(MINOR )(<issue_id> )", "pred": "Fix RestApiTest to use assertThat with hasSize and get for better error messages."}
+{"diff_id": 35203, "ref": "Fix missing space in select statement in backup helper. Also check when backing up favourites that they are .", "pred": "am 3e3e3e3:am 4e4e4e4:am 5e5e5e5:am 6e6e6e6:am 7e7e7e7:am 8e8e8e8:am 9e9e9e9:am 0e0e0e0:Merge \\\" Don't backup apps in other profiles for now \\\" into jb-ub-now-jetsonic ."}
+{"diff_id": 56788, "ref": "fix exception when closing a zombie terminal session", "pred": "Fix potential NullPointerException in disconnect method of TerminalSessionSocket class."}
+{"diff_id": 106901, "ref": "fixes <issue_id> fix a typo in variable JwT_CLOCK_SKEW_IN_SECONDS", "pred": "Fix typo in JWT_CLOCK_SKEW_IN_SECONDS variable name."}
+{"diff_id": 6383, "ref": "Default to allocating ` ResourceList ` of one element(<issue_id> )", "pred": "Initialize ResourceList with initial capacity to avoid resizing."}
+{"diff_id": 73438, "ref": "ArrayIndexOutOfBoundsException throws in UTF8Reader of SAXParser .", "pred": "Fix buffer overflow issue in UTF8Reader."}
+{"diff_id": 34517, "ref": "ModuleRendering.java set context in constructor , don \\' t store ModuleRendering in context(is accesible trough manager), add setContext() method for when ModuleRendering is instanciated during gameCreation phase and has different context than it needs during runtime .", "pred": "Refactor ModuleRendering to allow for setting the context and providing module. Add a method to set the context and remove the unnecessary call to put the ModuleRendering instance in the context during initialization."}
+{"diff_id": 24205, "ref": "local db and shared db sync fix <issue_id>", "pred": "Add postChange() method to MetaData class to handle changes in group structure."}
+{"diff_id": 78543, "ref": "Workaround for getResource being case insensitive under Windows", "pred": "Fix for GROOVY-10082: ClassNodeResolver should handle case-insensitive file systems better."}
+{"diff_id": 65473, "ref": "Fix issue 572 and issue 614 .", "pred": "Fix parsing of IP address octets and hextets. Fixes <issue_id>."}
+{"diff_id": 26411, "ref": "hide legacy instant upload preferences on Android 5 +", "pred": "Fixed instant upload path on pre Android Lollipop."}
+{"diff_id": 14567, "ref": "Protect popFromBackStack with SDK_INT check. Bug 19229940 .", "pred": "Fix FragmentTransaction replace() behavior"}
+{"diff_id": 32890, "ref": "Gracefully close the stream with </stream:stream >(<issue_id>).", "pred": "Fixed a bug in the NIOConnection class where the deliverRawText method was not properly handling the closing of the connection. This bug was causing errors when delivering the stream close tag. The fix ensures that the state of the connection, its session, and the MINA context are properly closed."}
+{"diff_id": 4295, "ref": "Make sure we first save comments if someone clicks on \\\" File Bug \\\" .", "pred": "Fixed the issue where comments were not being saved when a bug was selected and added support for bug links in the cloud."}
+{"diff_id": 93251, "ref": "Fixed vague and misleading javadoc", "pred": "Fix typo in method comment in GeoServerFacade."}
+{"diff_id": 26392, "ref": "Fix for sso Grant/Deny dialog text color in dark mode.  ", "pred": "Fixed text color in SSO grant permission activity."}
+{"diff_id": 65616, "ref": "<issue_id> jackson-binding:2.9 fix for setterless properties being picked up", "pred": "Fix OptimizedModelPropertiesProvider to handle getterless properties correctly."}
+{"diff_id": 56332, "ref": "don \\' t raise History pane on console reset", "pred": "Remove unnecessary view bringToFront call in History view"}
+{"diff_id": 18526, "ref": "fixed a NPE on hook in case of deletion of not existent record", "pred": "Fixed issue with callbackHooks method in ODatabaseRecordAbstract class to handle null id."}
+{"diff_id": 877, "ref": "Correction of the InstallUncaught NPE(<issue_id>).", "pred": "Fix NullPointerException in InstallUncaughtExceptionHandler"}
+{"diff_id": 42096, "ref": "Handle empty rollback file which occurs in a < rollback > tag DAT-4080", "pred": "CORE-3455: Add check for empty rollback file in RollbackVisitor."}
+{"diff_id": 16525, "ref": "am 2f50db18:am 5522362d:am 88099e98:am 252b1765:Merge \\\" Fix TextInputLayout laying out RTL text as LTR \\\" into lmp-mr1-ub-dev .", "pred": "am 252b1765:Merge \\\" Fix TextInputLayout laying out RTL text as LTR \\\" into lmp-mr1-ub-dev ."}
+{"diff_id": 89702, "ref": "Quick fix", "pred": "Remove unnecessary whitespace in DefaultBinding class."}
+{"diff_id": 74469, "ref": "[ testbug ] CoreThreadTimeOut still uses hardcoded timeout .", "pred": "Fixed CoreThreadTimeOut test to ensure core threads are timed out after the specified timeout period."}
+{"diff_id": 21258, "ref": "Fix wrong try/catch block ; Use Lock instead of Semaphore for closing ; Extract methods .", "pred": "Fixed issue TRUFFLE-1256."}
+{"diff_id": 64554, "ref": "Fix BlobStoreIncrementalityIT(<issue_id>).", "pred": "Fixed the failing test on the CI-Server."}
+{"diff_id": 71322, "ref": "SQL Server:schema filtering fix .", "pred": "SQL Server schema filter fix."}
+{"diff_id": 105068, "ref": "seeking preview fix", "pred": "Always show storyboard in PlaybackTransportRowPresenter."}
+{"diff_id": 101057, "ref": "Fix deadlock in DatadogStatsdLineBuilder(<issue_id>).", "pred": "Fix deadlock in DatadogStatsdLineBuilder(<issue_id>)."}
+{"diff_id": 38, "ref": "Align % 2f handling(aka CVE-2007-0450 fix)between implementations of UDecoder.convert().-Make convert(MessageBytes)to consistently throw an IOException , even if it calls convert(String ). convert(String)and convert(CharChunk)are rare cases with little impact .", "pred": "Fixed issue 64898: UDecoder throws exception when decoding encoded slash in query string"}
+{"diff_id": 91433, "ref": "Fixing unused import , independant of current branch", "pred": "Remove unused import in ClickProcessor"}
+{"diff_id": 49578, "ref": "memory leak in directsql for mysql + bonecp specific initialization(Xiaomin Zhang , reviewed by Sergey Shelukhin )", "pred": "Add a method to prepare quotes for MySQL in the ObjectStore class. Also, add a method to execute a query without returning a result in the MetaStoreDirectSql class."}
+{"diff_id": 9258, "ref": "Bug 63048-JMeter does not retrieve link resources of type \\\" shortcut icon \\\" or \\\" icon \\\" .", "pred": "Fix issue with parsing LINK tags in HTML."}
+{"diff_id": 60893, "ref": "AS7-2786 DataSourceOperationsUnitTestCase fails intermittently", "pred": "Disable and ReEnableXaDs test is ignored because of AS7-2786 issue."}
+{"diff_id": 88704, "ref": "bootstrap fixes .", "pred": "Fixed the issue with downloading dependencies."}
+{"diff_id": 90999, "ref": "Fix <issue_id> Gephi 0.9.1 freezes for dynamical graphs", "pred": "Fixed issue with graph read lock in DataBridge."}
+{"diff_id": 90344, "ref": "Fix memory leak issue <issue_id>", "pred": "Fix issue with discarding read bytes in PubSubCommandHandler."}
+{"diff_id": 107684, "ref": "data consumption fix .", "pred": "Fixed issue with PushParser."}
+{"diff_id": 56185, "ref": "fix adaptiveResourceLimitMultiplier", "pred": "Fix total energy limit calculation in EnergyProcessor"}
+{"diff_id": 30164, "ref": "CAMEL-6727 Close the stream in XmlSignerHelper.getXslTransform with thanks to Franz", "pred": "Close input stream after using it in getXslTransform method."}
+{"diff_id": 19091, "ref": "Fixed bug on keep alive:connection remains open", "pred": "Fix logic in OHttpResponse.flush() method"}
+{"diff_id": 12498, "ref": "Generalized workaround for JDBC 4.1 getObject(index , requiredType)failures on MySQL and Derby .", "pred": "Workaround for JDBC 4.1 getObject(index, Class) method not implemented by the driver."}
+{"diff_id": 14598, "ref": "am 7ee7800c:am 2ba563b2:am 05f717db:am 381b9e8b:Merge \\\" Make CoordinatorLayout request a window insets dispatch \\\" into mnc-dev .", "pred": "am 924ba0e3:am c6f7c549:am d5b3acbc:am b4c7b0e4:Merge \" Fix issue <issue_id>:fragment transaction crash from onRequestPermisssionResult \" into mnc-dev ."}
+{"diff_id": 23347, "ref": "Fixing broken Javadoc@link", "pred": "Deprecated fromNamedText(CharSequence, String) in favor of fromText(CharSequence, String) for consistency with other factory methods."}
+{"diff_id": 79475, "ref": "1.set debug mode on in PI mode , since we \\' ve been so frequently having problems there .", "pred": "Add debug mode to the selenium test suite."}
+{"diff_id": 33097, "ref": "SSL now works and will use the default keystore and truststore if none are specified. ", "pred": "Refactored the SSLConfig class to use the default values for the keystore and truststore locations and passwords. Also, removed the use of the `Security` class to add the `com.sun.net.ssl.internal.ssl.Provider` as it is not needed on jdk1.4.x."}
+{"diff_id": 74627, "ref": "Compiler.isGraalEnabled should not check jvmci.Compiler property .", "pred": "Remove redundant check for JVMCI compiler in Compiler.java"}
+{"diff_id": 937, "ref": "made the code more robust(against SCM computing null change set), and fixed the race condition(if GC happens during this operation.)", "pred": "Fix AbstractBuild#getChangeSet to avoid NPE when calcChangeSet fails."}
+{"diff_id": 24923, "ref": "Don \\' t modify global EXTENSIONS in ArchiveAnalyzer(<issue_id> )", "pred": "Fixed the file save bug when an unknown extension (not kjb or ktr) was used."}
+{"diff_id": 35831, "ref": "Accessibility fixes for moving items am:0270039b98 .", "pred": "Fix issue where dragging an icon to the same cell during transition would not work. Bug: 32003721."}
+{"diff_id": 53961, "ref": "don \\' t log an error if scheduled reroute is rejected because local node is no longer master .", "pred": "Fix unexpected failure logging in RoutingService."}
+{"diff_id": 106640, "ref": "Fixed possible NPE on Message dereference", "pred": "Fix minor formatting issue in AsyncHttpResponseHandler."}
+{"diff_id": 66107, "ref": "Fix an edge case in which we have imported libraries with duplicated base names .", "pred": "The commit message is too long. A commit should have a short, descriptive message summarizing the changes made. If you need to provide more detailed information about the changes, you can do so in the body of the commit message."}
+{"diff_id": 74209, "ref": "REGRESSION:Some AWT Drag-n-Drop tests fail since JDK 7u6 b13 .", "pred": "Fixed a bug in the CDropTargetContextPeer class where the insideTarget variable was incorrectly initialized to true."}
+{"diff_id": 92929, "ref": "Fix POSTing for GeoGig Import .", "pred": "Add CommonsMultipartResolver bean to GeogigSpringConfig."}
+{"diff_id": 99073, "ref": "Closes 4pr0n/ripme <issue_id>", "pred": "Add hyperlink to configSaveDirLabel to open the save directory in the file explorer."}
+{"diff_id": 37084, "ref": "Don \\' t treat a WAKEUP_NO_MORE_INFO timeout as a timeout", "pred": "Handle WAKE_UP_NO_MORE_INFORMATION differently in SendDataMessageClass."}
+{"diff_id": 86414, "ref": "Fixed accidentally committed log level change in local executor .", "pred": "Set log level to WARN and add console appender to root logger in LocalExecutor."}
+{"diff_id": 59198, "ref": "RtspHeaders and its inner classes do not extend HttpHeaders anymore because RTSP user should not see non-RTSP header constants when he or she static-imported RtspHeaders .", "pred": "Added missing headers to the RTSP headers class."}
+{"diff_id": 35564, "ref": "Prevent opening shortcuts container if one is already open. Bug:30245433 .", "pred": "Fix issue of extra blank screen after uninstall (issue 12372657)."}
+{"diff_id": 101465, "ref": "Suppression logic shouldn \\' t assume check names are unique.-------------.", "pred": "Suppression logic shouldn't assume check names are unique."}
+{"diff_id": 57770, "ref": "Fix rounding error when summing integers", "pred": "Fix height calculation bug in RouteDataObject."}
+{"diff_id": 70203, "ref": "JERSEY-1649 javadoc fix:javadoc in RuntimeResource .", "pred": "Fix code style violations in RuntimeResource"}
+{"diff_id": 34977, "ref": "End the attaching animation early when we settle on the end target .", "pred": "End the attaching animation early when we settle on the end target."}
+{"diff_id": 67528, "ref": "Do not put blaze-grepped_includes_ < lang > files inside tree artifact directories .", "pred": "Fixed a bug in the SpawnIncludeScanner that caused the output file to be placed in the wrong location."}
+{"diff_id": 59349, "ref": "[ <issue_id> ] Fix high CPU usage which was caused because the OP_CONNECT flag was not cleared after the connect was complete", "pred": "Fix a bug where NioEventLoop.processSelectedKeys() enters an infinite loop when too many connections are closed at once."}
+{"diff_id": 108402, "ref": "NIFI-5275 PostHTTP SocketConfig setup , fixed connection pool when using HTTPS , setup idle connection checker , setup request retry handler , improved some exception handling and logging , and NIFI-1336 fix as well .", "pred": "Fixed checkstyle violation of using import with * and removed unused imports."}
+{"diff_id": 28444, "ref": "Avoid loading metadata if UFS path doesnt exist", "pred": "Add early return when ufs uri does not exist in ufs."}
+{"diff_id": 4480, "ref": "Don \\' t try to scan plugin directory if findbugs.home is not set. ", "pred": "Fix null pointer exception when pluginList is null."}
+{"diff_id": 92138, "ref": "Fixed upper/lowercase classname issue", "pred": "Fixed typo in class name in SpringExpressionManager."}
+{"diff_id": 35529, "ref": "Add logs to debug playtime crash and band aid fix for release builds. Bug:153821199 .", "pred": "Add logs to debug playtime crash and band aid fix for release builds. Bug:153821199 ."}
+{"diff_id": 72935, "ref": "Test sun/java2d/DirectX/OnScreenRenderingResizeTest fails on GNOME .", "pred": "Fix the issue with the OnScreenRenderingResizeTest."}
+{"diff_id": 822, "ref": "Move default setting to the right place.-Don \\' t overwrite fileDateFormat=\\\" \\\" .", "pred": "Fixed the initialization of the date format in the log file name to prevent potential issues with the file name format."}
+{"diff_id": 52701, "ref": "Do not use a background thread to disconnect node which are remove from the ClusterState .", "pred": "Close connections to removed nodes in a separate thread."}
+{"diff_id": 2002, "ref": "Use correct native methods. Fixes <issue_id>", "pred": "Fixed incorrect method calls in WheelJoint class."}
+{"diff_id": 68564, "ref": "Fix audit logs for timeline after changes introduced in <issue_id>", "pred": "Fixed regression introduced in <issue_id>"}
+{"diff_id": 52769, "ref": "Fix wrong javadoc in IdentityHashSet. Close <issue_id>", "pred": "Fix Javadocs for o.e.c.IdentityHashSet ."}
+{"diff_id": 83681, "ref": "Fix incorrent javadoc syntax .", "pred": "Fix javadoc tags in ExoPlayerImplInternal."}
+{"diff_id": 111006, "ref": "Fixed bug in scope for Google", "pred": "Fix the condition to check if the key starts with the OAuth prefix or is equal to the scope."}
+{"diff_id": 89591, "ref": "Interactive mode is the default", "pred": "ParserCLI interactive mode should be enabled when no arguments are passed."}
+{"diff_id": 83770, "ref": "Small javadoc fix for DownloadManager constructors .", "pred": "Fix typo in DownloadManager javadoc."}
+{"diff_id": 101944, "ref": "Fix window sticking around-it doesn \\' t anymore", "pred": "Fix null pointer exception in FMLEmbeddingRelauncher."}
+{"diff_id": 50076, "ref": "NPE was thrown after enabling directsql in the middle of session(Chaoyu Tang , reviewed by Sergey Shelukhin )", "pred": "HIVE-12345: Fix for direct SQL not operational in ObjectStore."}
+{"diff_id": 100246, "ref": "fixing bug where stored password is not used", "pred": "Fix condition to check if keychain is not supported."}
+{"diff_id": 1460, "ref": "fixed a bug where the submission of the matrix project configuration clobeers the on-going build(<issue_id>).", "pred": "Fixed a bug where the combination was not set correctly for the MatrixConfiguration."}
+{"diff_id": 75256, "ref": "HHH-4500 MSSQL , Oracle-Mapping inconsistency .", "pred": "Add @OptimisticLock(excluded=true) to longDescription in Forest class."}
+{"diff_id": 73426, "ref": "[ TESTBUG ] runtime/Unsafe/AllocateMemory.java crashed on OOM during compilation .", "pred": "Increase the memory limit for Unsafe.allocateMemory test."}
+{"diff_id": 12669, "ref": "request handler methods with@ModelAttribute annotation always return a model attribute(for Portlet MVC as well )", "pred": "Refactored the code to improve readability and maintainability. Removed redundant code and added a new method `addReturnValueAsModelAttribute` to handle the return value as a model attribute."}
+{"diff_id": 73714, "ref": "Both sect163r2 and sect163k1 are default curves for field size 163 .", "pred": "Fix incorrect parameter in CurveDB add method"}
+{"diff_id": 47712, "ref": "PDI-6406.Check if a folder is empty gives \\\" Could not create Folder \\\" on linux .", "pred": "Error message updated to be more descriptive in JobEntryFolderIsEmpty."}
+{"diff_id": 68228, "ref": "Javadoc fix .", "pred": "Fix minor spelling issues in AnnotatedSagaRepository JavaDoc."}
+{"diff_id": 63147, "ref": "fixed an issue causing audio nodes to \\\" fly around \\\" when attached to a sub node with non zero translations. ", "pred": "Remove redundant audio setLocalTranslation call in SceneComposerToolController."}
+{"diff_id": 63496, "ref": "Avoid NPE in Gradle build when max-workers is set to 1(<issue_id> )", "pred": "Set a minimum value of 1 for the maximum parallel usages of the test clusters throttle service."}
+{"diff_id": 305, "ref": "Enable for async requests. Async requests should appear as serial requests when requiring multiple internal requests so concurrency should behave as expected. ", "pred": "Fixed SemaphoreValve constructor to be async aware."}
+{"diff_id": 36136, "ref": "am 7573123c:Merge \\\" Fixing invisible search bar \\\" into ub-launcher3-burnaby .", "pred": "Resolved conflicts for merge of c451da70 to ub-launcher3-master."}
+{"diff_id": 43776, "ref": "HBASE-16294 hbck reporting \\\" No HDFS region dir found \\\" for replicas .", "pred": "HBASE-10400 [ hbck ] Continue if region dir missing on region merge attempt."}
+{"diff_id": 91650, "ref": "Fix NullPointerException in CPPTokenizer:99 .", "pred": "Refactored CPPLanguage constructor to accept properties and set them."}
+{"diff_id": 95995, "ref": "Fixed cloning of element tag \\' s processors potentially copying null positions", "pred": "Fixed loop condition in resetAsCloneOfProcessableElementTag to avoid ArrayIndexOutOfBoundsException."}
+{"diff_id": 83383, "ref": "Fix seeking before a source is set. Before this change , calling seekTo then setPlayWhenReady would cause the player .", "pred": "Removed unnecessary setState call from prepareInternal."}
+{"diff_id": 40244, "ref": "Link failed with sym-linked library in local dir , so link directly .", "pred": "Remove unnecessary code."}
+{"diff_id": 99344, "ref": "Fix logic for when to draw Slider \\' s compat halo .", "pred": "Set the halo radius and color for the Slider. The halo radius and color are updated based on the SDK version. If the SDK version is Lollipop or higher, the halo radius and color are set using the RippleDrawable. If the SDK version is lower than Lollipop or the background is not a RippleDrawable, the halo is drawn using the compat method. This ensures that the halo is drawn correctly based on the SDK version and the background type."}
+{"diff_id": 30114, "ref": "Fixed aggregator to set the correlated key on the exchange properties before removing , as its needed by custom aggregation repositories to be presented before remove is called. ", "pred": "Fixed issue with AggregateProcessor not storing the correlation key as a property before removing it from the repository."}
+{"diff_id": 11906, "ref": "` import ` can \\' t be defaulted because of tight coupling in LOAD CSV integration tests .", "pred": "Change the default value of `load_csv_file_url_root` to `NO_DEFAULT` to prevent accidental use of the default value."}
+{"diff_id": 50090, "ref": "Session may timeout before idle timeout time for synchronous operations(Zhihai Xu via Jimmy Xiang )", "pred": "Fixed the issue with the session idle time calculation."}
+{"diff_id": 61719, "ref": "fix flakiness in testDeleteAcls .", "pred": "Remove unnecessary assertion in KafkaAdminClientTest"}
+{"diff_id": 17064, "ref": "Fixed Slayer task infobox only updating on state change", "pred": "Fixed issue with Slayer plugin not updating task counter when config changes."}
+{"diff_id": 32280, "ref": "Make sure we keep sending email when new run failre statuses are added", "pred": "Send mail only if the status of the run is out of capacity, deployment failed, installation failed, test failed, or error. If the status is running, aborted, or success, no mail is sent. If the status is not recognized, a system error mail is sent."}
+{"diff_id": 111063, "ref": "Fix wrong generation of Unbinder in Fragment(<issue_id>).", "pred": "Fix <issue_id> ."}
+{"diff_id": 25885, "ref": "harden alert scheduler against incomplete/incorrect alert configs(<issue_id>).", "pred": "Fixed the issue with the alert job scheduler and added exception handling for the alert job scheduler."}
+{"diff_id": 89579, "ref": "Fixed Javadoc errors", "pred": "Remove unnecessary return statements from isString(), isTemporal(), and isBinary() methods in DataType interface."}
+{"diff_id": 4789, "ref": "Don \\' t check analysis context in a static initializer-it may not exist. ", "pred": "Force computation of accurate exceptions."}
+{"diff_id": 94964, "ref": "# GG-7648 review", "pred": "Fix javadoc in GridEvents interface."}
+{"diff_id": 52875, "ref": "Fix mixed up duration and duration_in_millis fields in snapshot information output", "pred": "Fix duration calculation in SnapshotInfo. Fixes <issue_id>"}
+{"diff_id": 45987, "ref": "Issue <issue_id> Disable SSL session caching .", "pred": "Issue <issue_id> Disable SSL session caching."}
+{"diff_id": 84266, "ref": "Fix WorkspaceAndProjectGeneratorTest. Test Plan:Run test in IntelliJ.", "pred": "Fixed test to use containsString instead of equalTo(true) in WorkspaceAndProjectGeneratorTest."}
+{"diff_id": 70985, "ref": "Refresh handler fix .", "pred": "<issue_id> Fixed refresh action in navigator."}
+{"diff_id": 74105, "ref": "[ Testbug ] serviceability/sa/ClhsdbFindPC.java fails to find expected output .", "pred": "Fix copyright year in ClhsdbFindPC.java."}
+{"diff_id": 17357, "ref": "screenshot plugin:fix naming of pvp kill filenames", "pred": "screenshot plugin: fix screenshot kill message to use current time instead of date"}
+{"diff_id": 12129, "ref": "AbstractXlsView does not explicitly flush(for compatibility with WebSphere Liberty).", "pred": "AbstractXlsView flushes the ServletOutputStream after writing the workbook (SPR-13083)"}
+{"diff_id": 95099, "ref": "Bug fix:SmallNumberedMap was not updating the value associated .", "pred": "Fix SmallNumberedMap.put to update value if key already exists."}
+{"diff_id": 97220, "ref": "fix(driver)increase maxWaitTime to 1000 to fix org.mongodb.connection.impl.DefaultConnectionProviderTest # shouldThrowOnWaitQueueFull", "pred": "Increased max wait time in DefaultConnectionProviderTest to prevent intermittent test failures."}
+{"diff_id": 28806, "ref": "Camel 3.4.1 was built with JDK 11 , workaround the Bytebuffer problem by casting to Buffer when using the methods interested , camel-syslog", "pred": "Fix issue with parsing message in SyslogConverter. Cast ByteBuffer to Buffer to rewind."}
+{"diff_id": 78345, "ref": "MVStore bugfixes(memory usage for byte arrays )", "pred": "Fixed testCacheInfo method to use correct cache size limit."}
+{"diff_id": 92744, "ref": "Fix NPE in transcoding tree maps .", "pred": "Fixed a bug in the TranscodingAsyncConsistentTreeMap class where the ceilingEntry, floorEntry, higherEntry, lowerEntry, firstEntry, lastEntry, pollFirstEntry, and pollLastEntry methods were not returning null when the backingMap returned null."}
+{"diff_id": 43431, "ref": "HBASE-7910 Dont use reflection for security(Mike Drob )", "pred": "HBASE-9655 IntegrationTestMTTR can loop forever on improperly configured clusters."}
+{"diff_id": 65555, "ref": "Fix config file is checked before created", "pred": "Refactor the `ConfigHolder` class to use `InvocationDispatcher` to save the configuration synchronously. This change ensures that the configuration is saved correctly and avoids potential issues with concurrent access to the configuration file."}
+{"diff_id": 57054, "ref": "handle profiler status when console has more than one tab", "pred": "Add profiler icon to the profiler interrupt button in the console pane."}
+{"diff_id": 63087, "ref": "Fixed silly copy/paste mistake in LightNode .", "pred": "Rename method to setLight and getLight in LightNode class."}
+{"diff_id": 81920, "ref": "Floats don \\' t have enough precision to store timestamps.", "pred": "Change timestamp type from float to double in BitfinexTicker."}
+{"diff_id": 76894, "ref": "Fix log message .", "pred": "Exception thrown in message handling by listener is now logged with the listener name."}
+{"diff_id": 94545, "ref": "IGNITE-10779 Call writtenPagesCntr incrementor-Fixes <issue_id>.  ", "pred": "Added counter for written pages in PageStore."}
+{"diff_id": 59532, "ref": "WFLY-6879 Parsing logic in EJB3Subsystem30Parser # parseRemotingReceiver ignores unparseable attributes instead of exception", "pred": "Throw exception for unexpected attribute in EJB3 subsystem parser."}
+{"diff_id": 29630, "ref": "Blueprint namespace should lookup default blueprint camelcontext if not explict configured in the namespace. ", "pred": "Refactored BlueprintCamelContextLookupHelper to use more descriptive variable names and improved readability."}
+{"diff_id": 100715, "ref": "Fix <issue_id>-Details option visible and add to favourites option not visible in favourites .", "pred": "Fix <issue_id>-Fixed the visibility of the menu item in SingleMediaActivity."}
+{"diff_id": 63311, "ref": "* Fixed rather silly bounding box computation bug .", "pred": "Fixed a bug in BoundingBox class where the maxX value was not being updated correctly."}
+{"diff_id": 60084, "ref": "Fix for data-source connection propertis using the whole propery instead of the value", "pred": "Fixed DataSourceModelNodeUtil to use Property instead of ModelNode for connection properties."}
+{"diff_id": 70856, "ref": "<issue_id> CSV import column mappings detection fix .", "pred": "Fixed a bug where the consumer was not being set correctly."}
+{"diff_id": 46965, "ref": "Extra fix for <issue_id>:keep conditions on insert/update step when saving to repository .", "pred": "Removed unnecessary condition for value in saveStepAttribute."}
+{"diff_id": 56847, "ref": "provide short timeout(give HTTP server time to initialize )", "pred": "Fix timeout issue for waiting for swagger server to initialize in ViewerPresenter."}
+{"diff_id": 4328, "ref": "get ride of false positives for BX_UNBOXED_AND_COERCED_FOR_TERNARY_OPERATOR .", "pred": "Disabled reports of BX_UNBOXED_AND_COERCED_FOR_TERNARY_OPERATOR."}
+{"diff_id": 105669, "ref": "attempting to fix strange issue with drone.io build where the setting of java properties may be having an effect on the jasmine build process", "pred": "Disabling the SOCKS proxy settings for the HTTP proxy to fix the build issue."}
+{"diff_id": 83115, "ref": "Fix param change in test", "pred": "Removed CycleService dependency from DaoStateSnapshotServiceTest."}
+{"diff_id": 65856, "ref": "Detect case where mobile-install is run on a non-android binary. RELNOTES:None .", "pred": "Add validation to ensure that mobile-install command is only run on android_binary targets."}
+{"diff_id": 86135, "ref": "Fixed bug in EC2CloudManager", "pred": "Fixed bug in EC2CloudManager. Changed the list of assigned cloud instances to a map in the JobToInstancesMapping class. This change was made to ensure that the unassignInstanceFromJob method correctly removes the cloud instance from the list."}
+{"diff_id": 64252, "ref": "Fix assertion in testCollectNodes test(<issue_id>).", "pred": "Fix testCollectNodes test assertion(<issue_id>)."}
+{"diff_id": 34760, "ref": "Enable/disable video after screen on/off regardless of background playback setting", "pred": "Remove unnecessary condition for background playback in VideoPlayerImpl."}
+{"diff_id": 72043, "ref": "Data formatter fix .", "pred": "<issue_id> Fixed NumberDataFormatter settings initialization."}
+{"diff_id": 97423, "ref": "Fix missing manifests when refresh fails. After committing , table metadata is immediately refreshed by .", "pred": "Fix the issue with the snapshot expiration and rollback."}
+{"diff_id": 43107, "ref": "HBASE-20459 Majority of scan CPU time in HBase-1 spent in size estimation .", "pred": "HBASE-6915 String and ConcurrentHashMap sizes change on jdk7 ; makes TestHeapSize fail."}
+{"diff_id": 101159, "ref": "Fix a couple of type parameters .", "pred": "Fix method signature in QueryableRelBuilder"}
+{"diff_id": 54351, "ref": "Fix race condition in scheduler engine test .", "pred": "Fix SchedulerEngineTests.testListenersThrowingExceptionsDoNotCauseOtherListenersToBeSkipped. -Now using doAnswer to count down the latch after the listener has been notified, threw an exception, and then mock logged the exception."}
+{"diff_id": 102295, "ref": "Fix checkstyle issues", "pred": "Add missing generic type parameter to TypedQuery class."}
+{"diff_id": 45264, "ref": "always use a plain/text string for mapped exceptions , otherwise jersey won \\' t have a message body writer suitable for conversion", "pred": "Fixed AnyExceptionClassMapper to return the exception message and stack trace in the response."}
+{"diff_id": 58116, "ref": "Fix <issue_id>", "pred": "Fix audio recording issue and remove deprecated methods."}
+{"diff_id": 100524, "ref": "KYLIN-4064 Make param engineType working in CI", "pred": "Update engine type for specified cubes."}
+{"diff_id": 88688, "ref": "Merging 393053 from maven-2.0.x branch , to fix some jdk5 method calls that crept in. ", "pred": "Fixing deprecated Integer constructor and valueOf usage in ProjectInheritanceTest."}
+{"diff_id": 81449, "ref": "Do not interrupt the broadcast if we hit an invalid resource", "pred": "Fixes <issue_id>"}
+{"diff_id": 45520, "ref": "Fixing <issue_id>-missing exception stacktrace .", "pred": "Issue <issue_id>-java.io.IOException:unconsumed input during http request parsing."}
+{"diff_id": 56283, "ref": "fix console progress dialog for qtwebkit", "pred": "Fix progress dialog layout under Cocoa and on desktop devices."}
+{"diff_id": 6432, "ref": "Don \\' t write to temp file when preloading shutdown classes(<issue_id> )", "pred": "Remove unnecessary code in ScanResult.java."}
+{"diff_id": 80773, "ref": "NOI18N", "pred": "Fixed missing internationalization in LogRecordDecorator."}
+{"diff_id": 94861, "ref": "# IGNITE-56 Bug fix .", "pred": "IGNITE-8246 Fix for cast exception when using printPartitionState method. Fixes issue with the primary key."}
+{"diff_id": 90252, "ref": "Properly deodex instructions that come after an unresolvable odex instruction", "pred": "Fix unresolvable odex instructions in MethodAnalyzer."}
+{"diff_id": 62689, "ref": "Fix Spring-amqp-rabbit v2 + IT to run on Java 8", "pred": "@JvmVersion(8) added to the test class to specify the JVM version for the test."}
+{"diff_id": 107428, "ref": "Avoid treating temporarily-DEFERRED robots.txt handling as-if a failure-to-ignore in robots-ignored case .", "pred": "Fix bug in DispositionProcessor that caused it to ignore deferred fetches."}
+{"diff_id": 36014, "ref": "Revert \\\" temporarily undo <issue_id> to fix the build \\\" .", "pred": "temporarily undo <issue_id> to fix the build"}
+{"diff_id": 20319, "ref": "Image Editor-when no sticker selected , go back to mode NONE .", "pred": "Add null check for currentSelection in ImageEditorFragment"}
+{"diff_id": 7294, "ref": "Enable ` DevirtualizePrototypeProperties ` for ES8_MODULES. rollforward after bug fix .", "pred": "Turn on ES8_MODULES for replaceIdGenerators.-------------."}
+{"diff_id": 59501, "ref": "Fix NPE in EjbComponent.getCurrentTransactionAttribute()", "pred": "Fix EJBComponent getCurrentTransactionAttribute method."}
+{"diff_id": 51641, "ref": "Time unit was defined for ` ENTERPRISE_WAN_REP_OP_TIMEOUT_MILLIS `", "pred": "Fix incorrect unit for ENTERPRISE_WAN_REP_OP_TIMEOUT_MILLIS."}
+{"diff_id": 71694, "ref": "<issue_id> PG dump:schema and table names quote fix .", "pred": "PG:pg_dump call fix(quote schema name if needed)."}
+{"diff_id": 93203, "ref": "Temporary fix for GEOS-5353 .", "pred": "Disable assertion in ServiceAccessRulePageTest to fix intermittent build failure (GEOS-5353)."}
+{"diff_id": 82237, "ref": "Fix for PUB-321 .", "pred": "Fixed trivial assignment to a single cluster in KMeans2."}
+{"diff_id": 48458, "ref": "PDI-4055 UI:Ctrl + C for copying marked log entries does copy the transformation XML and not the part of the marked log-check focused control", "pred": "Added the ability to copy selected text from the log view."}
+{"diff_id": 46191, "ref": "373952 Ensure MongoSessionManager un/binds session attributes on refresh only if necessary", "pred": "Refactor the code to clear attributes if the disk version has no attributes. Update the value of the attribute if the session does not already contain it."}
+{"diff_id": 15690, "ref": "am bbe25cbb:am 8f498895:am b51bac5b:am 52e85ce3:am bfbc0a81:Merge \\\" Don \\\\ \\' t create action bar if only windowOverlayActionBar=true \\\" into lmp-dev .", "pred": "am 8f498895:am b51bac5b:am 52e85ce3:am bfbc0a81:Merge \"Don't create action bar if only windowOverlayActionBar=true\" into lmp-dev ."}
+{"diff_id": 64715, "ref": "Fix throws clause for VirtualMachineMetrics # threadDump() .", "pred": "Remove unnecessary IOException from threadDump method."}
+{"diff_id": 20917, "ref": "fixed possible NPE in LIRFrameState.toString()", "pred": "Add null check for topFrame in LIRFrameState toString method. Fixes <issue_id>"}
+{"diff_id": 49524, "ref": "enable doAs in unsecure mode for hive server2 , when MR job runs locally(Thejas Nair via Ashutosh Chauhan).", "pred": "Set HADOOP_USER_NAME env variable for child process in MapredLocalTask."}
+{"diff_id": 21899, "ref": "don \\' t put spaces around property separator(| )", "pred": "Fix string formatting in TruffleCompilerRuntime."}
+{"diff_id": 113461, "ref": "<issue_id> fixing some spelling errors in messages", "pred": "Fixed minor spelling issues in the Message class JavaDoc."}
+{"diff_id": 78342, "ref": "Do not initialize private constant arrays in method", "pred": "Refactored toRomanNumeral method to use constants for Roman values and numerals."}
+{"diff_id": 31661, "ref": "ClassLoading in GlobalMethodSecurityBeanDefinitionParser doesn \\' t work in tooling .", "pred": "Remove unused constant and validation for JSR 250 dependency class in GlobalMethodSecurityBeanDefinitionParser."}
+{"diff_id": 30703, "ref": "CAMEL-3126 Fixed the XsltRouteTest error by adding the system package .", "pred": "Fixed the Vault Issue."}
+{"diff_id": 76225, "ref": "Fix bad merge in string test .", "pred": "Fix stringDoesNotContainFail test to throw an error when expected to fail."}
+{"diff_id": 70620, "ref": "Border color fix .", "pred": "<issue_id> Dashboard item paint fix."}
+{"diff_id": 112335, "ref": "Temp fix for Timeline > Albums navigation", "pred": "Initialize AlbumsFragment and set it as the content fragment in MainActivity."}
+{"diff_id": 48368, "ref": "PDI-2723:Exec process step-return process exit value .", "pred": "PDI-1514: ProcessResult class added to handle process execution results."}
+{"diff_id": 42705, "ref": "Fixed issue 286:implemented modelview matrix stack used when GL_OES_matrix_get extension is not available", "pred": "Refactor the A3DMatrixStack class to be static and encapsulate the matrix stack. This change allows for better management of the matrix stack and improves the handling of matrix operations. Additionally, the default camera properties are now stored in separate variables for better organization and management."}
+{"diff_id": 77536, "ref": "fixed Polygon.setDefaultInfoWindowLocation frequent crash(<issue_id>).", "pred": "Fixing issue <issue_id> , third part: \"Polygon info window location is not set correctly\""}
