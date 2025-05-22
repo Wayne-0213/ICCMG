@@ -1,0 +1,1227 @@
+7359	javadoc for all the subclasses hierarchy
+7360	added apk parser(closes <issue_id> )
+7361	cleaning up icon handling code. change-id:i <issue_id>
+7362	hide preview if camera is not shown .
+7363	update gwtgraphics.java(<issue_id> )
+7364	add inventoryitemquery query interface
+7365	camel-cdi:xml errorhandler should use a static jtatransactionerrorhandlerbuilder .
+7366	refactoring imports
+7367	corrected documentation type-o on line 203 \" teh \" is now \" the \" .
+7368	code cleanup in buildermethodclassifier
+7369	adding functionality to download hub commands from ide
+7370	implemented support for throttling notifications in icq(testing is still pending though).
+7371	add option to disable truffle frame check. pullrequest:graal/4338
+7372	* added javadocs .
+7373	added getallentities and getlivingentities to world
+7374	make sure to clear the jump entry locations after the end of the loop .
+7375	update update1_3_0_beta1 to use new db operations
+7376	* use ` loader.home ` instead of ` loader.javacpp.path ` , which conflicts with msys2
+7377	dbz-1368 support current wal lsn table in postgres
+7378	am 8e0b8093:am 551a28ad:am 39cfe79f:am a0e428
+7379	improved error message
+7380	hbase-16694 reduce garbage for ondiskchecksumerror in hfilereaderimpl .
+7381	added usd currency .
+7382	added missing position constants
+7383	improve spliterator documentation .
+7384	fix <issue_id>
+7385	add wiz to new provider list
+7386	implement shadowviewgroup.removeview()
+7387	snapshot the nodes in partialevaluator.copyparameters
+7388	automated rollback of commit <issue_id>. * * * reason for rollback * * * .
+7389	<issue_id> .
+7390	add null check for androidmanifest in defaultpackagemanager.getservicename()
+7391	# ignite-23
+7392	hide video play/pause if video is playing
+7393	forgot the todo .
+7394	require admin permission to check update sites
+7395	add coet
+7396	add the commit to the confusion rule
+7397	register nodeinfo in cratemonitor with the plugin
+7398	remove null check for inputfile and document the need for non null arguments in the javadoc.
+7399	Fsck:delete out of order keys
+7400	add getter for the disabled rules
+7401	automated rollback of commit <issue_id>. * * * reason for rollback * * * .
+7402	deprecate onpopulateitem in geoservertablepanel .
+7403	printcompilation option should not require thread allocated memory query
+7404	increase default reconnect interval to 10 seconds
+7405	if asserttask throws runtimeexception just re-throw it rather than encapsulating it into a new one
+7406	add more offline status codes .
+7407	add popular_user_metadata to samlrealmtestsettings(elastic/x-pack-elasticsearch <issue_id>
+7408	implement procedureedge.native.thing.relating branch and closure methods
+7409	cleanup security class .
+7410	shorten method name
+7411	add asyncsentinel(string )
+7412	super simple sample
+7413	typo .
+7414	add an assert to the end of processdefinitions pass.-------------.
+7415	revert \" reduce synchronization on field data cache \" .
+7416	clean up code in jcoc Incrementalrunner .
+7417	add missing break in switch statement(<issue_id> )
+7418	queryengineimpl.runonquerythreads cleanup .
+7419	lines authored by emilsj .
+7420	add test for issue <issue_id>
+7421	added assert for supplied parameter(spr-6266 )
+7422	am 5b6fd1e5:merge \" [ renderscript ] add exception reporting for copyto() if array size is smaller than
+7423	issue <issue_id>-cloning input uri to uri simplifications .
+7424	<issue_id> , for comment:add getconnectionevent
+7425	support parsing nested naming names
+7426	fixed the issue of camel-651 by changing the comment in the method messagevariableresolver # getvaluereference()
+7427	quality model api:when a quality characteristic has no associated characteristics
+7428	add loadmetadata to pig storage. patch by jeremy hanna , reviewed by brandonwilliams for
+7429	added attribute selectors
+7430	automated rollback of commit <issue_id>. * * * reason for rollback * * * .
+7431	javadoc enhancements for the new schedule() variant
+7432	add an xpath builder api to allow using class <?> as the result type of the xpath call .
+7433	add measuredata # tostring()
+7434	merge \" add nullability annotations to reactive streams.\"
+7435	improve bigsegmentheader.trylocknanos()
+7436	another flaky test.-------------.
+7437	stabilize meta contact list:make sure that duplicate entries , or faulty nodes are deleted .
+7438	merge
+7439	use shardingcontext.getshardingconfigurationmap()
+7440	create tests for function related methods(peter vary , reviewed by marta kuczora , adam szita , sa
+7441	orc metadata reader should provide proper documentation(sergey shelukhin , reviewed by prasanth jayach
+7442	implement append() method for array values
+7443	remotefileignoredofpollingerrortest compiling against jdk 1.6
+7444	refactor backpressurestatstrackerimplitcase .
+7445	delete test case .
+7446	update geopointparserutil.java
+7447	add a test for the tokenizelanguage annotation
+7448	add the binding for the binder for the binder for the binding(<issue_id>).
+7449	clean up sourcefile javadoc.-------------.
+7450	make validationproblem serializable
+7451	driver properties dialog page fix .
+7452	add oauth2authorizationexception
+7453	prd-3965 commit message dialog convenience methods for validation and exception handling .
+7454	add some ssl_..- > tls_..mappings for oracle which uses ssl_ in some cases .
+7455	disable safaridrivertests on windows .
+7456	windows pings can be slow , take 2.
+7457	set onclickpendingintent for unified inbox view
+7458	add new think different algorithm(issue <issue_id> )
+7459	add http compliance field documentation
+7460	fix charset enumeration
+7461	see(log4j2-905)ability to disable(date)lookup completely , .
+7462	refactored some code in temporarymountpointchooser
+7463	modify appenddistinctplaceholder()
+7464	hsqldb should allow to override create sequence string method .
+7465	fixed indentation .
+7466	added support for fully executable jar files per issue <issue_id>
+7467	coerce list < field > to list < field > before adding to dbms insert statement
+7468	added read/write multi threading tests
+7469	am 0c098ab9:am b0d41cd3:merge \" tolerate user routes with null names.\"
+7470	generified erasure .
+7471	rest dsl-adding support for xml/json binding with thanks to tijs
+7472	add test for form submission with object variables .
+7473	use getqueryresults()
+7474	initializes additional message extensions/services in separate thread to avoid blocking provider startup .
+7475	added the ability to manage emTES
+7476	test code typo fix
+7477	added a new method getstate(class clazz)that throws illegalargumentexception if the state is not an instance of the specified class .
+7478	add getlogictablename()
+7479	shuffling from internal-only change.-------------.
+7480	direct wow64remotingquery variant
+7481	bytecodeproviderimpl renamed to bytebuddy
+7482	fix issue with rounded distances
+7483	in advanced project properties , disallows users from selecting folders or already-selected files when selecting xml filters .
+7484	transactionaspectsupport returns incorrect transaction status on null case .
+7485	add test for bug 332660578.-------------.
+7486	do not attempt to re-introduce the original method version in split() .
+7487	add missing substitutions for jdk-9orlater and later .
+7488	add sqlstdoperationtype.create_resource_plan and sqlstdoperationtype.show_resource_plan to the list of accessible operations
+7489	add servicelistener methods to newoperationcontextimpl
+7490	catch ` throwable ` in polyglot launcher. pullrequest:graal/1974
+7491	am 1a8a0d55:merge \" add title api to drawerlayout , use for accessibility events \" into klp-
+7492	add default s3 bucket acl policy(<issue_id>).
+7493	hard-coded inclusion of the new index api(lucene data source)during recovery.
+7494	gsa api:fix for original query in result of a single search .
+7495	add the various pieces of the path to the models into arguments for the neural coref model converter
+7496	patch for issue <issue_id>
+7497	added room support for multiuserchatserverimpl(jm-153 ).
+7498	support java 1.6:.
+7499	add converterfactory to cmdlinetool class(guava )
+7500	update axon-server-connector/src/main/java/org/axonframework/axonserver/connector/heartbeat/
+7501	error when generating create sequence statement for postgresql
+7502	resolve <issue_id> fix timer.schedule method .
+7503	fixed <issue_id>
+7504	updated sample
+7505	add key specifiers for table type symbol
+7506	thrown odatabaseexception in case orecordid.getrecord() has no database set in thread local
+7507	recognize smbftpor pdf files
+7508	elf translation for apk
+7509	weaken list to collection and others.-use isempty() .
+7510	camel-package-maven-plugin cannot run with spring boot Apt compiler plugin
+7511	working on saml idp web sso
+7512	use wide view port for web view
+7513	support multiple kylin metadata and storage url
+7514	<issue_id> insert explicit auto-increment columns metadata .
+7515	fix checkstyle
+7516	allow ids to be assigned by the client
+7517	make queryrunner thread safe(<issue_id>).
+7518	completed the fragmentexpression insertion mechanism
+7519	added quick queue for category pages ; cleaned up regex
+7520	add bigdecimalcoder .
+7521	as3 context import:fix
+7522	gwtinput(<issue_id> )
+7523	add tostring to basecombinedscannetask(<issue_id> )
+7524	more information in the debug snapshot for method bodies
+7525	don \' t consume sets in buildeventstreamertest .
+7526	add missing is(platform)method for windows 8.1
+7527	add support for \' expect:100-continue \' command to http protocol
+7528	exposed getresourcename() on processdefinition
+7529	<issue_id> pg:loop keywords .
+7530	added containsonlydigits()
+7531	add bit set debug
+7532	added checkutils.isgenericdeclaration
+7533	add iso_8859_1 .
+7534	<issue_id> add getstarttime to spidatasourcemapconverter .
+7535	for <issue_id> , refactor getcolumnnameswithcolumnvalue
+7536	fix test bug in clusteringstatsresolver .
+7537	use== x .
+7538	fixed@support for constraintforeignkeyonstep.set()
+7539	added orderby method
+7540	am adb031e5:merge \" code cleanup , workspacestatetransitionanimation \" into ub-launcher
+7541	prevent changing the list items with a modified array. closes <issue_id>
+7542	add regression test for jdk-708 .
+7543	repaired the smoke test , removed the hard-coded-ness , and moving toward an actually useful junit framework .
+7544	do not invalidate the circleimageview if the image alpha has changed
+7545	use equals() instead of isempty() on android api 9 +
+7546	throw an error when root nodes marked as changed.-------------.
+7547	added flip fields , rely on isflipx/y methods of textureregion parent
+7548	increment the eviction count when evicting a cache .
+7549	<issue_id> setting the density multiplier for polyline .
+7550	use a share password dialog fragment
+7551	apply textviewattributes() and applycompounddrawableswithintrinsicboundsattributes()
+7552	add berserskale ornament kit item mapping(<issue_id> )
+7553	log viewer fix .
+7554	add getshardingruleconfigurationmap()
+7555	make keyvalue static
+7556	make testtimeout constant final.-- .
+7557	for <issue_id> revise xadatasourcefactory .
+7558	add gsontypeserializationlibraryadapterfactorytest
+7559	incorrect results in incremental load tests(sergey shelukhin , reviewed by ashutosh chauhan )
+7560	add yamlencryptorruleconfigurationbak
+7561	made unchecked math property configurable
+7562	support@requestmapping annotation of spring 3.x
+7563	disable primary/unique key and index snapshot generation for dropall operation
+7564	camel-aws ec2 fixed component docs
+7565	support drop sequence
+7566	flip on pixmapio.writepng. <issue_id>
+7567	removed an error log when receiving a 487 sip response
+7568	unignore test while running on server(<issue_id> )
+7569	<issue_id> close datasource when shardingdatasource is closed .
+7570	indexcreateit test that we are not possible to create constraints with duplicate properties
+7571	fix null-checks in filterloader
+7572	xlate to javaxlate for htmlsource .
+7573	support pointer to llvmtypedforeignobject as debugger interop value
+7574	add add(defaultcachemonitor..monitors )
+7575	add willnotcomplete matcher to flinkmatchers
+7576	fix query.setreadonly(true)when using persistencecontext.isdefaultreadonly()
+7577	update textinputlayout to support setting the default and hint text colors.
+7578	removing logging
+7579	added smart colour support for upc_a and eth_a.
+7580	use nanotime in fakehttprawmessagegenerator
+7581	two jck tests fails with 7u11 b06 .
+7582	create transactionmanager in testfilebasedsystemaccesscontrolbuilder
+7583	pass rate_options to setdatamap.
+7584	fix compilation
+7585	allow constructor.getannotatedreceivertype to return null. pullrequest:graal/4651
+7586	this closes <issue_id> .
+7587	changes from comments in pr <issue_id>
+7588	logical value for length of string
+7589	for dnd & clipboard copy support in the entry table
+7590	implement defaulttempdircontext:: tostring
+7591	add vertical divider to itsableview
+7592	add bsqblockchain to transactionlistitemfactory
+7593	set caching look back for different time granularities(<issue_id> )
+7594	added setcachecapacity method which can be used to enable cache for certain keys for a batch inserter index .
+7595	<issue_id> add spi for transactiontype .
+7596	refresh checkbox color during check .
+7597	update stdlib/database/src/test/java/org/ballerinalang/utils/sqldbutils.java
+7598	log
+7599	make jabber account registration wizard default selected
+7600	applying a patch provided by bauersachs ingo on the dev mailing list in the thread \" throwing an exception if the
+7601	as an etl documenter i want to have a step that generates documentation when given filenames or repository paths as input(compile fix fix fixed
+7602	add unalias symbol references to planoptimizersfactory
+7603	update hidden config list
+7604	directorychoosertextbox extra constructor
+7605	hbase-16237 compaction inmemcachedblockcache is very slow .
+7606	add todos .
+7607	for <issue_id> , refactor mysqlfrontendhandler
+7608	refactor keyvalueinputformat
+7609	support parsing with grant option
+7610	of-1806 add support for xep-0232 read response service
+7611	make the nerserver \' s debug property static final
+7612	makes the message dialog a bit more actionable
+7613	server startup fix .
+7614	use noopbuildrule in appletest .
+7615	added docs on the reactivenetwork interface
+7616	add nbt crossbowtranslator(<issue_id>).
+7617	support citext as stored column name
+7618	automated rollback of commit <issue_id>. * * * reason for rollback * * * .
+7619	added missing file
+7620	updateGenerativeoperationalit.java(<issue_id>).
+7621	making filterquery constructor public
+7622	fixed missing protected method in websocket server
+7623	add test for external id use
+7624	expose compile_flags to skylark.
+7625	fix for issue <issue_id>
+7626	dimension lookup/update:the database does not return a long integer but a double .
+7627	added support for the mods_path system property
+7628	pass the parent file to the fileutils.createtempfolderin()
+7629	foreign keys cache .
+7630	fixed a race condition in referencetracker
+7631	log4j2-1349 let memorymappedfilemanager implement the fileappender interface
+7632	update kslackextensiontestcase.java
+7633	revert multi-threaded claim strategy because of race conditions on apple macs
+7634	refactor encryptruleconfigurationyamlswapper
+7635	fix build .
+7636	remove unnecessary channelhandleradapter from cleartexthttp2serverupgradethore .
+7637	check storeaddress before re-connect
+7638	add a withoutputs method to spawnbuilder.
+7639	use isassignablefrom() where possible .
+7640	add support for inputs filtering
+7641	lwjglcanvas , added another convenience constructor for canvasdisplay. closes <issue_id>
+7642	added ability to scan fat libraries with metadata.txt
+7643	log4j2-1172 added utility method to get executor \' s thread id
+7644	add tsd.stats.canonical to the default map.
+7645	issue <issue_id> alternate stream for stderrlog .
+7646	add missing return statement
+7647	log4j2-1278 pass the start/stop parameters to the isenabled method with unrolled varargs .
+7648	add anytype mapping for object in c # anytype(<issue_id> )
+7649	add feature flag for how to create start/stop vespa with yinst
+7650	add support for a new dependency in generated protos .
+7651	added more logging to fullclusterrestartit .
+7652	add a comment explaining the reason for@delete-ing processbuilder in trufflefeature. pullrequest:graal/3992
+7653	add getparametersets()
+7654	in sybase ase database , \" timestamp \" is an internal type.
+7655	add missing@override annotations .
+7656	saves last seen message coming from server as chat room history and skip older history messages from now on .
+7657	revert \" adjust message service to implement streamprocessorlifecycleaware \" .
+7658	expose port to cli(<issue_id> )
+7659	core-3400 added \" manifoldclass:\" to list of skipped url protocols in servicelocator
+7660	shuffling from internal-only change.-------------.
+7661	am c3cfafaa:am a2baef2f:get actionbardrawertoggle delegate earlier in constructor
+7662	expand sector grid
+7663	use default task process executor threshold
+7664	added support for dayofweek keys
+7665	adjust compressiontype .
+7666	added support for entry processors in abstractnearcachebasictest
+7667	added decode() method(<issue_id>).
+7668	fix bug in servletrestit(<issue_id>).
+7669	support offline and realtime broker requests(<issue_id>).
+7670	fix java.lang.nosuchmethodexception when running savepoint command(<issue_id> )
+7671	log warning when sorting and inverted column is multi-valued(<issue_id>).
+7672	mining plugin:use correctPickaxe options
+7673	add text to footer
+7674	add getqueryresults()
+7675	ignore nosuchresourceexception:no route to host in parallelresourcesandipsource .
+7676	entitymanagerfactoryutils checks for lock timeout exceptions as well(for hibernate 5.2).
+7677	add vip handler for logservercluster(<issue_id> )
+7678	update defaultblockworkerclient.java
+7679	use buffers in getinputstream in quarkusrestcontainerresponsecontext
+7680	support recursive expression identification in expressionextractor
+7681	fixed findbugs issue
+7682	add route interface for all methods in route
+7683	core-839 ant diff task doesnt close connection to referenced database .
+7684	corner case of object method .
+7685	no need to populate profile several times in a row , it can be populated in the last constructor only
+7686	set timeouts and don \' t hang forever if something goes wrong with the url .
+7687	add padding between pages in a viewpager. change-id:i <issue_id>
+7688	allow for custom version of nercombinerannotator(while leaving standard ner alone), and have reannotate pipeline be specified
+7689	added a simple script to run elasticsearch in the foreground .
+7690	add configdef.tostring() .
+7691	cannon plugin:update gnome stronghold dungeon bloodvelds cannon location .
+7692	refactor and add consumer sample
+7693	add isenabled() to baseannotationhandler
+7694	added loadchunk() to the world api
+7695	visor:disable grid cache eviction .
+7696	allow jbpm admin authentication(<issue_id> )
+7697	add logging per <issue_id>
+7698	refactored a bit of the commandexecutor .
+7699	add nullability() to conversiondata type
+7700	add location.isfinalassumption()
+7701	changed compilerclassloader to build classpath separator on windows .
+7702	add deviceinfo.unknown .
+7703	am a4335e0f:merge \" add lrucache.resize to the support library.\" .
+7704	add regression test for <issue_id>
+7705	<issue_id> create new object action icon fix .
+7706	added gwt visibility change event(<issue_id> )
+7707	fixed error icon drawn at the top of the trans
+7708	add some benchmark coverage for baseencoding.-------------.
+7709	add lrucache.resize to the support library. change-id:i <issue_id>
+7710	get rid of runtime class references to a host-only icu4jfeature.helper class
+7711	update mhitemprovider.java
+7712	add a pure graal version of the safepointrethrowdeoptopt test
+7713	get active basepanel for sidepanecomponent(for mods )
+7714	make messagenode extend node(<issue_id> )
+7715	add getencryptrule()
+7716	fix comment in outboundlinks_protocol_sxt
+7717	use default values for localtachyonclusterresource
+7718	add dragenabled option
+7719	add systemutils .
+7720	fix flexcomm protocol regression
+7721	update unfreezeassetactuator.java
+7722	allow the same shaderconfig for pointspriteparticlebatch
+7723	bug 31853 support bundlereference in osgi webappclassloader
+7724	update box2ddebugrenderer.java(<issue_id>).
+7725	hhh-7716 corrected test case
+7726	add args to string.format .
+7727	add jsontype to nooprequestloggerprovider(<issue_id> )
+7728	fixed xhamster ripper
+7729	repository < order >
+7730	fixing chromedriver service startup .
+7731	add support for array_fill() in postgresql
+7732	add hadoop logging .
+7733	ssht tunnel refactoring .
+7734	support delete with as
+7735	add back search type and refresh logging
+7736	add@pluginbuilderattribute to pluginaliases.-works as expected with .
+7737	add generated pgindex annotation
+7738	added call to aftersessionvalidation() to ensure the thread is not interrupted .
+7739	check for the db configuration before calling setup()
+7740	reenable http download errors
+7741	extract expressiontreerewriter <issue_id> reate
+7742	update demofragment.java
+7743	allow conversion between freezeperiod and startdate .
+7744	clarify scrollbars property description .
+7745	seqenumeration added
+7746	implemented@override placestoporder
+7747	add setpadding method to the carousel .
+7748	add [ 1.3.7 , 1.4.2 ] to the version table
+7749	better exception message for missing dictionary(<issue_id> )
+7750	added support for converting float and float to float in fht binding(<issue_id>).
+7751	support annotations in junittestrunner .
+7752	add handlers to the log server cluster and the log server cluster model
+7753	support support for javacopts terminated with-- .
+7754	wrap webidentitytokenfilecredentialsprovider in a chain(<issue_id> )
+7755	use accesscontroller <issue_id> oprivileged to create classloader(findbugs).
+7756	add ability to configure controller vip port to config file(<issue_id>).
+7757	am 3cff1132:am d2a6991e:merge \" option for not showing glow bars in recycler
+7758	@ sessionattributes get exposed to the model before handler method execution ;@sessionattributes is available as a mixin interface on(native)webrequest
+7759	improved logging on case of conflict record , issue <issue_id>
+7760	add a defensive null-check .
+7761	add workaround for getfailedspeculations problem during image building. pullrequest:graal/3023
+7762	shell tool:support autocommit
+7763	constexprs for codegen .
+7764	add support for expiration after write
+7765	flush card templates .
+7766	closes <issue_id>
+7767	add a filter for filtering route matches
+7768	drop table cascade for mssql on mssql 10.x .
+7769	fix npe when obtaining ssh keys for ldap
+7770	add btc_rpg and ltc pairs .
+7771	check also node properties before assinging a flyweight task on a node
+7772	fixed test case for postgresql
+7773	added db2_zos_generated_columns support
+7774	<issue_id> add abstractbackendhandler.execute() .
+7775	add getdatasourceconfigurationmap()
+7776	<issue_id> , update postgresqlcolumntype
+7777	add shardingmasterslaveconfigurationrange
+7778	revert \" add the code(commented out out else it will cause problems on systems without the method)to set the certificate chain when
+7779	as an etl developer i want to have the possibility to dynamically inject all possible metadata properties of a step(compile fix).
+7780	working on parserz
+7781	add resourcetype \" solver \"
+7782	set the ner label for interrupted ner classification to the background symbol
+7783	add test to check when the active rule date is set on the repository
+7784	add methods for transport and codec added to pluginmodule(<issue_id>).
+7785	added annotations
+7786	loop keyword .
+7787	incorporating embedded exception while trying to fetch stream offset(<issue_id>).
+7788	added code to find walking creatures .
+7789	revert \" expanded testguardedunit and added testcoordination-this is for mario/markp/edson reference only and
+7790	add arm256_with_ecdsa
+7791	org.apache.hadoop.hive.ql.exec.persistence.mapjointablecontainerserde.init .
+7792	update xrb28protocoldecodertest.java
+7793	add oraddlanguagebyclassname(string )
+7794	added info logging for conversionruleaction
+7795	hbase-13496 use the correct offset in bytes writable constructor .
+7796	add missing support annotations to operator
+7797	fix ci
+7798	add primary pebble heartbeat uuid
+7799	add compaction/flush metrics to regionalreadyintransitionexception metrics .
+7800	explicit use of ` cfunctionprologuenode ` and ` cfunctionepiloguenode ` are no longer needed , and using them
+7801	add org.robolectric.annotation.implementation to methodannotationsexemptingparameters .
+7802	updated templates
+7803	created swipeinoutbottomitemanimator
+7804	issue <issue_id>-add tostring()
+7805	increase shutdown hook wait time(jimmy , reviewed by xuefu )
+7806	adding spnego authentication support for jetty client. added javadoc for spnego authentication support for rfc 4559.
+7807	add swap()
+7808	add isvalidencryptruleconfiguration()
+7809	add context menu shortcut to alertpanel .
+7810	allow custom painter to be created in jedittextarea
+7811	bugfix <issue_id> , set loaded_classes_count to 1
+7812	<issue_id> , for comment:add parsingevent
+7813	for <issue_id> revise mockcommandhandler .
+7814	fix serialization of oresult metadata
+7815	remove isfolder() check
+7816	add bracelet agility shortcut to agility plugin(<issue_id>).
+7817	skip executelistenertests with single batch statements
+7818	implementing getcsscount on webdrivercommandprocessor .
+7819	check for default textures , fixes <issue_id>
+7820	javadoc(closes <issue_id> )
+7821	wrongly generated code
+7822	improved test
+7823	am 5ec32f14:merge \" fix bugs/jank with customcontent screen(issue 11549096)\" into jb
+7824	introduce propertydescriptorutils for flexible property access .
+7825	update to reflect update content event .
+7826	new contains() implementation that doesn \' t support group
+7827	add setregcenterfororchestrationlistenermanager()
+7828	add test for beeline force option(deepak jaiswal via jason dere )
+7829	fix <issue_id>
+7830	add savemodel link to dl model web page .
+7831	additional secure dummysurface device exclusions .
+7832	create relay rpc
+7833	use $ { env.xyz } in provisioning url replacement
+7834	added notifymyandroid() api non-functional under openhab 2 compat .
+7835	nifi-655:.
+7836	added includefile action
+7837	make valuelobdb final
+7838	nutch-2699 protocol-okhttp:needless loops to increment requested bytes counter .
+7839	revert \" enable session support for saml authentication in app \" .
+7840	hbase-3680 remove the testkeyvalue.testcomparator since it is not used .
+7841	force return null on ttl expiration(but before cleanup thread run).
+7842	add comment
+7843	am b0b9bbc9:am ae607047:am 29d4f2a8:merge \" allow
+7844	mark private fields as final in keepalivemanager
+7845	fix implementation of securityevaluationcontextextension
+7846	add a feature flag for trying to replace smartspace with the bluechip. change-id:i <issue_id>
+7847	add getmaxy() override
+7848	add assertrenewproperties()
+7849	am fdf84438:am e314d393:am be84e304:am e62ed040
+7850	revert \" remove unsupportedoperationexception:not supported yet.\" .
+7851	add getdisabledslavedatasourcenames()
+7852	icu4jfeature:allow customizable numberformatserviceshim implementation
+7853	log4j2-1172 enable stack trace to locate invoker in debug mode
+7854	add maptransformer.of(map < k , v > )
+7855	make org.apache.logging.log4j.core.loggercontext support .
+7856	added a method to retrieve the build time stamp from the request and/saferestart web endpoints and safe-restart cli command.
+7857	make temp response headers finalizer(<issue_id> )
+7858	add test
+7859	added tests for enumset and enum class combination
+7860	added todo
+7861	<issue_id> sslhandlertruststoreimpl refactoring .
+7862	am 6ed058cb:wallpaper preview parallax matches the actual wallpaper \\ \' s. * commit \' <issue_
+7863	core-2818 deployment_id not created for sybase in databasechangelog , liquibase 3.5.1
+7864	add shardingeventbusinstance.getinstance().register(this);
+7865	add mobEquipmentpacket to livingentity(<issue_id>).
+7866	enable closurecoderemoval pass for es8_modules output .
+7867	fix getlockwithcreatedby(<issue_id> )
+7868	add path-style-settings to s3repositoryplugin(<issue_id>).
+7869	added a cycle check .
+7870	add parameter to track window size for import queries(<issue_id> )
+7871	added a setint(int)method to settings(issue <issue_id>).
+7872	add setprofileclass() and setisembedded() to shadowsubscriptioninfobuilder .
+7873	introduce a testingpartitionproducerstatechecker that checks state of partition producer
+7874	enable proto based resource shrinking .
+7875	load parsergrammar instead of lexicalizedparserserver(although this doesn \' t actually allow srparser use yet , since that needs to
+7876	adding velocity threshold to pinch tooverviewlistener. change-id:i <issue_id>
+7877	added testchatclientandserver
+7878	log4j2-1278(modify logger)add methods with unrolled varargs to logger
+7879	log4j2-1080 defaultasynceventrouter encapsulates the logic for log4j2-471:prevent dead
+7880	convenience method for registering command handlers using the dependency injection framework .
+7881	fix issue <issue_id>
+7882	rootcause-change frontend hack for baseline for new pipeline(<issue_id> )
+7883	nonnull annotation support for javax.annotations.parametersarenonnullbydefault .
+7884	remove wrong test
+7885	added support for categories in the apps servlet
+7886	add autofocus(<issue_id> )
+7887	start message protocol handlers only after broker is fully started(<issue_id>).
+7888	decode ignition and status
+7889	added all_group to planjsondumper
+7890	java.lang.classcastexception:org.apache.hadoop.hive.ql.optimizer.spark.setsparkreducer
+7891	fixes <issue_id>
+7892	added some missing currency pairs
+7893	add javadoc to verifyexception .
+7894	include buck_root and buck_out in the build environment .
+7895	issue <issue_id>-adding cachingsessionstorefactory .
+7896	add test for common prefix in swagger openapi .
+7897	camel-report:include source code in generated coverage(<issue_id> )
+7898	support nesting block comments in postgresql
+7899	add mockpaymentproviderplugin.getpaymentprovideraccount()
+7900	update the name of the \" avoidusageofcontinue \" rule
+7901	add content from user to internal task list(<issue_id> )
+7902	temporary substitutions for loader until module system is properly implemented
+7903	removed webview usage
+7904	add parser support for index on create index statement
+7905	made the shutdown hook be removed before the stop() call on the jetty server , getting rid of an annoying concurrentmodificationexception
+7906	also handle exchangenotsupportedexception(not available )
+7907	bump to c + + 14 support .
+7908	resolve <issue_id> fix platform doesn \' t support onupdatecascade
+7909	create database statement with configuring the global context
+7910	updated the sampletransaction class to include more keywords. peter .
+7911	add missing import
+7912	update rankedauthenticationproviderwebfloweventresolver.java
+7913	refactor paralleluniverse to collect package stats .
+7914	add appendinsertcolumnvalue()
+7915	of-1744 updated pattern rostereventlistener
+7916	add * fieldannotation , * addintfield , etc .
+7917	update extractorhtml.java
+7918	automated rollback of commit <issue_id>. * * * reason for rollback * * * .
+7919	add sql92databasemetadatadialecthandlertest(<issue_id> )
+7920	support...)in mysql 8.0
+7921	added crontriggertests # monthsequence()
+7922	409684 ids and properties not set for execution of jetty xml config files with mvn plugin
+7923	reformat scheduler.java(<issue_id> )
+7924	moving jsonnull to public .
+7925	fixed <issue_id>
+7926	merge
+7927	# gg-9237-gg-9237 .
+7928	also add the duration as the test process time.
+7929	svn://source.pentaho.org/svnkettleroot/mirror/kettle/trunk@1462
+7930	<issue_id> , add renewcircuitbreakerdatasourcenames
+7931	add count(double)to baseline baseline(<issue_id> )
+7932	add try catch in defaultcodegen.java(<issue_id> )
+7933	note panel:add undo/redo callbacks
+7934	adding user event logging for clear all button(follow up cl)bug:72222505 am:cbebaa19f9
+7935	add \" oracleidbindauthenticator \"
+7936	camel-12758:soap request causing null namespace uri in xmllinenumberparser
+7937	lwjglgraphics , added possibility to reset render thread delta time. closes <issue_id>
+7938	add missing javadoc for builder method(<issue_id> )
+7939	fix <issue_id>
+7940	add creditbit
+7941	add javadoc for path # newlocalfile
+7942	fixed issue in query execution plan in distributed when the database is not yet online
+7943	add additional logging in case extensionlist is not available on the classpath.
+7944	add an marshallable out to the vanillamethodwriterbuilder
+7945	implemented@override placestoporder
+7946	zookeeper token creation ignores node acl(daniel voros via zoltan haindrich).
+7947	properties component with more managed resources
+7948	tcpdiscoverymulticastipfinder used info logging without isinfoenabled() check .
+7949	work around broken doexecute() bug
+7950	allow to set timeunit on a datefieldmapper , closes <issue_id> .
+7951	connection test cancel implemented .
+7952	fix highlighting with multi-phraseprefix queries , closes <issue_id> .
+7953	am f52a1ed0:am 4c27e526:add add/removeonscrolllistener alongside seton
+7954	return the default message summary subscriber when we \' re not parsing the subscribe address
+7955	changed default output directory to/tmp in zap-api-nodejs .
+7956	added \" gc 1 young initial mark \" system gc type
+7957	implement issymbolsolver
+7958	add getassistedquerycolumn()
+7959	am e2092a38:am 2dd3878b:am 434a2f7b:am b8b59
+7960	added missing header .
+7961	add sljava interop tests for pairs
+7962	add system name to computation id map in streamingdataflowworker.---- release notes---- .
+7963	add snapshot shard size based test in diskthresholddecidertests(<issue_id>).
+7964	add support for partitioning hivemetastore api
+7965	support captureinput on android(<issue_id> )
+7966	implicit type profiling of llvmivarbit via the type system. pullrequest:graal/4449
+7967	added a node instance in the consistencycheck class to make it easier to reuse it .
+7968	implement column stats rules for the udtfoperator:follow up for hive-20262(george pachitariari
+7969	hbase-5933 add connection implementation class(matteo bertozzi).
+7970	a better implementation of the safaridriver .
+7971	added missing javadoc. <issue_id>
+7972	update webinterfaceabstractmetricsservlet.java
+7973	abstractcachingviewresolver does not use global lock for accessing existing view cache .
+7974	copyedit
+7975	remove unused field in streamingjobgraphgenerator
+7976	improve exception message when the internal maven repository can not be downloaded
+7977	fix indentation in sqlitedatabase
+7978	pass the output name to the shellscriptbuildphase .
+7979	report results of non-detached execution mode in flinkrunner .
+7980	refactoring beanexamples
+7981	commit
+7982	add option to pass arguments to kill subprocess.-- .
+7983	revert \" make accesscontrol.unprotected_handlers public \"
+7984	add javadoc for mockfileoutstream # getbytes
+7985	added tostring to sequence .
+7986	use getmasterslaveruleconfigurations()
+7987	<issue_id> handle empty local addresses in popupmenu
+7988	add back old constructor of btwardiscoverylocation
+7989	use dummy onpointlistener for point click listener
+7990	refactored object codec to call its encode method .
+7991	define feature flag for how to disable cpu temperature task
+7992	updating process demo application
+7993	made abstractapiproducer # findmethod protected so subclasses can override it
+7994	add constructor to oauth2authenticationexception .
+7995	remove final from logger .
+7996	added test case for missing query param
+7997	hbase-17991 add more details about compaction queue on/dump(guangxu cheng )
+7998	updated query suits test
+7999	added the ability to get the resultset type used for statements created using the underlying database .
+8000	add a(failing)test for <issue_id>
+8001	register page templates xml renderer
+8002	adding a test to verify behavior
+8003	allow setting default confidence threshold(50ms )(<issue_id> )
+8004	visualvm-tracer plugin/framework progress..
+8005	use toxcontentobject/fragment
+8006	mi band 2/bip:set supportsheartrate for now
+8007	updated the test so it is in sync with the new format. peter .
+8008	switch to abstractwriteattributehandler
+8009	<issue_id> , add postgresqlconnectionidgenerator
+8010	textureregiondrawable , npe when region is null. closes <issue_id>
+8011	fix gt03b unit decoder
+8012	add jsonp support to jsonrenderer(<issue_id> )
+8013	fix the issue with javac(<issue_id>).
+8014	add a valid class name for conversationactions $ message .
+8015	use getregistercount to avoid an invalid register count in methodanalyzer
+8016	add chocale of cake to itemstatsplugin(<issue_id>).
+8017	fix issue in defaultsubscriptiondao .
+8018	add static methods
+8019	fix some docs in spawnresult .
+8020	add an interface for sqlitedatabasehook
+8021	merge
+8022	added a comment
+8023	was addet to validate instance of entity-view
+8024	reformat hastypeannotation
+8025	hbase-17181 let hbase thrift2 support tthreadedselectorserver .
+8026	updated gl_max_vertex_uniform_vectors
+8027	use implicit deps inferring for gxx binary args .
+8028	allow to disable delayed delivery by setting the property xmpp.pubsub.disable-delayed-delivery
+8029	add javadoc for insetedge and dodgeinsetedges .
+8030	added css builder utility class
+8031	changed action bar location
+8032	o reformat defaultmodelvalidator .
+8033	added basecode.unhtml(string).
+8034	added special handling for c + + ptx test that fails with a c + + compilation
+8035	add sarachnis and hydra respawn timer(<issue_id>).
+8036	add swap()
+8037	add exception
+8038	queue is empty after refreshing
+8039	add mathutils.floormod(int , int)for rounding down .
+8040	desugar assignment expr if required
+8041	use asynccallloader in issue filter list fragment
+8042	update ieee xplore reporter to include vde conference publication
+8043	make cache size configurable for resultsets(<issue_id> )
+8044	shuffling from internal-only change.-------------.
+8045	avoid concurrent access to \' handlers \' array by using a copyonwritearraylist. 2-reduce synchronizations , but make it consistent
+8046	always transpile es6 modules , even with the es5 transpiler.-------------.
+8047	avoid mapping duplicate set items(<issue_id> )
+8048	added some more methods to iosmonotouchgles20 , changed to an int [ 1 ] for some methods
+8049	add enablenamespace option to xmlinputstream step to allow users to enable namespaces .
+8050	add null check
+8051	test_bug:java/util/collection/moat.java should run in aggressiveopts mode .
+8052	add $ toolchains to cc_toolchain.
+8053	add writelenenc()
+8054	make hadooptableoperations public .
+8055	enable command line use by default
+8056	fixed method name in mocktaskmanager
+8057	remove bypass for j2cl from typecheck.-------------.
+8058	add test for banned property type checking.-------------.
+8059	add rosterutil.askforsubscriptionifrequired()
+8060	support locally target/build/classes/main
+8061	issue <issue_id>-add more javadoc to hostnameverifier used by client .
+8062	add support for ivandis flat item(<issue_id> )
+8063	when deleting an email , include the name of the email in the list of known email addresses.
+8064	use logging_1_1 as the default namespace
+8065	handle case of polling an image when there is an offset at the end of the stream .
+8066	target_java_lang_reflect_array # getstaticmethodid should only look in the current class for < clinit >.
+8067	add support for anchviors(<issue_id> )
+8068	add function to map to arbitrary power
+8069	adjust abstractvariadicfunction to extend aviatorobject
+8070	lazily create attributemap .
+8071	adding dragexpansionhandler to the grouptreeview(<issue_id> )
+8072	implemented pgraphicsandroid3d.settransformmatrix()
+8073	make sure files are closed after tests
+8074	add athenz base64 encoding to athenz authentication(<issue_id> )
+8075	add java version 13:14 for assertjava
+8076	field can be static
+8077	refactoring testconfigurator , which was full of unused variables , potential npes(which would have made it harder to diagno
+8078	update groovydoc for extension change .
+8079	fixing baseline for textinputlayout .
+8080	add overloaded selectinput() and selectoutput() methods
+8081	add operatorcontext.localsystemmemorycontext()
+8082	add drag edge scrolling speed(issue <issue_id>).
+8083	add filepagemodelpipeline
+8084	exasol:table object type fix .
+8085	global cleanup change.-- .
+8086	<issue_id> association columns color .
+8087	add testperformance.timing_stats and timings_cumultiple options to testperformance
+8088	delay download youtube messages
+8089	refactor if else clauses in prebuiltcxxlibrarydescription .
+8090	added location.equals and hashcode for location class .
+8091	added throwifclosed
+8092	add apreserve-file-hash-cache flag to perfrulekeycommand .
+8093	enable offline email detection(<issue_id> )
+8094	fix typos in kafkaconsumer javadocs(<issue_id>).
+8095	add kafka_partition_hash , kafka_partitionkey and murmur3seed to config
+8096	add setinitialscale(initialscale )
+8097	added clientservice.java
+8098	support merge. delete where in more dialects
+8099	add sym to the pobj rules , since non-ptb trees seem to use them for math , etc , which we want to be
+8100	port test constants to new codebase
+8101	add missing location description for chore at the games room(<issue_id> )
+8102	add tostring() for insertvaluestoken
+8103	fix indentation .
+8104	create explaintask in ats hook through explainwork(pengcheng xiong via gunther hagleitner).
+8105	workaround to steal the focus from whatever was supposed to be , .
+8106	added exception chaining to abstracteventstream .
+8107	use deflate in websocketclient
+8108	simplified valueof logic .
+8109	document the difference between expected and actual .
+8110	check that all node classes are annotated with@nodeinfo
+8111	add chronicle.map.disable.locking to the jvm
+8112	add debug logging for dataframe dataextractor(<issue_id> )
+8113	added support for queue
+8114	fix indexoutofboundsexception
+8115	fix content type checking for multipart upload(<issue_id> )
+8116	unused variable
+8117	planner-379 remove todo for implementation of listiterator()
+8118	added a dependency so the subversion plugin can be built before the bundled hudson 1.311 .
+8119	refactor type creation logic in function
+8120	fix meterbindersconfiguration for processors .
+8121	fix deadlock in kstatutil(<issue_id> )
+8122	update servercontrollermodelutil.java .
+8123	add comma case for predicate in sparkexpressions .
+8124	add back old constructors for groovyhookscript(<issue_id> )
+8125	minors
+8126	add missing clue requirement \" salute in warriors guild \"
+8127	use view.asfile() in animationfragment
+8128	make the hibernate orm extension use the@nativebuild step
+8129	added first snippet(from the first line)to the snippet max length that matches the search request
+8130	add a way to add encoders to registry .
+8131	rsv panel visibility fix .
+8132	add meiyerditch shortcut to agility plugin(<issue_id>).
+8133	fix compilation issue .
+8134	key combination for audio volume events(<issue_id> )
+8135	rewrite createsql()
+8136	added default alignment for font when bitmap is not a power of two .
+8137	drop unused issuessearchservice singleton
+8138	add tostring() to llvmstaticinitsblocknode
+8139	fixed encoding bug
+8140	fix failing tests
+8141	add null check for future in idlestorepolicy.clearfuture() .
+8142	update fw version
+8143	proxy service starter doesn \' t install handlers for root logger(<issue_id> )
+8144	support multi-value query in groupby(<issue_id>).
+8145	hadoop-16093 fall back to log when bash is not allowed to run by the jvm .
+8146	openssl 1.0.2 is currently configured to test with openssl trunk which doesn \' t support cipher 0x0060.
+8147	use factory.createinstance() instead of llvmaddressargnodegen
+8148	allow managed poll enricher to support extended information by default
+8149	fix default theme for floatingactionbutton .
+8150	adding spark tuning options to step dropdowns(<issue_id> )
+8151	update util.java .
+8152	server update
+8153	added logging statements
+8154	am a47c5ea4:merge \" read enabled flag from xml if it is suppled ; default is true \" into k
+8155	<issue_id> added main() method ; when executed print details about recognized commands and subcommands
+8156	fix the progressive mediaperiod with drm initialization .
+8157	add connect methods to serverwebsocketcontainer
+8158	camel-1238 fixed the getbeanclass() issue , with thanks to william .
+8159	add the ability to detect a changed vm state from stdout/stderr
+8160	am 4ecb5c6c:merge \" add war to force cpu on implementations with a broken blur.\"
+8161	fix abstractdraweecontrollerbuilder return ownership annotation .
+8162	add stock class
+8163	typo in javadoc for deque.head .
+8164	of-1809 iqofflinemessageshandler add getextendedinfos method to allow more than one dataform
+8165	add codereader filter(before/after using codereaderfilter )
+8166	add more serial rate values
+8167	expose action exposed to skylark function.-- .
+8168	extended the log file to further analyse the problem.// freebie
+8169	add a icon for ` goog.require ` to our fix mapper.-------------.
+8170	test
+8171	add helper method for writing part headers
+8172	fix sonar problem
+8173	add missing file
+8174	fixed equals check for style(<issue_id> )
+8175	add javadoc to clarify how new leader event is forwarded to the client .
+8176	# ignite-32 minor log improvements .
+8177	add a package-info.java for the direct runner .
+8178	add debug command
+8179	cbo(calcite return path ):invoke hive \' s cumulative cost(laljo john pullokkaran).
+8180	update docparser to use new hwpf document api
+8181	extract method
+8182	added required fields to kafka cluster model(<issue_id>).
+8183	fixed scrollpane # oncanceltouchfocus npe. closes <issue_id>
+8184	\" kettlestepexception:unable to find field \" error with clustered partitioning and a group by step when one partition does
+8185	update glide docs .
+8186	added a test case to show the camel issue with the new mock interface methods.
+8187	adds compoundevaluationprogressreceiver .
+8188	fix a bug in the date range grid .
+8189	supply the variable name to preconditions.checknotnull inreedyallocator.java
+8190	customexception annotation
+8191	javadoc
+8192	stringpool class added
+8193	am b24be3ba:merge \" implement nested scrolling support in swiperefreshlayout \" into lmp-mr1-
+8194	planner-650 drools-1276 unit test for npe in drools when using no ksessionname upon solve() call
+8195	enable retry handling for connecting with default retry handler when connecting has prompted for authentication
+8196	added a boolean parameter to suppressionrule to enable or disable the base rule(issue <issue_id>).
+8197	another comment for directory deletion .
+8198	keep nfi arguments from being gced until the native call returns. pullrequest:graal/3425
+8199	add sql console module to jooq-various ui improvements .
+8200	update recrawlbusythread to not download profile files
+8201	add loopfullunrollphase.codesizeincrease()
+8202	disable vm config checks for jdk 15
+8203	added readannotationvalue()
+8204	android gl support
+8205	updated mixplay() interface
+8206	cbo:calcite operator to hive operator(calcite return path ):reduce number of columns missing when column type is boolean(pen
+8207	fixes timezone order in estestcase .
+8208	added test case for badresultsetaccesstest(see bug <issue_id> )
+8209	filter invalid oauth2 context parameters .
+8210	add clearabi contract type
+8211	<issue_id> add failing test
+8212	added file
+8213	prevent potential npe on windows
+8214	fix <issue_id>
+8215	cb-544 document attributes edit enhancements(reorder leaf items + use plain document id values).
+8216	absent calculation of server stats(<issue_id> )
+8217	automated rollback of changelist 147637115. * * * reason for rollback * * * .
+8218	expose cctoolchainprovider # getsysroot .
+8219	support group by() in oracle
+8220	world map:add x mark the spots quest start
+8221	automated rollback of commit <issue_id>. * * * reason for rollback * * * .
+8222	update materialbuttontogglegroup to respect the single selection behavior.
+8223	add todo
+8224	cache new reflection data when redefinition thread is ended
+8225	fixed print action in pop3 accounts
+8226	correct the default look & feel of the quick menu option names
+8227	moved to intersilsilenced folder .
+8228	send notifications in offload state
+8229	bug 52280-the menu item options/choose language does not change all the displayed text to the new language .
+8230	issue <issue_id>-adding spnego authentication support for jetty client. added missing copyright header.
+8231	update product version for <issue_id>
+8232	log warning if unknown keys are found in the batch lookup. relnotes:none .
+8233	added graph consistency post processors
+8234	add an api to approximate sum of square .
+8235	put tilescalefactor on mapview
+8236	remove inlinecalltarget <issue_id> str()
+8237	refactor segment upload logic(<issue_id>).
+8238	make hostname checker handle ` null ` hostnames
+8239	add a class which represents a stack where the prefix can be reused by several different versions of the stack
+8240	a csr can only contain a single \' extension request \' attribute
+8241	added comment
+8242	enable native events for sauce backed drivers .
+8243	support array class for redisclient
+8244	added a boolean parameter to show the top command in pop3 accounts
+8245	add getvalue()
+8246	fix method name change in testpipeline
+8247	am 37e13211:add view attach/detach callbacks for recyclerview adapters .
+8248	pdi-4701.json input step:support for ignoring a parsing error(e.g., unknown path).
+8249	support target_java_lang_ref_reference.reachabilityfence(object )
+8250	removed redundant null check
+8251	biginteger random can be used without logging .
+8252	automated g4 rollback. * * * reason for rollback * * * .
+8253	take the step amount of the cluster timestamp into account when pulling from the cluster .
+8254	make modmetadata \' s constructor public .
+8255	bug 53042-introduce a new interface to be implemented by abstractsampler to allow sampler to decide wether a config element
+8256	add getaggregationdistinctcolumnindex()
+8257	yarn-9303 username splits won \' t help timelineservice.app_flow table .
+8258	enable new memory aware scheduling per default(graal-159 )
+8259	adding missing file
+8260	fix imports
+8261	do not print the containing config name if the configphase is run_time
+8262	sql format() now uses new format() api
+8263	re-addprependtoken(<issue_id>).
+8264	fix the concurrency issue
+8265	more sqldialect errors
+8266	add the newresult method to the executor interface
+8267	add loadcss
+8268	add nodeparenttree
+8269	add marbles for single.defer operator(<issue_id> )
+8270	add precision parameter to bigdecimalmath
+8271	add a failed auth test for reservedrealmtests .
+8272	geos-6466 , cssdemopage may create the sld file before a catalogaddevent is fired
+8273	pan does not provide correct exit code for allow error logging(<issue_id> )
+8274	<issue_id> improved signature of makesynopsisfromparts
+8275	improved jfxnodeslistanimation
+8276	expose the process instance id command interface(<issue_id> )
+8277	excel output step gets \" null \" strings for null values , causes conversion errors .
+8278	adding support for page limit on bitmex gettradehistory
+8279	add test for multi-value external attachments .
+8280	use createinsertsetaddassistedcolumnstokengenerator
+8281	add a method which lets you initialize a simpletensor from a bunch of matrcies
+8282	furaffinity ripper now handles login cookies
+8283	implement implementation of existspredicate in defaultexpressiontraversalvisitor
+8284	added a button to select the sender of the message to view
+8285	add marshaller in autocodec for supplier .
+8286	don \' t emit modifier for commands
+8287	fixes issue <issue_id>
+8288	change to log
+8289	add test for createoffer .
+8290	fix typo in table javadoc
+8291	add newline at end of file file comment in \' fspermission \'
+8292	override getrequestedconfiguration() in gelfhttpinput # setenabledconfiguration()
+8293	better dataset parsing .
+8294	added clear operation to jpamessageidrepository to clear the store
+8295	add getinstants() to row interface
+8296	contactawarecomponent for use by all plugin components that are interested in a contact
+8297	hbase-5869 print stacktraces to stderr for hlog .
+8298	added 2 new test cases to try the new \" cluster \" keyword in create vertex and create edge commands
+8299	ensure that we are using the correct context rather than the passed in context .
+8300	re-enabled the individual bitmap paint
+8301	added skipping processor template models
+8302	add missing javadocs to querybuilders(<issue_id> )
+8303	minor fix for an unused variable
+8304	support multiline notification body(<issue_id> )
+8305	add bird nests item mappings(<issue_id> )
+8306	improved exception messages in uelexpressioncondition
+8307	nodeintrinsificationphase:pass the runtime node to the createnodeinstance method
+8308	issue <issue_id>-fixing sslbytesservertest .
+8309	fixed a bug in thePower tests .
+8310	update p2pdatastorage.java .
+8311	status intent improvements
+8312	plainsocketimpl should support ipv4 and ipv6 support .
+8313	canonicalize ifnode.canonicalizeconditionalcascade
+8314	hbase-11436 support getregionlocator and gettable in tableinputformatbase
+8315	fixed bug on select count(* )..where..group by. .
+8316	make it possible to extend httpclient .
+8317	create single karaf feature tests for single components , aws-s3 test
+8318	fixed pactprogram class loading bug
+8319	for <issue_id> , refactor shardingresultsetmetadata
+8320	add private constructor to clear out the unused fields in markermanager.-this makes it easier to maintain backward compatibility with jackson .
+8321	am 307c4ea5:am 37b69cb4:merge \" remove unused import \" into mnc-dev .
+8322	fix
+8323	removed unused imports from hazelcastclientmaptest
+8324	update client/src/main/java/com/orientechnologies/orient/client/remote/osorageremote.java .
+8325	* added methods to the region interface .
+8326	implement unsupportedoperationexception in attributetype .
+8327	add a test case for classnametest.java .
+8328	simplified signature edit
+8329	updated getlastmodified() to support the file://protocol .
+8330	fixes <issue_id>
+8331	add support for to_number() function
+8332	update core/src/main/java/hudson/util/argumentlistbuilder.java .
+8333	remove todo in bigqueryserviceimpl
+8334	copyedit
+8335	<issue_id> add shardingtransactionmanagerloader .
+8336	coalesce numeric precision columns in mysql
+8337	added constructors
+8338	hbase-6686 hfile quarantine fails with missing dirs in hadoop 2.0.
+8339	actually cleanup the database(<issue_id> )
+8340	updating nosessionexception to extend webdriverexception .
+8341	added unit test for samplepatternlayout
+8342	issue <issue_id> initial support for jettypolicy class .
+8343	add support for cxf-jaxb feature in the karaf itest for karaf tests .
+8344	added ts_data_version .
+8345	minor fix to unionnode
+8346	fixed attribute support for servlet 3.0(spr-7161 )
+8347	added an unit test to show how to configure the jms endpoint configuration in camel-jms component .
+8348	fix master tag finisher
+8349	swap buffers after drawing mask , fixes <issue_id>
+8350	sonar-5211 make updateif public for reuse
+8351	keycloak-10061 make keycloak.jose.jwsheader ignore unknown properties
+8352	add \'/api \' and \'/api \' paths to pathgroup
+8353	add test for issue
+8354	llap:npe at org.apache.hadoop.hive.llap.cache.lowlevelcacheimpl.checkstop
+8355	add license header to filedownloadservicehandler
+8356	add@aliasfor and@produces for deletemapping \' s requestmapping # method .
+8357	wrap web view source
+8358	refactor benchmarkselectivestreamreaders
+8359	make register method protected to allow subclasses to override it
+8360	ensure that alignedheapheap objects are not added to the heap
+8361	fix pushimagestep npe(<issue_id> )
+8362	fix vagrant shell task autoconfiguration test(<issue_id>).
+8363	add@safevarargs to iterators.forarray(immutablelist.of() and immutableset.of() are already
+8364	isolate httploggingdocit from other tests that use the shared server. o server tests that create their own server need to extend .
+8365	added element markup sources to processortemplatehandler
+8366	skip vine.co links
+8367	ensure focus requests work within tab overflow popup popup
+8368	add@visibleforexternalplugins annotation
+8369	add espresso polyglot api
+8370	convenience constructor for the sipcommtextbutton(work in progress )
+8371	fix formatting .
+8372	update excel writer step to use enhanced vfs browser for browsing and selecting files(<issue_id> )
+8373	svn://source.pentaho.org/svnkettleroot/mirror/kettle/trunk@1855
+8374	some types of outputstream suppress flush errors in the.close() method
+8375	add command \" info \" to list the storage properties
+8376	fix compilation
+8377	fixes <issue_id>
+8378	hbase-22828 log a region close journal(<issue_id>).
+8379	add missing file for paginationparameters(<issue_id>).
+8380	add tests for handlerenhancerdefinitionconfiguration class
+8381	add missing constants in config.-------------.
+8382	add a new builder method to description .
+8383	make knowledgebuilder.addbuilderresult() public(<issue_id> )
+8384	add moreasserts # containseventregex .
+8385	fix typeinfoconverter for timeintervaltypeinfo
+8386	add rediscodecadapter implementation <issue_id>
+8387	added missing imodelvisitor class
+8388	user-visible fixes for missing values in baseline view(<issue_id> )
+8389	added coupling threshold .
+8390	pr comments:benchmark score level up to 15
+8391	make druidplanner \' s constructor public
+8392	let abstractroutine implement abstractnamed
+8393	fix javadoc link in stringutilsutils(<issue_id>).
+8394	added invoke.getmethodfrom()
+8395	add constructor with map < integer , object > ids
+8396	add test of observable operator
+8397	always clean up ongoing renders before starting new one
+8398	add java class for intercept
+8399	formatting .
+8400	fixed a typo in the httpasynccallbacktest
+8401	fix handling of duplicate security domains
+8402	menu handler fix .
+8403	refactor smaliclass
+8404	add getdisabledslavedatasourcenames()
+8405	handle nodeexists exceptions during schema delete(<issue_id> )
+8406	graph theory analysis-commented out density analysis
+8407	make the autovalue processor constructor public for testing .
+8408	add support for the add_attachment_image and add_attachment_video menu items .
+8409	fix unicast wifi network
+8410	am 7d0251ce:am a767473c:am e1023d63:hiding drawerlayout does not
+8411	better handling of multiple schemas(<issue_id> )
+8412	log4j2-1334 added utility method line_separator
+8413	sulong:print proper error message on darwin if llvm-toolchain is not installed. pullrequest:graal/
+8414	add missing import
+8415	added entitydamageevent.setdamage(int )
+8416	update docs on chunk merge
+8417	added support formariadb driver properties in persistenceutil.java(<issue_id> )
+8418	folder node editor focus listener .
+8419	improve doc string in compiletheworld api. pullrequest:graal/2992
+8420	revert \" update bufferedtokenstream.java \" .
+8421	cache the default build rule resolver in projectgenerator .
+8422	explicitly set the certificate and key path if supplied in the command line
+8423	added protected \" ispersistenceunitoverrideallowed() \" method to defaultpersistenceunitmanager(spr-8925 )
+8424	improve about dialog
+8425	add vim commands to source class
+8426	include@override in generated source code
+8427	add iocontogglebutton class
+8428	add hiddenconsumerwrapper .
+8429	an operation set that allows protocol implementors to provide for a quick way of creating new accounts-by simply opening a web page on the right
+8430	only print the title for the above view if debug is true
+8431	inline createlayout .
+8432	added some logging
+8433	log instead of calling system.out.println .
+8434	added a new method gettext(string text)that returns a button showing a certain text
+8435	increase the number of bytes the stream requires when allocating from the connection window.
+8436	added the ability to start sse events by the sse iterator
+8437	removed unused keyword
+8438	image detail provider improved
+8439	add test for optimizedcalltarget <issue_id> heck .
+8440	contact list draggable
+8441	add a testFoldblockscopedvariables and minimexitpointstest.-------------.
+8442	implement equals() and hashcode()
+8443	llapservicedriver should allow jar files to be copied(prasanth jayachandran reviewed by gopal v )
+8444	core-2518 define id root as overridden in diffchangelog class
+8445	add test for main presenter
+8446	implement partition model
+8447	improve smoketests
+8448	update core/src/main/java/com/orientechnologies/orient/core/sql/functions/shortestpath.java
+8449	extract service url in kubernetes runtime(<issue_id> )
+8450	closes <issue_id> .
+8451	allow visitfunctioncall in llvmbitcodeinstruction visitor for pointer types
+8452	fix for groovy-2654 .
+8453	deprecate unsafe.getobject and unsafe.getreferencevolatile .
+8454	added seq.longprefix
+8455	fix far text
+8456	force possible rounding in zoom() to avoid possible rounding in some cases
+8457	fixed formatting in the mqttconfigurationtest
+8458	add missing copyright header
+8459	<issue_id> , add getcolumnlength interface
+8460	xhtmlmanager:enable xhtml support on every connection .
+8461	for <issue_id> , remove useless code for expressionextractor.extractcommonexpressionsegment
+8462	slightly improve bulkrecordwriter to include ttl
+8463	verify graphs often during compilation when assertions are turned on
+8464	move websocket compression handler to pipeline , close <issue_id>
+8465	add \" $ jscomp \" to the list of classes that should be handled by polyfills.
+8466	fixed bug on group by() with multi-field fields
+8467	log response status code
+8468	file consumer performance fix
+8469	made it possible to extend findbugs without setting the bug reporter/project .
+8470	enable transpilation by default in the debugger service.-------------.
+8471	fix platform comparison in precompiledheaderintegrationtest .
+8472	expose constructor to instrumentedhandler .
+8473	encrypt global password in copy
+8474	removes stun4j and the sc components that are using it so that we can now introduce ice4j
+8475	use full name for the matcher expression
+8476	add getgeneratekeycolumn()
+8477	import io.shardingsphere.core.executor.statementexecuteunit ;
+8478	add dsl.every(field < boolean > )
+8479	fixed shapeableimageview stroke width being 0 .
+8480	mockniotransport.createserverchannel(<issue_id>).
+8481	update to parse() reference
+8482	core-2267 rollback fails for mixed-case files created with runorder attribute
+8483	add shadow implementation for mediarouter.getroutecount()
+8484	add formattime
+8485	fix legacy logic in defaultinvoiceuserapi .
+8486	<issue_id> initial version(work in progress )
+8487	ancora treebank reader:support searching for words/parts of speech , outputting as plaintext
+8488	check if blockfamily is null before creating itempickupauthoritysystem(<issue_id> )
+8489	added the smooth brick to the textures .
+8490	for <issue_id> , add shardingparsingruleregistrytest
+8491	use varargs in addandclickview
+8492	add support for class members to ` checkaccesscontrols:: bestinstancetypeformethodorctor `.
+8493	log4j2-1447 threadcontextaccess class that defines a small read-only interface for context data consisting of string keys and values
+8494	adding test case for the 1586 issue
+8495	add duration-based overloads to service. # goodtime .
+8496	added objectfloatmap interface
+8497	set content-length and date in cors handler to zero based
+8498	make log4jlogevent serializable to allow subclasses to use it .
+8499	set the max time between data packets reception one a connection has been established .
+8500	add double-cast tests to painless(<issue_id>).
+8501	change test name
+8502	fix logic in catalogupdater .
+8503	# gg-8680 changed portable logic .
+8504	rename to fillincolumnindexanddistinctvaluesmap()
+8505	update httprequest
+8506	add expressionutils <issue_id> xtractdisjuncts
+8507	fix logging level strings .
+8508	<issue_id> , refine
+8509	extract http getfolderurl() and setfolderurl() from webdavstore
+8510	treat 64-bit and 32-bit and 32-bit platforms in errno annotation
+8511	better immutable collections .
+8512	turn on typecheck after the test compiler is run.-------------.
+8513	camel-xmlsecurity-allow to use bean property style to configure endpoint options
+8514	add xmlunitutils.asserxmlsimilar()
+8515	add in-memory serversessioneventlistener implementation
+8516	use proper index when reporting news events
+8517	hbase-6040 use block encoding and hbase handled checksum verification in bulk loading using hfileoutputformat .
+8518	allow millisecond values as well as seconds(<issue_id> )
+8519	add modifiedby and modifiedtime fields to datasetexportpolicy(<issue_id> )
+8520	stapler wants to export my own xml , not just my xml
+8521	copying nullif value meta array to correct place
+8522	add-xdbgstwait and-xdbgsts options to testperformance prior to generating grammars
+8523	add getplaincolumn()
+8524	added-verbose option
+8525	jaxb2marshaller \' s \" mtomenabled \" and \" mappedclass \" properties accept the same class as the marshaller \' s .
+8526	merge \" add nullability annotations to reactive streams.\"
+8527	added padding to ring buffer .
+8528	use datetimeformat in crashreporter .
+8529	querycommand to get only valid attributes .
+8530	added expansion to node , and the expander interface , an extension of relationshipexpander with builder properties.
+8531	update example code
+8532	wrong newline character in querypartlist
+8533	am 1da44e93:am 09eeecdb:am 00ca2532:support layout_margin * on drawerlayout children
+8534	hhh-6841 fix typo in methodFragments
+8535	add allowunmarshalling property to jsondataformat to allow to turn off jackson unmarshalling by default
+8536	add nullability annotations to recyclerview.adapter. bug:68336400 .
+8537	tracera [ lsra ]:replace lambdas by static final comparators
+8538	fix up for <issue_id>
+8539	update bitmapfontcache.java .
+8540	update pinnedsectionlistview.java .
+8541	try refactoring
+8542	frompropertyvaluerangedescriptor should avoid copying to arraylist too
+8543	createdatabase command now exports admin permissions
+8544	support annotations not needed here
+8545	bugfix <issue_id> , make recursivemethodinstrumentor constructor package-private
+8546	update ner benchmark scores
+8547	fix support multiple key types(<issue_id> )
+8548	added postaggregateddatapoints interface .
+8549	add boolean as a possible column type(<issue_id> )
+8550	fix parsing of strings of wrong type int .
+8551	<issue_id> adding focus listener to itemizedoverlay .
+8552	added iterativeboxblurpostprocessor .
+8553	<issue_id> , add getmessagetype
+8554	add the title to the directory button
+8555	fixed boxing of primitive types
+8556	<issue_id> rsv:numbers converted to visual .
+8557	of-1806 improve code on setsoftwareversiondataformfromdiscoinfo method
+8558	clean up binaryoperatorexpression .
+8559	workaround for mac os/x leopard issue where getcontextclassloader() is returning null when run from eclipse ide .
+8560	make channelflushpromisenotifier more extensible
+8561	update method signature
+8562	implementing lazy loaded collection(<issue_id> )
+8563	add installer prefix to log message .
+8564	fix npe in logging .
+8565	add checkedchange and focuschange to androidannotations processor
+8566	fixing bug in sum tree
+8567	add setconsumerrebalancelistener to consumerconnector .
+8568	get declared constructors from the icu data file
+8569	resolve <issue_id> correctly handle multiple type for dropping
+8570	recyclerview api:create/oncreateviewholder , bind/onbindviewholder .
+8571	add appendencryptcolumnplaceholder()
+8572	add default values to rustgenerator
+8573	added glrenderbufferstoragemultisample()
+8574	make exception more helpful in actionfilesystem.renameto .
+8575	tree annotation-marknonrecsps
+8576	add documentation to moveelementstopositions .
+8577	fix an issue with creation of the updatetimestampbuckets cache .
+8578	add udp support for utf-8
+8579	fix test .
+8580	planner-757 Composite move should add type description for child moves too
+8581	nutch-2699 protocol-okhttp:needless loops to increment requested bytes counter .
+8582	fixed issue:netty-116 http message decoder may cause data to be corrupted
+8583	add non-blocking publish of a partial message plus session header to a cluster client .
+8584	add yacy support for multipart/form-data content type detection on default servlet
+8585	groovy-3594 .
