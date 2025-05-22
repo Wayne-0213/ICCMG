@@ -14,7 +14,7 @@ from openai.error import ServiceUnavailableError, InvalidRequestError, APIError,
 logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
 
 openai.api_key = ""
-openai.api_base = os.getenv("OPENAI_API_BASE", default="https://ssvip.dmxapi.com/v1")
+openai.api_base = os.getenv("OPENAI_API_BASE", default="https://api.openai.com/v1")
 
 
 def num_tokens_from_messages(prompt, model="gpt-3.5-turbo-16k-0613"):
